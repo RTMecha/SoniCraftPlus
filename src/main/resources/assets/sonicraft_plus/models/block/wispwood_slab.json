@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "sonicraft_plus:block/wispwood_planks",
+    "bottom": "sonicraft_plus:block/wispwood_planks",
+    "top": "sonicraft_plus:block/wispwood_planks",
+    "side": "sonicraft_plus:block/wispwood_planks"
+  },
+  "render_type": "solid"
+}

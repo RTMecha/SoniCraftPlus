@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft_plus:block/wispwood_log_top",
+    "up": "sonicraft_plus:block/wispwood_log_top",
+    "north": "sonicraft_plus:block/wispwood_log_side",
+    "east": "sonicraft_plus:block/wispwood_log_side",
+    "south": "sonicraft_plus:block/wispwood_log_side",
+    "west": "sonicraft_plus:block/wispwood_log_side",
+    "particle": "sonicraft_plus:block/wispwood_log_top"
+  },
+  "render_type": "solid"
+}

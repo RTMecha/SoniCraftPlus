@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft_plus:block/wisperite_bricks_chiseled",
+    "particle": "sonicraft_plus:block/wisperite_bricks_chiseled"
+  },
+  "render_type": "solid"
+}

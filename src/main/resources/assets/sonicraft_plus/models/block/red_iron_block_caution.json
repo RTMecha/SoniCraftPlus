@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft_plus:block/red_iron_block",
+    "up": "sonicraft_plus:block/red_iron_block",
+    "north": "sonicraft_plus:block/red_iron_block_caution",
+    "east": "sonicraft_plus:block/red_iron_block_caution",
+    "south": "sonicraft_plus:block/red_iron_block_caution",
+    "west": "sonicraft_plus:block/red_iron_block_caution",
+    "particle": "sonicraft_plus:block/red_iron_block"
+  },
+  "render_type": "solid"
+}

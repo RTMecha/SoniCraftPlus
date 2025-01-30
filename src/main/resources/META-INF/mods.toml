@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Creative Commons Attribution-NonCommercial 3.0"
+
+[[mods]]
+modId="sonicraft_plus"
+version="1.1.0"
+displayName="SoniCraft Plus"
+displayURL="https://enderpreston.wixsite.com/sonicraft/"
+logoFile="logo.png"
+credits="Cosmo skin edited from the official #SaveCosmo Cosmo skin, with permission from the people who run the project."
+authors="EnderPreston"
+description="This is a DLC pack for SoniCraft that adds some more characters to the roster, and more blocks to fool around with."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.sonicraft_plus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.sonicraft_plus]]
+    modId="sonicraft"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.sonicraft_plus]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

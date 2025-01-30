@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "sonicraft_plus:wispon_workbench",
+    "sonicraft_plus:chiseled_wisperite_bricks",
+    "sonicraft_plus:wisperite_brick_pillar",
+    "sonicraft_plus:wisperite_brick_wall",
+    "sonicraft_plus:wisperite_brick_slab",
+    "sonicraft_plus:wisperite_brick_stairs",
+    "sonicraft_plus:wisperite_bricks",
+    "sonicraft_plus:charred_red_iron_block",
+    "sonicraft_plus:mining_tower_trapdoor",
+    "sonicraft_plus:servo_motor_part",
+    "sonicraft_plus:faulty_glowing_red_iron_block",
+    "sonicraft_plus:mining_tower_interior_motorized_cable",
+    "sonicraft_plus:dark_iron_block",
+    "sonicraft_plus:glowing_red_iron_block",
+    "sonicraft_plus:red_iron_block_caution",
+    "sonicraft_plus:red_iron_block_robot",
+    "sonicraft_plus:riveted_iron_block",
+    "sonicraft_plus:red_iron_block_mesh_floor",
+    "sonicraft_plus:red_iron_block_frame",
+    "sonicraft_plus:red_iron_block_pillar",
+    "sonicraft_plus:red_iron_block_slab",
+    "sonicraft_plus:red_iron_block_stairs",
+    "sonicraft_plus:space_bridge_frame",
+    "sonicraft_plus:wisperite_grass_block",
+    "sonicraft_plus:wisperite",
+    "sonicraft_plus:red_iron_block"
+  ]
+}

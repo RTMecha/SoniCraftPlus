@@ -1,0 +1,14 @@
+{
+  "type": "sonicraft_plus:structure_feature",
+  "config": {
+    "structure": "sonicraft_plus:mining_tower_corpse",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      -7,
+      -1,
+      -7
+    ]
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "spring.use": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:spring",
+        "stream": false
+      }
+    ]
+  },
+  "boost.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:boost1",
+        "stream": false
+      }
+    ]
+  },
+  "laser.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:laser1",
+        "stream": false
+      }
+    ]
+  },
+  "drill.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:drill1",
+        "stream": false
+      }
+    ]
+  },
+  "rocket.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:rocket1",
+        "stream": false
+      }
+    ]
+  },
+  "void.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:void1",
+        "stream": false
+      }
+    ]
+  },
+  "burst.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:burst1",
+        "stream": false
+      }
+    ]
+  },
+  "wisp.obtain": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:wispobtain",
+        "stream": false
+      }
+    ]
+  },
+  "mob.wispidle": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:entity.wisp.idle1",
+        "stream": false
+      },
+      {
+        "name": "sonicraft_plus:entity.wisp.idle2",
+        "stream": false
+      },
+      {
+        "name": "sonicraft_plus:entity.wisp.idle3",
+        "stream": false
+      }
+    ]
+  },
+  "mob.wisphurt": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:entity.wisp.hurt",
+        "stream": false
+      }
+    ]
+  },
+  "mob.wispdie": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:entity.wisp.die",
+        "stream": false
+      }
+    ]
+  },
+  "mob.tanktreads": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:tanktreads",
+        "stream": false
+      }
+    ]
+  },
+  "mob.jump": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:jump",
+        "stream": false
+      }
+    ]
+  },
+  "mighty.hammerdrop": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:mightydrill",
+        "stream": false
+      }
+    ]
+  },
+  "ring.collect": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:ring",
+        "stream": false
+      }
+    ]
+  },
+  "cube.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:cube1",
+        "stream": false
+      }
+    ]
+  },
+  "hover.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:hover1",
+        "stream": false
+      }
+    ]
+  },
+  "spikes.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:spikes1",
+        "stream": false
+      }
+    ]
+  },
+  "frenzy.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:frenzy1",
+        "stream": false
+      }
+    ]
+  },
+  "cube.fall": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:phantom_puzzle_fall02",
+        "stream": false
+      }
+    ]
+  },
+  "cube.land": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:phantom_puzzle_landing",
+        "stream": false
+      }
+    ]
+  },
+  "cube.ring.collect": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:phantom_puzzle_pzlring",
+        "stream": false
+      }
+    ]
+  },
+  "cube.activetick": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:phantom_puzzle_exchange",
+        "stream": false
+      }
+    ]
+  },
+  "blaster.shot": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:eggman.shot.1",
+        "stream": false
+      }
+    ]
+  },
+  "wispon.burst.attack": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:burstwisponshot",
+        "stream": false
+      }
+    ]
+  },
+  "wispon.drill.attack": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:drillwisponattack",
+        "stream": false
+      }
+    ]
+  },
+  "wispon.drill.charge": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:drillwisponcharge",
+        "stream": false
+      }
+    ]
+  },
+  "wispon.hover.attack": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:hoverwisponshot",
+        "stream": false
+      }
+    ]
+  },
+  "wispon.void.attack": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:voidwisponshot",
+        "stream": false
+      }
+    ]
+  },
+  "wispon.cube.attack": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:cubewisponattack",
+        "stream": false
+      }
+    ]
+  },
+  "jade.active": {
+    "sounds": [
+      {
+        "name": "sonicraft_plus:ghost1",
+        "stream": false
+      },
+      {
+        "name": "sonicraft_plus:ghost2",
+        "stream": false
+      }
+    ]
+  }
+}

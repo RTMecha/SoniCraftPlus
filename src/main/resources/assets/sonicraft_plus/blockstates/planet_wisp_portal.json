@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "sonicraft_plus:block/planet_wisp_portal_ew"
+    },
+    "axis=x": {
+      "model": "sonicraft_plus:block/planet_wisp_portal_ns"
+    }
+  }
+}

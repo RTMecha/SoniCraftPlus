@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "sonicraft_plus:wisperite_brick_slab",
+    "sonicraft_plus:red_iron_block_mesh_floor",
+    "sonicraft_plus:red_iron_block_slab",
+    "sonicraft_plus:wispwood_slab"
+  ]
+}

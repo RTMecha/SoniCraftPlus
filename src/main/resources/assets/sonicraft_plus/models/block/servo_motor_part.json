@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft_plus:custom/custom_glazed_block",
+  "textures": {
+    "all": "sonicraft_plus:block/mining_tower_interior_servo_motor_top",
+    "particle": "sonicraft_plus:block/mining_tower_interior_servo_motor_top",
+    "0": "sonicraft_plus:block/mining_tower_interior_servo_motor_top"
+  },
+  "render_type": "solid"
+}

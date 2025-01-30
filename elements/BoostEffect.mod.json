@@ -1,0 +1,25 @@
+{
+  "_fv": 69,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "White Boost",
+    "icon": "wisp_effect_white.png",
+    "color": {
+      "value": -4263451,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onStarted": {
+      "name": "BoostEffectPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "BoostEffectOnPotionActiveTick"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft_plus:block/wispwood_slab"
+    },
+    "type=top": {
+      "model": "sonicraft_plus:block/wispwood_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft_plus:block/wispwood_slab_full"
+    }
+  }
+}

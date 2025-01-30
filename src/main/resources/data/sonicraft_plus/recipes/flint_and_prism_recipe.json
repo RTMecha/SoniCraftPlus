@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "sonicraft_plus:laser_prism"
+    },
+    "b": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "sonicraft_plus:planet_wisp",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 69,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Orange Rocket",
+    "icon": "wisp_effect_orange.png",
+    "color": {
+      "value": -1344512,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onStarted": {
+      "name": "RocketEffectPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "RocketEffectOnPotionActiveTick"
+    },
+    "onExpired": {
+      "name": "RocketEffectPotionExpires"
+    }
+  }
+}

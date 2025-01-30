@@ -1,0 +1,25 @@
+{
+  "_fv": 69,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Cyan Laser",
+    "icon": "wisp_effect_cyan.png",
+    "color": {
+      "value": -15794225,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onStarted": {
+      "name": "LaserEffectPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "LaserEffectOnPotionActiveTick"
+    }
+  }
+}

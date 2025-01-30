@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mining_tower_interior_servo_motor_top"
+      },
+      "name": "default"
+    }
+  }
+}

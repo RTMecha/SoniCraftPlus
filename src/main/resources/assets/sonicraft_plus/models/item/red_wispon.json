@@ -1,0 +1,7 @@
+{
+  "parent": "sonicraft_plus:custom/wispon_red",
+  "textures": {
+    "0": "sonicraft_plus:block/wispon_red",
+    "particle": "sonicraft_plus:item/wispon_red"
+  }
+}

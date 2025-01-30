@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "sonicraft_plus:wisperite_stonecutter"
+  },
+  "result": "sonicraft_plus:wisperite_brick_slab"
+}

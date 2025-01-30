@@ -1,0 +1,11 @@
+{
+  "parent": "sonicraft_plus:custom/mining_tower_cable",
+  "textures": {
+    "all": "sonicraft_plus:block/mining_tower_interior_cable",
+    "particle": "sonicraft_plus:block/mining_tower_interior_cable",
+    "wires": "sonicraft_plus:block/mining_tower_interior_cable_wires",
+    "side": "sonicraft_plus:block/mining_tower_interior_cable",
+    "top": "sonicraft_plus:block/mining_tower_interior_cable_top"
+  },
+  "render_type": "cutout"
+}

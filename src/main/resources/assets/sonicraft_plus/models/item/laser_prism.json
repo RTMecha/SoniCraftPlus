@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sonicraft_plus:item/laser_prism"
+  },
+  "render_type": "translucent"
+}

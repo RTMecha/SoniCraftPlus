@@ -1,0 +1,25 @@
+{
+  "_fv": 69,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Green Hover",
+    "icon": "wisp_effect_green.png",
+    "color": {
+      "value": -8590983,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onStarted": {
+      "name": "HoverEffectPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "HoverEffectOnPotionActiveTick"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft_plus:block/red_iron_block_slab"
+    },
+    "type=top": {
+      "model": "sonicraft_plus:block/red_iron_block_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft_plus:block/red_iron_block_slab_full"
+    }
+  }
+}

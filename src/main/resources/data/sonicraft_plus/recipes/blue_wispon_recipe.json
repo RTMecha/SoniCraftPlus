@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sonicraft_plus:blue_wisp_capsule"
+    },
+    {
+      "item": "sonicraft_plus:wispon_frame"
+    }
+  ],
+  "result": {
+    "item": "sonicraft_plus:blue_wispon",
+    "count": 1
+  }
+}

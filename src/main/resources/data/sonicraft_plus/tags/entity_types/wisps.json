@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "sonicraft_plus:white_wisp",
+    "sonicraft_plus:cyan_wisp",
+    "sonicraft_plus:yellow_wisp",
+    "sonicraft_plus:orange_wisp",
+    "sonicraft_plus:red_wisp"
+  ]
+}

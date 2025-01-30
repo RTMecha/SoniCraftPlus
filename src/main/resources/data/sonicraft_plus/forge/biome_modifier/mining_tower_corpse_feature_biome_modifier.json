@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "sonicraft_plus:doctors_mine",
+  "features": "sonicraft_plus:mining_tower_corpse_feature",
+  "step": "surface_structures"
+}

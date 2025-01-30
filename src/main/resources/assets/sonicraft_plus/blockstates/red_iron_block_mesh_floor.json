@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft_plus:block/red_iron_block_mesh_floor"
+    },
+    "type=top": {
+      "model": "sonicraft_plus:block/red_iron_block_mesh_floor_top"
+    },
+    "type=double": {
+      "model": "sonicraft_plus:block/red_iron_block_mesh_floor_full"
+    }
+  }
+}

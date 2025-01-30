@@ -1,0 +1,10 @@
+{
+  "parent": "sonicraft_plus:custom/wisp_capsule",
+  "textures": {
+    "all": "sonicraft_plus:block/wisp_effect_yellow",
+    "particle": "sonicraft_plus:block/wisp_capsule",
+    "capsule": "sonicraft_plus:block/wisp_capsule",
+    "wisp": "sonicraft_plus:block/wisp_yellow"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "sonicraft_plus:wisperite_stonecutter"
+  },
+  "result": "sonicraft_plus:chiseled_wisperite_bricks"
+}

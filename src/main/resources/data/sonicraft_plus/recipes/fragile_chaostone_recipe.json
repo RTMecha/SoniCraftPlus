@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "sonicraft:chaostone_stonecutter"
+  },
+  "result": "sonicraft_plus:fragile_chaostone"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sonicraft_plus:item/cosmo_flower_pot"
+  },
+  "render_type": "translucent"
+}

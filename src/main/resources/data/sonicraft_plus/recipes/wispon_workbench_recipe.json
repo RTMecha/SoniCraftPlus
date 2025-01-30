@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "sonicraft_plus:red_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "sonicraft_plus:wispon_workbench",
+    "count": 1
+  }
+}

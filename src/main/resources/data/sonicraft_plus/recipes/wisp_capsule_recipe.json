@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "bb",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "sonicraft_plus:red_iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "sonicraft_plus:wisp_capsule",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "sonicraft_plus:blocks/violet_wisp_capsule",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sonicraft_plus:violet_wisp_capsule"
+        }
+      ]
+    }
+  ]
+}

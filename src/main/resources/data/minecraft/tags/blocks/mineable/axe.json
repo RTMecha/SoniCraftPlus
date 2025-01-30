@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "sonicraft_plus:wispwood_trapdoor",
+    "sonicraft_plus:wispwood_door",
+    "sonicraft_plus:wispwood_planks",
+    "sonicraft_plus:wispwood_log",
+    "sonicraft_plus:wispwood_wood"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sonicraft_plus:red_iron_block"
+    }
+  ],
+  "result": {
+    "item": "sonicraft_plus:red_iron_ingot",
+    "count": 9
+  }
+}

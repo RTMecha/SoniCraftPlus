@@ -1,0 +1,10 @@
+{
+  "parent": "sonicraft_plus:custom/sonic_blue_ring",
+  "textures": {
+    "all": "sonicraft_plus:block/blue_ring",
+    "particle": "sonicraft_plus:block/blue_ring",
+    "ring": "sonicraft_plus:block/blue_ring",
+    "block": "sonicraft_plus:block/blue_block"
+  },
+  "render_type": "cutout"
+}

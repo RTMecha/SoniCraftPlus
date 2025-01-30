@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft_plus:block/used_blue_spring"
+    },
+    "facing=east": {
+      "model": "sonicraft_plus:block/used_blue_spring",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft_plus:block/used_blue_spring",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft_plus:block/used_blue_spring",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "sonicraft_plus:block/used_blue_spring",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "sonicraft_plus:block/used_blue_spring",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "wires": "mining_tower_interior_cable_wires",
+        "side": "mining_tower_interior_cable",
+        "top": "mining_tower_interior_cable_top"
+      },
+      "name": "default"
+    },
+    "motorized": {
+      "map": {
+        "wires": "mining_tower_interior_cable_wires",
+        "side": "mining_tower_interior_servo_motor",
+        "top": "mining_tower_interior_cable_top"
+      },
+      "name": "motorized"
+    }
+  }
+}

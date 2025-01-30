@@ -1,0 +1,12 @@
+{
+  "parent": "sonicraft_plus:custom/cosmo_flower_pot",
+  "textures": {
+    "all": "sonicraft_plus:block/cosmo_plant",
+    "particle": "minecraft:block/flower_pot",
+    "3": "sonicraft_plus:block/cosmo_plant_leaves",
+    "flowerpot": "minecraft:block/flower_pot",
+    "plant": "sonicraft_plus:block/cosmo_plant_stem",
+    "dirt": "minecraft:block/dirt"
+  },
+  "render_type": "cutout"
+}

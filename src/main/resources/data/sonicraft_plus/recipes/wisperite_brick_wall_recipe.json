@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sonicraft_plus:wisperite_bricks"
+    }
+  },
+  "result": {
+    "item": "sonicraft_plus:wisperite_brick_wall",
+    "count": 6
+  }
+}

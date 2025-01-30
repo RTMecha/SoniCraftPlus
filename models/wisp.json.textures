@@ -1,0 +1,64 @@
+{
+  "mappings": {
+    "orange": {
+      "map": {
+        "0": "wisp_orange"
+      },
+      "name": "orange"
+    },
+    "red": {
+      "map": {
+        "0": "wisp_red"
+      },
+      "name": "red"
+    },
+    "default": {
+      "map": {
+        "0": "wisp_white"
+      },
+      "name": "default"
+    },
+    "pink": {
+      "map": {
+        "0": "wisp_pink"
+      },
+      "name": "pink"
+    },
+    "green": {
+      "map": {
+        "0": "wisp_green"
+      },
+      "name": "green"
+    },
+    "blue": {
+      "map": {
+        "0": "wisp_blue"
+      },
+      "name": "blue"
+    },
+    "yellow": {
+      "map": {
+        "0": "wisp_yellow"
+      },
+      "name": "yellow"
+    },
+    "violet": {
+      "map": {
+        "0": "wisp_violet"
+      },
+      "name": "violet"
+    },
+    "purple": {
+      "map": {
+        "0": "wisp_purple"
+      },
+      "name": "purple"
+    },
+    "cyan": {
+      "map": {
+        "0": "wisp_cyan"
+      },
+      "name": "cyan"
+    }
+  }
+}

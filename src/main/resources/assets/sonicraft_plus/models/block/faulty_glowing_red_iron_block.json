@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft_plus:block/red_iron_block_faulty_glowing",
+    "particle": "sonicraft_plus:block/red_iron_block_faulty_glowing"
+  },
+  "render_type": "solid"
+}

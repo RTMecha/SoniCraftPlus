@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "sonicraft_plus:wispwood_log"
+    }
+  },
+  "result": {
+    "item": "sonicraft_plus:wispwood_wood",
+    "count": 3
+  }
+}

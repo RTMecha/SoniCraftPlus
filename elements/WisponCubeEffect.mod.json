@@ -1,0 +1,25 @@
+{
+  "_fv": 69,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Blue Cube",
+    "icon": "wisp_effect_blue.png",
+    "color": {
+      "value": -15660950,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onStarted": {
+      "name": "WisponCubeEffectPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "WisponCubeEffectOnPotionActiveTick"
+    }
+  }
+}

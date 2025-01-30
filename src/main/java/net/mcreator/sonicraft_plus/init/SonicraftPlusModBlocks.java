@@ -1,0 +1,137 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.sonicraft_plus.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.level.block.Block;
+
+import net.mcreator.sonicraft_plus.block.YellowWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.WispwoodWoodBlock;
+import net.mcreator.sonicraft_plus.block.WispwoodTrapdoorBlock;
+import net.mcreator.sonicraft_plus.block.WispwoodStairsBlock;
+import net.mcreator.sonicraft_plus.block.WispwoodSlabBlock;
+import net.mcreator.sonicraft_plus.block.WispwoodPlanksBlock;
+import net.mcreator.sonicraft_plus.block.WispwoodLogBlock;
+import net.mcreator.sonicraft_plus.block.WispwoodLeavesBlock;
+import net.mcreator.sonicraft_plus.block.WispwoodFenceGateBlock;
+import net.mcreator.sonicraft_plus.block.WispwoodFenceBlock;
+import net.mcreator.sonicraft_plus.block.WispwoodDoorBlock;
+import net.mcreator.sonicraft_plus.block.WisponWorkbenchBlock;
+import net.mcreator.sonicraft_plus.block.WisperiteGrassBlockBlock;
+import net.mcreator.sonicraft_plus.block.WisperiteBricksBlock;
+import net.mcreator.sonicraft_plus.block.WisperiteBrickWallBlock;
+import net.mcreator.sonicraft_plus.block.WisperiteBrickStairsBlock;
+import net.mcreator.sonicraft_plus.block.WisperiteBrickSlabBlock;
+import net.mcreator.sonicraft_plus.block.WisperiteBrickPillarBlock;
+import net.mcreator.sonicraft_plus.block.WisperiteBlock;
+import net.mcreator.sonicraft_plus.block.WispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.WhiteWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.VioletWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.UsedBlueSpringBlock;
+import net.mcreator.sonicraft_plus.block.SpaceBridgeFrameBlock;
+import net.mcreator.sonicraft_plus.block.ServoMotorPartBlock;
+import net.mcreator.sonicraft_plus.block.RivetedIronBlockBlock;
+import net.mcreator.sonicraft_plus.block.RedWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.RedIronBlockStairsBlock;
+import net.mcreator.sonicraft_plus.block.RedIronBlockSlabBlock;
+import net.mcreator.sonicraft_plus.block.RedIronBlockRobotBlock;
+import net.mcreator.sonicraft_plus.block.RedIronBlockPillarBlock;
+import net.mcreator.sonicraft_plus.block.RedIronBlockMeshFloorBlock;
+import net.mcreator.sonicraft_plus.block.RedIronBlockFrameBlock;
+import net.mcreator.sonicraft_plus.block.RedIronBlockCautionBlock;
+import net.mcreator.sonicraft_plus.block.RedIronBlockBlock;
+import net.mcreator.sonicraft_plus.block.PurpleWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.PlanetWispPortalBlock;
+import net.mcreator.sonicraft_plus.block.PinkWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.OrangeWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.MiningTowerTrapdoorBlock;
+import net.mcreator.sonicraft_plus.block.MiningTowerInteriorMotorizedCableBlock;
+import net.mcreator.sonicraft_plus.block.MiningTowerInteriorCableBlock;
+import net.mcreator.sonicraft_plus.block.LaserPrismBlock;
+import net.mcreator.sonicraft_plus.block.JadeWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.IronIndustrialFenceBlock;
+import net.mcreator.sonicraft_plus.block.GreenWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.GlowingRedIronBlockBlock;
+import net.mcreator.sonicraft_plus.block.FragileWisperiteBlock;
+import net.mcreator.sonicraft_plus.block.FragileChaostoneBlock;
+import net.mcreator.sonicraft_plus.block.FaultyGlowingRedIronBlockBlock;
+import net.mcreator.sonicraft_plus.block.DarkIronBlockBlock;
+import net.mcreator.sonicraft_plus.block.CyanWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.CosmoFlowerPotBlock;
+import net.mcreator.sonicraft_plus.block.ChiseledWisperiteBricksBlock;
+import net.mcreator.sonicraft_plus.block.CharredRedIronBlockBlock;
+import net.mcreator.sonicraft_plus.block.BlueWispRingBlock;
+import net.mcreator.sonicraft_plus.block.BlueWispCapsuleBlock;
+import net.mcreator.sonicraft_plus.block.BlueWispBlockBlock;
+import net.mcreator.sonicraft_plus.block.BlueSpringBlock;
+import net.mcreator.sonicraft_plus.SonicraftPlusMod;
+
+public class SonicraftPlusModBlocks {
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, SonicraftPlusMod.MODID);
+	public static final RegistryObject<Block> COSMO_FLOWER_POT = REGISTRY.register("cosmo_flower_pot", () -> new CosmoFlowerPotBlock());
+	public static final RegistryObject<Block> BLUE_SPRING = REGISTRY.register("blue_spring", () -> new BlueSpringBlock());
+	public static final RegistryObject<Block> USED_BLUE_SPRING = REGISTRY.register("used_blue_spring", () -> new UsedBlueSpringBlock());
+	public static final RegistryObject<Block> RED_IRON_BLOCK = REGISTRY.register("red_iron_block", () -> new RedIronBlockBlock());
+	public static final RegistryObject<Block> WHITE_WISP_CAPSULE = REGISTRY.register("white_wisp_capsule", () -> new WhiteWispCapsuleBlock());
+	public static final RegistryObject<Block> CYAN_WISP_CAPSULE = REGISTRY.register("cyan_wisp_capsule", () -> new CyanWispCapsuleBlock());
+	public static final RegistryObject<Block> YELLOW_WISP_CAPSULE = REGISTRY.register("yellow_wisp_capsule", () -> new YellowWispCapsuleBlock());
+	public static final RegistryObject<Block> ORANGE_WISP_CAPSULE = REGISTRY.register("orange_wisp_capsule", () -> new OrangeWispCapsuleBlock());
+	public static final RegistryObject<Block> RED_WISP_CAPSULE = REGISTRY.register("red_wisp_capsule", () -> new RedWispCapsuleBlock());
+	public static final RegistryObject<Block> VIOLET_WISP_CAPSULE = REGISTRY.register("violet_wisp_capsule", () -> new VioletWispCapsuleBlock());
+	public static final RegistryObject<Block> LASER_PRISM = REGISTRY.register("laser_prism", () -> new LaserPrismBlock());
+	public static final RegistryObject<Block> WISPERITE = REGISTRY.register("wisperite", () -> new WisperiteBlock());
+	public static final RegistryObject<Block> WISPERITE_GRASS_BLOCK = REGISTRY.register("wisperite_grass_block", () -> new WisperiteGrassBlockBlock());
+	public static final RegistryObject<Block> SPACE_BRIDGE_FRAME = REGISTRY.register("space_bridge_frame", () -> new SpaceBridgeFrameBlock());
+	public static final RegistryObject<Block> PLANET_WISP_PORTAL = REGISTRY.register("planet_wisp_portal", () -> new PlanetWispPortalBlock());
+	public static final RegistryObject<Block> WISPWOOD_WOOD = REGISTRY.register("wispwood_wood", () -> new WispwoodWoodBlock());
+	public static final RegistryObject<Block> WISPWOOD_LOG = REGISTRY.register("wispwood_log", () -> new WispwoodLogBlock());
+	public static final RegistryObject<Block> WISPWOOD_PLANKS = REGISTRY.register("wispwood_planks", () -> new WispwoodPlanksBlock());
+	public static final RegistryObject<Block> WISPWOOD_LEAVES = REGISTRY.register("wispwood_leaves", () -> new WispwoodLeavesBlock());
+	public static final RegistryObject<Block> WISPWOOD_STAIRS = REGISTRY.register("wispwood_stairs", () -> new WispwoodStairsBlock());
+	public static final RegistryObject<Block> WISPWOOD_SLAB = REGISTRY.register("wispwood_slab", () -> new WispwoodSlabBlock());
+	public static final RegistryObject<Block> WISPWOOD_FENCE = REGISTRY.register("wispwood_fence", () -> new WispwoodFenceBlock());
+	public static final RegistryObject<Block> WISPWOOD_FENCE_GATE = REGISTRY.register("wispwood_fence_gate", () -> new WispwoodFenceGateBlock());
+	public static final RegistryObject<Block> WISPWOOD_DOOR = REGISTRY.register("wispwood_door", () -> new WispwoodDoorBlock());
+	public static final RegistryObject<Block> WISPWOOD_TRAPDOOR = REGISTRY.register("wispwood_trapdoor", () -> new WispwoodTrapdoorBlock());
+	public static final RegistryObject<Block> RED_IRON_BLOCK_STAIRS = REGISTRY.register("red_iron_block_stairs", () -> new RedIronBlockStairsBlock());
+	public static final RegistryObject<Block> RED_IRON_BLOCK_SLAB = REGISTRY.register("red_iron_block_slab", () -> new RedIronBlockSlabBlock());
+	public static final RegistryObject<Block> RED_IRON_BLOCK_PILLAR = REGISTRY.register("red_iron_block_pillar", () -> new RedIronBlockPillarBlock());
+	public static final RegistryObject<Block> RED_IRON_BLOCK_FRAME = REGISTRY.register("red_iron_block_frame", () -> new RedIronBlockFrameBlock());
+	public static final RegistryObject<Block> RED_IRON_BLOCK_MESH_FLOOR = REGISTRY.register("red_iron_block_mesh_floor", () -> new RedIronBlockMeshFloorBlock());
+	public static final RegistryObject<Block> RIVETED_IRON_BLOCK = REGISTRY.register("riveted_iron_block", () -> new RivetedIronBlockBlock());
+	public static final RegistryObject<Block> RED_IRON_BLOCK_ROBOT = REGISTRY.register("red_iron_block_robot", () -> new RedIronBlockRobotBlock());
+	public static final RegistryObject<Block> RED_IRON_BLOCK_CAUTION = REGISTRY.register("red_iron_block_caution", () -> new RedIronBlockCautionBlock());
+	public static final RegistryObject<Block> GLOWING_RED_IRON_BLOCK = REGISTRY.register("glowing_red_iron_block", () -> new GlowingRedIronBlockBlock());
+	public static final RegistryObject<Block> WISP_CAPSULE = REGISTRY.register("wisp_capsule", () -> new WispCapsuleBlock());
+	public static final RegistryObject<Block> DARK_IRON_BLOCK = REGISTRY.register("dark_iron_block", () -> new DarkIronBlockBlock());
+	public static final RegistryObject<Block> MINING_TOWER_INTERIOR_CABLE = REGISTRY.register("mining_tower_interior_cable", () -> new MiningTowerInteriorCableBlock());
+	public static final RegistryObject<Block> MINING_TOWER_INTERIOR_MOTORIZED_CABLE = REGISTRY.register("mining_tower_interior_motorized_cable", () -> new MiningTowerInteriorMotorizedCableBlock());
+	public static final RegistryObject<Block> FAULTY_GLOWING_RED_IRON_BLOCK = REGISTRY.register("faulty_glowing_red_iron_block", () -> new FaultyGlowingRedIronBlockBlock());
+	public static final RegistryObject<Block> SERVO_MOTOR_PART = REGISTRY.register("servo_motor_part", () -> new ServoMotorPartBlock());
+	public static final RegistryObject<Block> MINING_TOWER_TRAPDOOR = REGISTRY.register("mining_tower_trapdoor", () -> new MiningTowerTrapdoorBlock());
+	public static final RegistryObject<Block> CHARRED_RED_IRON_BLOCK = REGISTRY.register("charred_red_iron_block", () -> new CharredRedIronBlockBlock());
+	public static final RegistryObject<Block> FRAGILE_CHAOSTONE = REGISTRY.register("fragile_chaostone", () -> new FragileChaostoneBlock());
+	public static final RegistryObject<Block> WISPERITE_BRICKS = REGISTRY.register("wisperite_bricks", () -> new WisperiteBricksBlock());
+	public static final RegistryObject<Block> WISPERITE_BRICK_STAIRS = REGISTRY.register("wisperite_brick_stairs", () -> new WisperiteBrickStairsBlock());
+	public static final RegistryObject<Block> WISPERITE_BRICK_SLAB = REGISTRY.register("wisperite_brick_slab", () -> new WisperiteBrickSlabBlock());
+	public static final RegistryObject<Block> WISPERITE_BRICK_WALL = REGISTRY.register("wisperite_brick_wall", () -> new WisperiteBrickWallBlock());
+	public static final RegistryObject<Block> WISPERITE_BRICK_PILLAR = REGISTRY.register("wisperite_brick_pillar", () -> new WisperiteBrickPillarBlock());
+	public static final RegistryObject<Block> CHISELED_WISPERITE_BRICKS = REGISTRY.register("chiseled_wisperite_bricks", () -> new ChiseledWisperiteBricksBlock());
+	public static final RegistryObject<Block> FRAGILE_WISPERITE = REGISTRY.register("fragile_wisperite", () -> new FragileWisperiteBlock());
+	public static final RegistryObject<Block> IRON_INDUSTRIAL_FENCE = REGISTRY.register("iron_industrial_fence", () -> new IronIndustrialFenceBlock());
+	public static final RegistryObject<Block> BLUE_WISP_BLOCK = REGISTRY.register("blue_wisp_block", () -> new BlueWispBlockBlock());
+	public static final RegistryObject<Block> BLUE_WISP_RING = REGISTRY.register("blue_wisp_ring", () -> new BlueWispRingBlock());
+	public static final RegistryObject<Block> BLUE_WISP_CAPSULE = REGISTRY.register("blue_wisp_capsule", () -> new BlueWispCapsuleBlock());
+	public static final RegistryObject<Block> GREEN_WISP_CAPSULE = REGISTRY.register("green_wisp_capsule", () -> new GreenWispCapsuleBlock());
+	public static final RegistryObject<Block> PINK_WISP_CAPSULE = REGISTRY.register("pink_wisp_capsule", () -> new PinkWispCapsuleBlock());
+	public static final RegistryObject<Block> PURPLE_WISP_CAPSULE = REGISTRY.register("purple_wisp_capsule", () -> new PurpleWispCapsuleBlock());
+	public static final RegistryObject<Block> WISPON_WORKBENCH = REGISTRY.register("wispon_workbench", () -> new WisponWorkbenchBlock());
+	public static final RegistryObject<Block> JADE_WISP_CAPSULE = REGISTRY.register("jade_wisp_capsule", () -> new JadeWispCapsuleBlock());
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
+}

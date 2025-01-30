@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "cosmo_plant_leaves",
+        "flowerpot": "minecraft:flower_pot",
+        "plant": "cosmo_plant_stem",
+        "dirt": "minecraft:dirt"
+      },
+      "name": "default"
+    }
+  }
+}

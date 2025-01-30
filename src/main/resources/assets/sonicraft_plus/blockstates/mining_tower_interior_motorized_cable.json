@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft_plus:block/mining_tower_interior_motorized_cable"
+    },
+    "facing=east": {
+      "model": "sonicraft_plus:block/mining_tower_interior_motorized_cable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft_plus:block/mining_tower_interior_motorized_cable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft_plus:block/mining_tower_interior_motorized_cable",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "sonicraft_plus:block/mining_tower_interior_motorized_cable",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "sonicraft_plus:block/mining_tower_interior_motorized_cable",
+      "x": 90
+    }
+  }
+}

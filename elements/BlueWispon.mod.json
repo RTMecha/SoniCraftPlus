@@ -1,0 +1,35 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "wispon_blue",
+    "customModelName": "wispon_blue:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Cube Wispon",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SonicraftPlusItems"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.6,
+    "enchantability": 0,
+    "damageVsEntity": 9.0,
+    "usageCount": 100,
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "BlueWisponRightClickedOnBlock"
+    }
+  }
+}

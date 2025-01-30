@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "sonicraft_plus:wisperite"
+    }
+  },
+  "result": {
+    "item": "sonicraft_plus:wisperite_bricks",
+    "count": 4
+  }
+}

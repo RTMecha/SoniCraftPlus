@@ -1,0 +1,24 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.ARROW"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "power": 1.2000000000000002,
+    "damage": 0.0,
+    "knockback": 0,
+    "entityModel": "Modelsonic_ball",
+    "customModelTexture": "equals_p_cube.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onFlyingTick": {
+      "name": "BurstWisponFireTriggerOnEntityTickUpdate"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:light_blue_carpet"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:slime_block"
+    },
+    "d": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "sonicraft_plus:blue_spring",
+    "count": 1
+  }
+}

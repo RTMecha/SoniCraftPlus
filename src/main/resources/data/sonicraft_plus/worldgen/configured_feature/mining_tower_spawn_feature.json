@@ -1,0 +1,15 @@
+{
+  "type": "sonicraft_plus:structure_feature",
+  "config": {
+    "structure": "sonicraft_plus:mining_tower",
+    "ignored_blocks": [
+      "minecraft:structure_block",
+      "minecraft:air"
+    ],
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

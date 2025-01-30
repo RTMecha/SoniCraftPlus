@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "spring": "edgy_spring",
+        "top": "edgy_spring_top"
+      },
+      "name": "default"
+    },
+    "blue": {
+      "map": {
+        "spring": "blue_spring",
+        "top": "blue_spring_top"
+      },
+      "name": "blue"
+    }
+  }
+}

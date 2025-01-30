@@ -1,0 +1,5620 @@
+{
+  "mod_elements": [
+    {
+      "name": "CosmoFlowerPot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmo_flower_pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/cosmo_flower_pot.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/CosmoFlowerPotBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/cosmo_flower_pot.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/cosmo_flower_pot.json"
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "SeedrianSeed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seedrian_seed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/item/SeedrianSeedItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/seedrian_seed.json"
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "CosmoFlowerPotDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmo_flower_pot_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/cosmo_flower_pot_drops.json"
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "Cosmo",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/CosmoRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/cosmo_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/CosmoEntity.java"
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "SeedrianSeedRightClickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seedrian_seed_right_clicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/SeedrianSeedRightClickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "CosmoFlowerPotUpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmo_flower_pot_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/CosmoFlowerPotUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "CosmoOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmo_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/CosmoOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "SonicraftPlusItems",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonicraft_plus_items",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SonicraftPlusSymbol",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonicraft_plus_symbol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/sonicraft_plus_symbol.json",
+          "src/main/java/net/mcreator/sonicraft_plus/item/SonicraftPlusSymbolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueSpring",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_spring",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/blue_spring.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/blue_spring.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BlueSpringBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/blue_spring.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/blue_spring.json"
+        ]
+      },
+      "path": "~/Springs"
+    },
+    {
+      "name": "UsedBlueSpring",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "used_blue_spring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/used_blue_spring.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/UsedBlueSpringBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/used_blue_spring.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/used_blue_spring.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/used_blue_spring.json"
+        ]
+      },
+      "path": "~/Springs"
+    },
+    {
+      "name": "BlueSpringRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_spring_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/blue_spring_recipe.json"
+        ]
+      },
+      "path": "~/Springs"
+    },
+    {
+      "name": "BlueSpringEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_spring_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BlueSpringEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Springs"
+    },
+    {
+      "name": "UsedBlueSpringUpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "used_blue_spring_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/UsedBlueSpringUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Springs"
+    },
+    {
+      "name": "WispOverlayEmpty",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_empty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayEmptyOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayWhite",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_white",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayWhiteOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayCyan",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_cyan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayCyanOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayYellow",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_yellow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayYellowOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayOrange",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_orange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayOrangeOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayRed",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayRedOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayViolet",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_violet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayVioletOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayWhiteDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_white_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayWhiteDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayCyanDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_cyan_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayCyanDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayYellowDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_yellow_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayYellowDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayOrangeDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_orange_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayOrangeDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayRedDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_red_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayRedDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayVioletDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_violet_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayVioletDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "SallyAcorn",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sally_acorn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/SallyAcornRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/sally_acorn_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/SallyAcornEntity.java"
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "RedIronIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_ingot.json",
+          "src/main/java/net/mcreator/sonicraft_plus/item/RedIronIngotItem.java"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockBlock.java"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/red_iron_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/red_iron_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/item/RedIronNuggetItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_nugget.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "IronIngotToRed",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ingot_to_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/iron_ingot_to_red.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronIngotToNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_ingot_to_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/red_iron_ingot_to_nugget.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronNuggetToIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_nugget_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/red_iron_nugget_to_ingot.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "BoostEffectPotionStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boost_effect_potion_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BoostEffectPotionStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BoostEffectOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boost_effect_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BoostEffectOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "LaserEffectPotionStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_effect_potion_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/LaserEffectPotionStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "LaserEffectOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_effect_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/LaserEffectOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispPowerActivateOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_power_activate_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispPowerActivateOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispPowerActivate",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_power_activate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/network/WispPowerActivateMessage.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "DrillEffectOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_effect_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/DrillEffectOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "DrillEffectPotionStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_effect_potion_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/DrillEffectPotionStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RocketEffectPotionStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_effect_potion_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/RocketEffectPotionStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RocketEffectPotionExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_effect_potion_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/RocketEffectPotionExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RocketEffectOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_effect_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/RocketEffectOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BurstEffectPotionStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burst_effect_potion_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BurstEffectPotionStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BurstEffectOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burst_effect_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BurstEffectOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "VoidEffectPotionStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_effect_potion_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/VoidEffectPotionStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "VoidEffectOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_effect_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/VoidEffectOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RedBurstFloatDown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_burst_float_down",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/RedBurstFloatDownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WhiteWispCapsuleEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wisp_capsule_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WhiteWispCapsuleEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WhiteWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/WhiteWispCapsuleBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/white_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/white_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/white_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/white_wisp_capsule.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "CyanWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/CyanWispCapsuleBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/cyan_wisp_capsule.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/cyan_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/cyan_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/cyan_wisp_capsule.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "YellowWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/YellowWispCapsuleBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/yellow_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/yellow_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/yellow_wisp_capsule.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/yellow_wisp_capsule.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "OrangeWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/orange_wisp_capsule.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/OrangeWispCapsuleBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/orange_wisp_capsule.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/orange_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/orange_wisp_capsule.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RedWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/red_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_wisp_capsule.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedWispCapsuleBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_wisp_capsule.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "VioletWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/violet_wisp_capsule.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/VioletWispCapsuleBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/violet_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/violet_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/violet_wisp_capsule.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "CyanWispCapsuleEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_wisp_capsule_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/CyanWispCapsuleEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "YellowWispCapsuleEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wisp_capsule_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/YellowWispCapsuleEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "OrangeWispCapsuleEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wisp_capsule_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/OrangeWispCapsuleEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RedWispCapsuleEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wisp_capsule_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/RedWispCapsuleEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "VioletWispCapsuleEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_wisp_capsule_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/VioletWispCapsuleEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayEmptyDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_empty_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayEmptyDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WhiteWispAura",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wisp_aura",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/WhiteWispAuraParticle.java",
+          "src/main/resources/assets/sonicraft_plus/particles/white_wisp_aura.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "CyanWispAura",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_wisp_aura",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/CyanWispAuraParticle.java",
+          "src/main/resources/assets/sonicraft_plus/particles/cyan_wisp_aura.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "YellowWispAura",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wisp_aura",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/YellowWispAuraParticle.java",
+          "src/main/resources/assets/sonicraft_plus/particles/yellow_wisp_aura.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "OrangeWispAura",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wisp_aura",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/OrangeWispAuraParticle.java",
+          "src/main/resources/assets/sonicraft_plus/particles/orange_wisp_aura.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RedWispAura",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wisp_aura",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/particles/red_wisp_aura.json",
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/RedWispAuraParticle.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "VioletWispAura",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_wisp_aura",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/VioletWispAuraParticle.java",
+          "src/main/resources/assets/sonicraft_plus/particles/violet_wisp_aura.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "CyanWispTrail",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_wisp_trail",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/CyanWispTrailParticle.java",
+          "src/main/resources/assets/sonicraft_plus/particles/cyan_wisp_trail.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "LaserPrismEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_prism_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/LaserPrismEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "LaserPrism",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_prism",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/laser_prism.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/laser_prism.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/laser_prism.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/LaserPrismBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/laser_prism.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RocketRecoveryOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_recovery_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/RocketRecoveryOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "LaserPrismRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_prism_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/laser_prism_recipe.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "Wisperite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_grass_block.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_grass_block.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteGrassBlockBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_grass_block.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_grass_block.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "SpaceBridgeFrame",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_bridge_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/space_bridge_frame.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/space_bridge_frame.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/space_bridge_frame.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/SpaceBridgeFrameBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/space_bridge_frame.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "SpaceBridgeFrameRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_bridge_frame_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/space_bridge_frame_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispyWoods",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispy_woods",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/worldgen/biome/wispy_woods.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "MothersCanyon",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mothers_canyon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/worldgen/biome/mothers_canyon.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "PlanetWisp",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planet_wisp",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/planet_wisp.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/planet_wisp_portal_ns.json",
+          "src/main/java/net/mcreator/sonicraft_plus/world/dimension/PlanetWispDimension.java",
+          "src/main/java/net/mcreator/sonicraft_plus/world/teleporter/PlanetWispPortalShape.java",
+          "src/main/resources/data/sonicraft_plus/dimension_type/planet_wisp.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/PlanetWispPortalBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/planet_wisp_portal.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/planet_wisp_portal_ew.json",
+          "src/main/java/net/mcreator/sonicraft_plus/item/PlanetWispItem.java",
+          "src/main/java/net/mcreator/sonicraft_plus/world/teleporter/PlanetWispTeleporter.java",
+          "src/main/resources/data/sonicraft_plus/dimension/planet_wisp.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WhiteWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wisp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/white_wisp_biome_modifier.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/white_wisp_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/WhiteWispRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/WhiteWispEntity.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_wood.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_wood.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodWoodBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_wood.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_wood.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_log.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodLogBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_log.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_log.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_log.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_planks.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodPlanksBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_planks.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_planks.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_planks.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_leaves.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_leaves.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodLeavesBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_leaves.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_leaves.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_stairs.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_stairs_outer.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_stairs_inner.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_stairs.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodStairsBlock.java"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_slab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_slab.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodSlabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_slab_full.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_slab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_slab_top.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_slab.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_post.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_fence.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodFenceBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_fence.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_inventory.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_fence.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate_wall.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_fence_gate.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodFenceGateBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate_open.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_fence_gate.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate_wall_open.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_fence_gate.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispwood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispwood_planks_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispwood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispwood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispwood_fence_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispwood_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispwood_stick_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "FlintAndPrismRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_and_prism_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/flint_and_prism_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_right.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodDoorBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_left_open.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_top_left.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_door.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_top_right.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_top_right_open.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_right_open.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_left.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_door.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_top_left_open.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_door.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispwood_door_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_trapdoor.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_trapdoor.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_trapdoor.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_trapdoor_open.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodTrapdoorBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_trapdoor.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_trapdoor_top.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispwoodTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispwood_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronBlockStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_block_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_stairs_inner.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_stairs_outer.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockStairsBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_stairs.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronBlockSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_block_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_slab.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_slab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_slab_top.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_slab.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockSlabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_slab_full.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_slab.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronBlockPillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_block_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_pillar.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_pillar.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_pillar.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_pillar.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockPillarBlock.java"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronBlockFrame",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_block_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_frame.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_frame.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockFrameBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_frame.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_frame.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronBlockMeshFloor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_block_mesh_floor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_mesh_floor_top.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_mesh_floor_full.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_mesh_floor.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_mesh_floor.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_mesh_floor.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockMeshFloorBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_mesh_floor.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RivetedIronBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riveted_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/riveted_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/riveted_iron_block.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RivetedIronBlockBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/riveted_iron_block.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/riveted_iron_block.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronBlockRobot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_block_robot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_robot.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_robot.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockRobotBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_robot.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_robot.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "RedIronBlockCaution",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_iron_block_caution",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockCautionBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_caution.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_caution.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_caution.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_caution.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "GlowingRedIronBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_red_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/GlowingRedIronBlockBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/glowing_red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/glowing_red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/glowing_red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/glowing_red_iron_block.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisp_capsule.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispCapsuleBlock.java"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "CyanWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_wisp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/CyanWispEntity.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/cyan_wisp_spawn_egg.json",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/cyan_wisp_biome_modifier.json",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/CyanWispRenderer.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "YellowWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wisp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/yellow_wisp_biome_modifier.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/yellow_wisp_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/YellowWispRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/YellowWispEntity.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "OrangeWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wisp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/OrangeWispEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/OrangeWispRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/orange_wisp_spawn_egg.json",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/orange_wisp_biome_modifier.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RedWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wisp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/RedWispRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_wisp_spawn_egg.json",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/red_wisp_biome_modifier.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/RedWispEntity.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "VioletWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_wisp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/VioletWispEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/VioletWispRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/violet_wisp_spawn_egg.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "DarkIronBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/dark_iron_block.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/DarkIronBlockBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/dark_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/dark_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/dark_iron_block.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "MiningTower",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_tower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/MiningTowerRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/MiningTowerEntity.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/mining_tower_spawn_egg.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "MiningTowerOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_tower_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/MiningTowerOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "DoctorsMine",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doctors_mine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/worldgen/biome/doctors_mine.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "MiningTowerInteriorCable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_tower_interior_cable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/mining_tower_interior_cable.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/mining_tower_interior_cable.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/mining_tower_interior_cable.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/MiningTowerInteriorCableBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_interior_cable.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "MiningTowerInteriorMotorizedCable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_tower_interior_motorized_cable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_interior_motorized_cable.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/mining_tower_interior_motorized_cable.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/mining_tower_interior_motorized_cable.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/MiningTowerInteriorMotorizedCableBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/mining_tower_interior_motorized_cable.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "FaultyGlowingRedIronBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faulty_glowing_red_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/faulty_glowing_red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/faulty_glowing_red_iron_block.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/FaultyGlowingRedIronBlockBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/faulty_glowing_red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/faulty_glowing_red_iron_block.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "ServoMotorPart",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "servo_motor_part",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/servo_motor_part.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/servo_motor_part.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/servo_motor_part.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/servo_motor_part.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/ServoMotorPartBlock.java"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "MiningTowerTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_tower_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_trapdoor_top.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_trapdoor_open.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_trapdoor.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/MiningTowerTrapdoorBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/mining_tower_trapdoor.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/mining_tower_trapdoor.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/mining_tower_trapdoor.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "CharredRedIronBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_red_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/charred_red_iron_block.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/CharredRedIronBlockBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/charred_red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/charred_red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/charred_red_iron_block.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "MiningTowerEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_tower_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/MiningTowerEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "FragileChaostone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragile_chaostone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/fragile_chaostone.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/FragileChaostoneBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/fragile_chaostone.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/fragile_chaostone.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/fragile_chaostone.json"
+        ]
+      }
+    },
+    {
+      "name": "FragileChaostoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragile_chaostone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/fragile_chaostone_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WisperiteBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_bricks.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_bricks.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_bricks.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_bricks.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBricksBlock.java"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_brick_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_stairs_outer.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_brick_stairs.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_stairs.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickStairsBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_stairs_inner.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickSlabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_slab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_slab_top.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_slab_full.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_slab.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_brick_slab.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_brick_slab.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_wall_side_tall.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_wall_post.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_wall_inventory.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_brick_wall.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickWallBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_brick_wall.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_wall.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_wall.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickPillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_brick_pillar.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_brick_pillar.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_pillar.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickPillarBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_pillar.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "ChiseledWisperiteBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_wisperite_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/ChiseledWisperiteBricksBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/chiseled_wisperite_bricks.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/chiseled_wisperite_bricks.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/chiseled_wisperite_bricks.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/chiseled_wisperite_bricks.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisperite_brick_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisperite_brick_slab_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisperite_brick_wall_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickPillarRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_pillar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisperite_brick_pillar_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "ChiseledWisperiteBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_wisperite_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/chiseled_wisperite_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisperite_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBricksStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_bricks_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisperite_bricks_stonecutter.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickStairsStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_stairs_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisperite_brick_stairs_stonecutter.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickSlabStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_slab_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisperite_brick_slab_stonecutter.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickWallStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_wall_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisperite_brick_wall_stonecutter.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WisperiteBrickPillarStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisperite_brick_pillar_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisperite_brick_pillar_stonecutter.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "ChiseledWisperiteBricksStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_wisperite_bricks_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/chiseled_wisperite_bricks_stonecutter.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "FragileWisperite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragile_wisperite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/FragileWisperiteBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/fragile_wisperite.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/fragile_wisperite.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/fragile_wisperite.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/fragile_wisperite.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "FragileWisperiteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragile_wisperite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/fragile_wisperite_recipe.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "Mighty",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mighty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/MightyEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/MightyRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/mighty_spawn_egg.json"
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "MightyBallOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mighty_ball_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/MightyBallOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "MightyBall",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mighty_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/MightyBallEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/MightyBallRenderer.java"
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "MightyHammerDrop",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mighty_hammer_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/MightyHammerDropEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/MightyHammerDropRenderer.java"
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "MightyOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mighty_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/MightyOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "FragileChaostoneEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragile_chaostone_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/FragileChaostoneEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ray",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ray",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/RayRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/RayEntity.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/ray_spawn_egg.json"
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "RayGliding",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ray_gliding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/RayGlidingEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/RayGlidingRenderer.java"
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "RayGlidingOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ray_gliding_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/RayGlidingOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "RayOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ray_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/RayOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Characters"
+    },
+    {
+      "name": "IronIndustrialFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_industrial_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_side.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_noside.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/IronIndustrialFenceBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/iron_industrial_fence.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_side_alt.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/iron_industrial_fence.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_post.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/iron_industrial_fence.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_noside_alt.json"
+        ]
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WispCapsuleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_capsule_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wisp_capsule_recipe.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BlueWispBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wisp_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/blue_wisp_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/blue_wisp_block.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BlueWispBlockBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/blue_wisp_block.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/blue_wisp_block.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BlueWispRing",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wisp_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/blue_wisp_ring.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/blue_wisp_ring.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/blue_wisp_ring.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/blue_wisp_ring.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BlueWispRingBlock.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BlueWispRingEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wisp_ring_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BlueWispRingEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BlueWispChangeTriggerOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wisp_change_trigger_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BlueWispChangeTriggerOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BlueWispChangeTrigger",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wisp_change_trigger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/BlueWispChangeTriggerEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/BlueWispChangeTriggerRenderer.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BlueWispBlockUpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wisp_block_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BlueWispBlockUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BlueWispRingUpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wisp_ring_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BlueWispRingUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayBlue",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayBlueOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayGreen",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_green",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayGreenOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayPink",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_pink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayPinkOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayPurple",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_purple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayPurpleOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayBlueDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_blue_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayBlueDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayGreenDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_green_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayGreenDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayPinkDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_pink_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayPinkDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayPurpleDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_purple_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayPurpleDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "CubeEffectPotionStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube_effect_potion_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/CubeEffectPotionStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "CubeEffectPotionExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube_effect_potion_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/CubeEffectPotionExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "HoverEffectPotionStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hover_effect_potion_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/HoverEffectPotionStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "HoverEffectOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hover_effect_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/HoverEffectOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "CubeEffectOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube_effect_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/CubeEffectOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BlueWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/blue_wisp_capsule.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BlueWispCapsuleBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/blue_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/blue_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/blue_wisp_capsule.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "GreenWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/GreenWispCapsuleBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/green_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/green_wisp_capsule.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/green_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/green_wisp_capsule.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "PinkWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/PinkWispCapsuleBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/pink_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/pink_wisp_capsule.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/pink_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/pink_wisp_capsule.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "PurpleWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/PurpleWispCapsuleBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/purple_wisp_capsule.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/purple_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/purple_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/purple_wisp_capsule.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BlueWispCapsuleEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wisp_capsule_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BlueWispCapsuleEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "GreenWispCapsuleEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_wisp_capsule_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/GreenWispCapsuleEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BlueWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wisp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/blue_wisp_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/BlueWispEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/BlueWispRenderer.java",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/blue_wisp_biome_modifier.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "GreenWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_wisp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/GreenWispEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/GreenWispRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/green_wisp_spawn_egg.json",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/green_wisp_biome_modifier.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "PinkWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_wisp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/PinkWispRenderer.java",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/pink_wisp_biome_modifier.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/pink_wisp_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/PinkWispEntity.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "PurpleWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_wisp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/PurpleWispEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/PurpleWispRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/purple_wisp_spawn_egg.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WisponWorkbench",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_workbench",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/wispon_workbench.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispon_workbench.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispon_workbench.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisponWorkbenchBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispon_workbench.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WisponBullet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/item/WisponBulletItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispon_bullet.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WisponFrame",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_frame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/item/WisponFrameItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispon_frame.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WisponFrameRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_frame_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispon_frame_recipe.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WisponWorkbenchRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_workbench_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/wispon_workbench_recipe.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "BurstWisponFireTriggerOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burst_wispon_fire_trigger_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BurstWisponFireTriggerOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "YellowWisponRangedItemUsed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wispon_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/YellowWisponRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "YellowWisponBulletHitsPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wispon_bullet_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/YellowWisponBulletHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "GreenWisponWhileBulletFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_wispon_while_bullet_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/GreenWisponWhileBulletFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "VoidWisponEffect",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_wispon_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/VoidWisponEffectParticle.java",
+          "src/main/resources/assets/sonicraft_plus/particles/void_wispon_effect.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "VoidWisponProjectile",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_wispon_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/VoidWisponProjectileRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/VoidWisponProjectileEntity.java"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "VioletWisponBulletHitsPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_wispon_bullet_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/VioletWisponBulletHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "VoidWisponProjectileOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_wispon_projectile_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/VoidWisponProjectileOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "VoidWisponProjectileEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_wispon_projectile_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/VoidWisponProjectileEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "BlueWispon",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wispon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/blue_wispon.json",
+          "src/main/java/net/mcreator/sonicraft_plus/item/BlueWisponItem.java"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WisponCubeTrapEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_cube_trap_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WisponCubeTrapEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WisponCubeTrap",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_cube_trap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/WisponCubeTrapRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/WisponCubeTrapEntity.java"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WisponCubeEffectPotionStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_cube_effect_potion_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WisponCubeEffectPotionStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WisponCubeEffectOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_cube_effect_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WisponCubeEffectOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "BlueWisponRightClickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wispon_right_clicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BlueWisponRightClickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WisponCubeTrapOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_cube_trap_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WisponCubeTrapOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WhiteWisponRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wispon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/white_wispon_recipe.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "RedWisponRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wispon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/red_wispon_recipe.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "YellowWisponRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wispon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/yellow_wispon_recipe.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "GreenWisponRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_wispon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/green_wispon_recipe.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "VioletWisponRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_wispon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/violet_wispon_recipe.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "BlueWisponRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wispon_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/recipes/blue_wispon_recipe.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WispOverlayJade",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_jade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayJadeOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayJadeDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_jade_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayJadeDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "JadeWispAura",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_wisp_aura",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/JadeWispAuraParticle.java",
+          "src/main/resources/assets/sonicraft_plus/particles/jade_wisp_aura.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "GhostEffectPotionStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_effect_potion_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/GhostEffectPotionStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "GhostEffectOnPotionActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_effect_on_potion_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/GhostEffectOnPotionActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "GhostEffectPotionExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_effect_potion_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/GhostEffectPotionExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "JadeWispCapsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_wisp_capsule",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/jade_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/jade_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/jade_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/jade_wisp_capsule.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/JadeWispCapsuleBlock.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "JadeWispCapsuleEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_wisp_capsule_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/JadeWispCapsuleEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayGhostDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_ghost_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/WispOverlayGhostDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispOverlayGhost",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_overlay_ghost",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/screens/WispOverlayGhostOverlay.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "JadeWisp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_wisp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/JadeWispEntity.java",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/jade_wisp_biome_modifier.json",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/JadeWispRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/jade_wisp_spawn_egg.json"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BoostEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boost_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/BoostEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "LaserEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/LaserEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "DrillEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/DrillEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RocketEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/RocketEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "BurstEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burst_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/BurstEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "VoidEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/VoidEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "RocketRecovery",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_recovery",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/RocketRecoveryMobEffect.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "CubeEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/CubeEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "HoverEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hover_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/HoverEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WisponCubeEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispon_cube_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/WisponCubeEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "GhostEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/GhostEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Wisps"
+    },
+    {
+      "name": "WispwoodTreeFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wispwood_tree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/worldgen/placed_feature/wispwood_tree_feature.json",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/wispwood_tree_feature_biome_modifier.json",
+          "src/main/resources/data/sonicraft_plus/worldgen/configured_feature/wispwood_tree_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "MiningTowerCorpseFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_tower_corpse_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/worldgen/placed_feature/mining_tower_corpse_feature.json",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/mining_tower_corpse_feature_biome_modifier.json",
+          "src/main/resources/data/sonicraft_plus/worldgen/configured_feature/mining_tower_corpse_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "MiningTowerSpawnFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_tower_spawn_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/mining_tower_spawn_feature_biome_modifier.json",
+          "src/main/resources/data/sonicraft_plus/worldgen/configured_feature/mining_tower_spawn_feature.json",
+          "src/main/resources/data/sonicraft_plus/worldgen/placed_feature/mining_tower_spawn_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Planet Wisp"
+    },
+    {
+      "name": "WhiteWisponProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wispon_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/WhiteWisponProjectileEntity.java"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "WhiteWispon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wispon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/item/WhiteWisponItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/white_wispon.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "RedWisponProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wispon_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/RedWisponProjectileEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/RedWisponProjectileRenderer.java"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "RedWispon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wispon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/item/RedWisponItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_wispon.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "YellowWisponProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wispon_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/YellowWisponProjectileRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/YellowWisponProjectileEntity.java"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "YellowWispon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wispon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/item/YellowWisponItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/yellow_wispon.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "GreenWisponProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_wispon_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/GreenWisponProjectileRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/GreenWisponProjectileEntity.java"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "GreenWispon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_wispon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/item/GreenWisponItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/green_wispon.json"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "VioletWisponProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_wispon_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/VioletWisponProjectileEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/VioletWisponProjectileRenderer.java"
+        ]
+      },
+      "path": "~/Wispons"
+    },
+    {
+      "name": "VioletWispon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_wispon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/violet_wispon.json",
+          "src/main/java/net/mcreator/sonicraft_plus/item/VioletWisponItem.java"
+        ]
+      },
+      "path": "~/Wispons"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "whiteWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "cyanWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "yellowWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "orangeWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "redWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "violetWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "burstJump",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "blueWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "greenWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "pinkWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "purpleWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "cubeCooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "jadeWispActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "savedGamemode",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "spring.use",
+      "files": [
+        "spring"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "boost.active",
+      "files": [
+        "boost1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "laser.active",
+      "files": [
+        "laser1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "drill.active",
+      "files": [
+        "drill1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "rocket.active",
+      "files": [
+        "rocket1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "void.active",
+      "files": [
+        "void1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "burst.active",
+      "files": [
+        "burst1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "wisp.obtain",
+      "files": [
+        "wispobtain"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "mob.wispidle",
+      "files": [
+        "entity.wisp.idle1",
+        "entity.wisp.idle2",
+        "entity.wisp.idle3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mob.wisphurt",
+      "files": [
+        "entity.wisp.hurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mob.wispdie",
+      "files": [
+        "entity.wisp.die"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mob.tanktreads",
+      "files": [
+        "tanktreads"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mob.jump",
+      "files": [
+        "jump"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mighty.hammerdrop",
+      "files": [
+        "mightydrill"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ring.collect",
+      "files": [
+        "ring"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "cube.active",
+      "files": [
+        "cube1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "hover.active",
+      "files": [
+        "hover1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "spikes.active",
+      "files": [
+        "spikes1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "frenzy.active",
+      "files": [
+        "frenzy1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "cube.fall",
+      "files": [
+        "phantom_puzzle_fall02"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "cube.land",
+      "files": [
+        "phantom_puzzle_landing"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "cube.ring.collect",
+      "files": [
+        "phantom_puzzle_pzlring"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "cube.activetick",
+      "files": [
+        "phantom_puzzle_exchange"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "blaster.shot",
+      "files": [
+        "eggman.shot.1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "wispon.burst.attack",
+      "files": [
+        "burstwisponshot"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "wispon.drill.attack",
+      "files": [
+        "drillwisponattack"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "wispon.drill.charge",
+      "files": [
+        "drillwisponcharge"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "wispon.hover.attack",
+      "files": [
+        "hoverwisponshot"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "wispon.void.attack",
+      "files": [
+        "voidwisponshot"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "wispon.cube.attack",
+      "files": [
+        "cubewisponattack"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "jade.active",
+      "files": [
+        "ghost1",
+        "ghost2"
+      ],
+      "category": "player",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:forge:mighty_breakable_blocks": [
+      "CUSTOM:FragileChaostone",
+      "CUSTOM:FragileWisperite"
+    ],
+    "ITEMS:minecraft:wooden_stairs": [
+      "CUSTOM:WispwoodStairs"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:WispwoodLog"
+    ],
+    "ITEMS:mod:wisperite_stonecutter": [
+      "CUSTOM:Wisperite",
+      "CUSTOM:WisperiteBricks"
+    ],
+    "ITEMS:minecraft:wooden_trapdoors": [
+      "CUSTOM:WispwoodTrapdoor"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:WispwoodLeaves"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:WisperiteBrickSlab",
+      "~CUSTOM:RedIronBlockMeshFloor",
+      "~CUSTOM:RedIronBlockSlab",
+      "~CUSTOM:WispwoodSlab"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:MiningTowerTrapdoor",
+      "~CUSTOM:SpaceBridgeFrame"
+    ],
+    "ENTITIES:mod:wisps": [
+      "CUSTOM:WhiteWisp",
+      "CUSTOM:CyanWisp",
+      "CUSTOM:YellowWisp",
+      "CUSTOM:OrangeWisp",
+      "CUSTOM:RedWisp"
+    ],
+    "ITEMS:forge:wispwood_log": [
+      "CUSTOM:WispwoodWood",
+      "CUSTOM:WispwoodLog"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:WisperiteBrickStairs",
+      "~CUSTOM:RedIronBlockStairs",
+      "~CUSTOM:WispwoodStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BlueWispon"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:WispwoodPlanks"
+    ],
+    "BLOCKS:forge:dirt": [
+      "CUSTOM:WisperiteGrassBlock"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:CharredRedIronBlock",
+      "~CUSTOM:ServoMotorPart",
+      "~CUSTOM:FaultyGlowingRedIronBlock",
+      "~CUSTOM:DarkIronBlock",
+      "~CUSTOM:GlowingRedIronBlock",
+      "~CUSTOM:RedIronBlockCaution",
+      "~CUSTOM:RedIronBlockRobot",
+      "~CUSTOM:RivetedIronBlock",
+      "~CUSTOM:RedIronBlockMeshFloor",
+      "~CUSTOM:RedIronBlockFrame",
+      "~CUSTOM:RedIronBlockPillar",
+      "~CUSTOM:RedIronBlockSlab",
+      "~CUSTOM:RedIronBlockStairs",
+      "~CUSTOM:RedIronBlock"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "CUSTOM:WispwoodFence"
+    ],
+    "BLOCKS:minecraft:infiniburn_overworld": [
+      "CUSTOM:CharredRedIronBlock"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Wisperite",
+      "~CUSTOM:WisperiteGrassBlock",
+      "~CUSTOM:RedIronBlock"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:WispwoodTrapdoor",
+      "~CUSTOM:WispwoodDoor",
+      "~CUSTOM:WispwoodPlanks",
+      "~CUSTOM:WispwoodLog",
+      "~CUSTOM:WispwoodWood"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:WisponWorkbench",
+      "~CUSTOM:ChiseledWisperiteBricks",
+      "~CUSTOM:WisperiteBrickPillar",
+      "~CUSTOM:WisperiteBrickWall",
+      "~CUSTOM:WisperiteBrickSlab",
+      "~CUSTOM:WisperiteBrickStairs",
+      "~CUSTOM:WisperiteBricks",
+      "~CUSTOM:CharredRedIronBlock",
+      "~CUSTOM:MiningTowerTrapdoor",
+      "~CUSTOM:ServoMotorPart",
+      "~CUSTOM:FaultyGlowingRedIronBlock",
+      "~CUSTOM:MiningTowerInteriorMotorizedCable",
+      "~CUSTOM:DarkIronBlock",
+      "~CUSTOM:GlowingRedIronBlock",
+      "~CUSTOM:RedIronBlockCaution",
+      "~CUSTOM:RedIronBlockRobot",
+      "~CUSTOM:RivetedIronBlock",
+      "~CUSTOM:RedIronBlockMeshFloor",
+      "~CUSTOM:RedIronBlockFrame",
+      "~CUSTOM:RedIronBlockPillar",
+      "~CUSTOM:RedIronBlockSlab",
+      "~CUSTOM:RedIronBlockStairs",
+      "~CUSTOM:SpaceBridgeFrame",
+      "~CUSTOM:WisperiteGrassBlock",
+      "~CUSTOM:Wisperite",
+      "~CUSTOM:RedIronBlock"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:WispwoodFence"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:WisperiteBrickWall"
+    ],
+    "ITEMS:minecraft:wooden_doors": [
+      "CUSTOM:WispwoodDoor"
+    ],
+    "ITEMS:minecraft:wooden_slabs": [
+      "CUSTOM:WispwoodSlab"
+    ],
+    "BLOCKS:minecraft:beacon_base_blocks": [
+      "CUSTOM:RedIronBlock"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.sonicraft_plus.white_wispon": "Wispon",
+      "block.sonicraft_plus.space_bridge_frame": "Space Bridge Frame",
+      "item.sonicraft_plus.cosmo_spawn_egg": "Cosmo Spawn Egg",
+      "entity.sonicraft_plus.yellow_wisp": "Yellow Wisp",
+      "entity.sonicraft_plus.sally_acorn": "Sally Acorn",
+      "subtitles.wisp.obtain": "",
+      "entity.sonicraft_plus.mighty": "Mighty",
+      "item.sonicraft_plus.red_wispon": "Burst Wispon",
+      "item.sonicraft_plus.red_iron_ingot": "Red Iron",
+      "block.sonicraft_plus.orange_wisp_capsule": "Orange Wisp Capsule",
+      "subtitles.rocket.active": "",
+      "effect.rocket_effect": "Orange Rocket",
+      "entity.sonicraft_plus.void_wispon_projectile": "Violet Void",
+      "block.sonicraft_plus.blue_spring": "Classic Blue Spring",
+      "block.sonicraft_plus.red_iron_block_stairs": "Block of Red Iron Stairs",
+      "entity.sonicraft_plus.cyan_wisp": "Cyan Wisp",
+      "block.sonicraft_plus.wisperite_grass_block": "Wisperite Grass Block",
+      "block.sonicraft_plus.wispwood_planks": "Wispwood Planks",
+      "item.sonicraft_plus.orange_wisp_spawn_egg": "Orange Wisp Spawn Egg",
+      "block.sonicraft_plus.cosmo_flower_pot": "Flower Pot with Seedrian Seed",
+      "subtitles.cube.activetick": "",
+      "effect.sonicraft_plus.boost_effect": "White Boost",
+      "block.sonicraft_plus.laser_prism": "Laser Prism",
+      "item.sonicraft_plus.ray_spawn_egg": "Ray Spawn Egg",
+      "item.sonicraft_plus.pink_wisp_spawn_egg": "Pink Wisp Spawn Egg",
+      "effect.laser_effect": "Cyan Laser",
+      "block.sonicraft_plus.red_iron_block_frame": "Red Iron Frame",
+      "item_group.sonicraft_plus.sonicraft_plus_items": "SoniCraft Plus",
+      "effect.boost_effect": "White Boost",
+      "block.sonicraft_plus.faulty_glowing_red_iron_block": "Faulty Glowing Block of Red Iron",
+      "block.sonicraft_plus.blue_wisp_block": "Blue Wisp Block",
+      "effect.wispon_cube_effect": "Blue Cube",
+      "block.sonicraft_plus.servo_motor_part": "Mining Tower Servo Motor Part",
+      "subtitles.cube.ticking": "",
+      "block.sonicraft_plus.wisperite_brick_pillar": "Wisperite Brick Pillar",
+      "entity.sonicraft_plus.orange_wisp": "Orange Wisp",
+      "item.sonicraft_plus.yellow_wispon": "Drill Wispon",
+      "subtitles.spikes.active": "",
+      "subtitles.blaster.shot": "",
+      "subtitles.mob.wisphurt": "",
+      "biome.sonicraft_plus.doctors_mine": "Doctor\u0027s Mine",
+      "item.sonicraft_plus.white_wisp_spawn_egg": "White Wisp Spawn Egg",
+      "effect.sonicraft_plus.laser_effect": "Cyan Laser",
+      "subtitles.wispon.hover.attack": "",
+      "item.sonicraft_plus.violet_wisp_spawn_egg": "Violet Wisp Spawn Egg",
+      "subtitles.laser.shot": "",
+      "block.sonicraft_plus.wispwood_trapdoor": "Wispwood Trapdoor",
+      "subtitles.mob.wispdie": "",
+      "item.sonicraft_plus.red_iron_nugget": "Red Iron Nugget",
+      "effect.sonicraft_plus.rocket_effect": "Orange Rocket",
+      "item.sonicraft_fc.seedrian_seed": "Seedrian Seed",
+      "effect.rocket_recovery": "Orange Rocket",
+      "block.sonicraft_plus.dark_iron_block": "Dark Block of Iron",
+      "subtitles.wispon.void.attack": "",
+      "subtitles.wispon.cube.attack": "",
+      "block.sonicraft_plus.white_wisp_capsule": "White Wisp Capsule",
+      "effect.sonicraft_plus.cube_effect": "Blue Cube",
+      "effect.sonicraft_plus.drill_effect": "Yellow Drill",
+      "entity.sonicraft_plus.blue_wisp_change_trigger": "entity.sonicraft_plus.blue_wisp_change_trigger",
+      "effect.sonicraft_plus.void_effect": "Violet Void",
+      "block.sonicraft_plus.red_iron_block": "Block of Red Iron",
+      "subtitles.ring.collect": "",
+      "subtitles.mob.tanktreads": "",
+      "item.sonicraft_plus.violet_wispon": "Void Wispon",
+      "block.sonicraft_plus.wispwood_wood": "Wispwood Wood",
+      "effect.cube_effect": "Blue Cube",
+      "effect.void_effect": "Violet Void",
+      "itemGroup.tabsonicraft_plus_items": "SoniCraft Plus",
+      "effect.sonicraft_plus.ghost_effect": "Jade Ghost",
+      "entity.sonicraft_plus.mining_tower": "Eggman Industries Mining Tower",
+      "block.sonicraft_plus.red_iron_block_robot": "Robotic Block of Red Iron",
+      "effect.sonicraft_plus.hover_effect": "Green Hover",
+      "subtitles.wispon.burst.attack": "",
+      "subtitles.mob.jump": "",
+      "effect.ghost_effect": "Jade Ghost",
+      "subtitles.cube.fall": "",
+      "entity.sonicraft_plus.violet_wisp": "Violet Wisp",
+      "entity.sonicraft_plus.blue_wisp": "Blue Wisp",
+      "entity.sonicraft_plus.purple_wisp": "Purple Wisp",
+      "item.sonicraft_plus.cyan_wisp_spawn_egg": "Cyan Wisp Spawn Egg",
+      "block.sonicraft_plus.used_blue_spring": "Blue Spring",
+      "item.sonicraft_plus.planet_wisp": "Flint and Prism",
+      "block.sonicraft_plus.red_iron_block_caution": "Caution Tape Block of Red Iron",
+      "effect.drill_effect": "Yellow Drill",
+      "subtitles.spring.use": "",
+      "block.sonicraft_plus.wispwood_door": "Wispwood Door",
+      "item.sonicraft_plus.blue_wisp_spawn_egg": "Blue Wisp Spawn Egg",
+      "item.sonicraft_plus.wispon_frame": "Wispon Frame",
+      "block.sonicraft_plus.wisp_capsule": "Wisp Capsule",
+      "block.sonicraft_plus.pink_wisp_capsule": "Pink Wisp Capsule",
+      "block.sonicraft_plus.wispwood_stairs": "Wispwood Stairs",
+      "block.sonicraft_plus.wisperite_brick_stairs": "Wisperite Brick Stairs",
+      "block.sonicraft_plus.green_wisp_capsule": "Green Wisp Capsule",
+      "block.sonicraft_plus.red_iron_block_slab": "Block of Red Iron Slab",
+      "subtitles.cube.land": "",
+      "entity.sonicraft_fc.cosmo": "Cosmo",
+      "item.sonicraft_plus.mighty_spawn_egg": "Mighty Spawn Egg",
+      "block.sonicraft_plus.wisperite": "Wisperite",
+      "block.sonicraft_plus.red_iron_block_pillar": "Block of Red Iron Pillar",
+      "subtitles.wispon.drill.attack": "",
+      "subtitles.burst.active": "",
+      "block.sonicraft_plus.wispwood_slab": "Wispwood Slab",
+      "subtitles.hover.active": "",
+      "item.sonicraft_plus.yellow_wisp_spawn_egg": "Yellow Wisp Spawn Egg",
+      "entity.sonicraft_plus.wispon_cube_trap": "Blue Cube",
+      "entity.sonicraft_plus.ray": "Ray",
+      "item.sonicraft_plus.green_wisp_spawn_egg": "Green Wisp Spawn Egg",
+      "block.sonicraft_plus.cyan_wisp_capsule": "Cyan Wisp Capsule",
+      "block.sonicraft_plus.blue_wisp_capsule": "Blue Wisp Capsule",
+      "block.sonicraft_plus.wispon_workbench": "Wispon Workbench",
+      "subtitles.laser.active": "",
+      "block.sonicraft_plus.blue_wisp_ring": "Blue Wisp Ring",
+      "item.sonicraft_plus.purple_wisp_spawn_egg": "Purple Wisp Spawn Egg",
+      "subtitles.drill.wispon.attack": "",
+      "biome.sonicraft_plus.mothers_canyon": "Mother\u0027s Canyon",
+      "block.sonicraft_plus.fragile_chaostone": "Fragile Chaostone",
+      "block.sonicraft_plus.wisperite_brick_slab": "Wisperite Brick Slab",
+      "block.sonicraft_plus.fragile_wisperite": "Fragile Wisperite",
+      "item.sonicraft_fc.cosmo_spawn_egg": "Cosmo Spawn Egg",
+      "item.sonicraft_plus.mining_tower_spawn_egg": "Eggman Industries Mining Tower Spawn Egg",
+      "block.sonicraft_plus.wispwood_log": "Wispwood Log",
+      "entity.sonicraft_plus.red_wisp": "Red Wisp",
+      "block.sonicraft_plus.mining_tower_trapdoor": "Mining Tower Trapdoor",
+      "subtitles.drill.active": "",
+      "block.sonicraft_plus.wispwood_leaves": "Wispwood Leaves",
+      "item.sonicraft_plus.sally_acorn_spawn_egg": "Sally Acorn Spawn Egg",
+      "entity.sonicraft_plus.mighty_ball": "Mighty",
+      "effect.hover_effect": "Green Hover",
+      "effect.sonicraft_plus.wispon_cube_effect": "Blue Cube",
+      "block.sonicraft_plus.wispwood_fence": "Wispwood Fence",
+      "effect.sonicraft_plus.burst_effect": "Red Burst",
+      "effect.sonicraft_plus.rocket_recovery": "Orange Rocket",
+      "item.sonicraft_plus.jade_wisp_spawn_egg": "Jade Wisp Spawn Egg",
+      "entity.sonicraft_plus.jade_wisp": "Jade Wisp",
+      "item.sonicraft_plus.red_wisp_spawn_egg": "Red Wisp Spawn Egg",
+      "block.sonicraft_plus.wisperite_bricks": "Wisperite Bricks",
+      "subtitles.mob.wispidle": "",
+      "block.sonicraft_plus.riveted_iron_block": "Riveted Block of Iron",
+      "subtitles.cube.ring.collect": "",
+      "item.sonicraft_plus.seedrian_seed": "Seedrian Seed",
+      "block.sonicraft_plus.red_wisp_capsule": "Red Wisp Capsule",
+      "entity.sonicraft_plus.white_wisp": "White Wisp",
+      "block.sonicraft_plus.mining_tower_interior_cable": "Mining Tower Interior Cable",
+      "item.sonicraft_plus.wispon_bullet": "item.sonicraft_plus.wispon_bullet",
+      "subtitles.wispon.drill.charge": "",
+      "entity.sonicraft_plus.ray_gliding": "Ray",
+      "block.sonicraft_plus.mining_tower_interior_motorized_cable": "Mining Tower Motorized Interior Cable",
+      "block.sonicraft_plus.wisperite_brick_wall": "Wisperite Brick Wall",
+      "key.sonicraft_plus.wisp_power_activate": "Activate Color Power",
+      "block.sonicraft_plus.iron_industrial_fence": "Industrial Iron Fence",
+      "block.sonicraft_plus.glowing_red_iron_block": "Glowing Block of Red Iron",
+      "block.sonicraft_fc.cosmo_flower_pot": "Flower Pot with Seedrian Seed",
+      "effect.burst_effect": "Red Burst",
+      "block.sonicraft_plus.charred_red_iron_block": "Charred Block of Red Iron",
+      "entity.sonicraft_plus.pink_wisp": "Pink Wisp",
+      "entity.sonicraft_plus.cosmo": "Cosmo",
+      "block.sonicraft_plus.chiseled_wisperite_bricks": "Chiseled Wisperite Bricks",
+      "biome.sonicraft_plus.wispy_woods": "Wispy Woods",
+      "block.sonicraft_plus.wispwood_fence_gate": "Wispwood Fence Gate",
+      "item.sonicraft_plus.blue_wispon": "Cube Wispon",
+      "subtitles.jade.active": "",
+      "block.sonicraft_plus.violet_wisp_capsule": "Violet Wisp Capsule",
+      "block.sonicraft_plus.purple_wisp_capsule": "Purple Wisp Capsule",
+      "block.sonicraft_plus.jade_wisp_capsule": "Jade Wisp Capsule",
+      "entity.sonicraft_plus.mighty_hammer_drop": "Mighty",
+      "item.sonicraft_plus.green_wispon": "Hover Wispon",
+      "subtitles.boost.active": "",
+      "subtitles.frenzy.active": "",
+      "block.sonicraft_plus.yellow_wisp_capsule": "Yellow Wisp Capsule",
+      "subtitles.void.active": "",
+      "subtitles.cube.active": "",
+      "item.sonicraft_plus.sonicraft_plus_symbol": "SoniCraft Plus Symbol",
+      "subtitles.mighty.hammerdrop": "",
+      "block.sonicraft_plus.red_iron_block_mesh_floor": "Red Iron Mesh Floor",
+      "entity.sonicraft_plus.green_wisp": "Green Wisp"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Springs",
+        "children": []
+      },
+      {
+        "name": "Wisps",
+        "children": []
+      },
+      {
+        "name": "Planet Wisp",
+        "children": []
+      },
+      {
+        "name": "Wispons",
+        "children": []
+      },
+      {
+        "name": "Characters",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "sonicraft_plus",
+    "modName": "SoniCraft Plus",
+    "version": "1.1.0",
+    "description": "This is a DLC pack for SoniCraft that adds some more characters to the roster, and more blocks to fool around with.",
+    "author": "EnderPreston",
+    "websiteURL": "https://enderpreston.wixsite.com/sonicraft/",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
+    "serverSideOnly": false,
+    "modPicture": "sonicraft_plus_logo",
+    "requiredMods": [
+      "sonicraft"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Cosmo skin edited from the official #SaveCosmo Cosmo skin, with permission from the people who run the project.",
+    "modElementsPackage": "net.mcreator.sonicraft_plus"
+  },
+  "mcreatorVersion": 202400342716
+}

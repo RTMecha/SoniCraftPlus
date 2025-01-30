@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "particle": "sonicraft_plus:block/iron_mesh_fence",
+    "edge": "sonicraft_plus:block/iron_mesh_fence",
+    "pane": "sonicraft_plus:block/iron_mesh_fence"
+  },
+  "render_type": "cutout"
+}

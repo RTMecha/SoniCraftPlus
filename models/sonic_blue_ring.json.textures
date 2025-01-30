@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "ring": "blue_ring",
+        "block": "blue_block"
+      },
+      "name": "default"
+    }
+  }
+}

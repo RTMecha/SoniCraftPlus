@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft_plus:block/wispwood_leaves",
+    "particle": "sonicraft_plus:block/wispwood_leaves"
+  }
+}

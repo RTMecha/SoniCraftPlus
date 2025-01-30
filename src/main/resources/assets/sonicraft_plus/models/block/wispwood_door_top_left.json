@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left",
+  "textures": {
+    "particle": "sonicraft_plus:block/wispwood_door_bottom",
+    "bottom": "sonicraft_plus:block/wispwood_door_bottom",
+    "top": "sonicraft_plus:block/wispwood_door_top"
+  },
+  "render_type": "cutout"
+}

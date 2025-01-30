@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "sonicraft_plus:wispy_woods",
+    "sonicraft_plus:mothers_canyon"
+  ],
+  "features": "sonicraft_plus:wispwood_tree_feature",
+  "step": "surface_structures"
+}

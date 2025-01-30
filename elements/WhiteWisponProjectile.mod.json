@@ -1,0 +1,21 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:WisponBullet"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:blaster.shot"
+    },
+    "igniteFire": false,
+    "power": 4.800000000000001,
+    "damage": 0.4,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

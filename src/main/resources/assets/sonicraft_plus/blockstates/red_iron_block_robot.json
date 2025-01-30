@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft_plus:block/red_iron_block_robot"
+    },
+    "facing=east": {
+      "model": "sonicraft_plus:block/red_iron_block_robot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft_plus:block/red_iron_block_robot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft_plus:block/red_iron_block_robot",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "sonicraft_plus:wispy_woods",
+    "sonicraft_plus:mothers_canyon"
+  ],
+  "spawners": {
+    "type": "sonicraft_plus:blue_wisp",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "sonicraft_plus:charred_red_iron_block",
+    "sonicraft_plus:servo_motor_part",
+    "sonicraft_plus:faulty_glowing_red_iron_block",
+    "sonicraft_plus:dark_iron_block",
+    "sonicraft_plus:glowing_red_iron_block",
+    "sonicraft_plus:red_iron_block_caution",
+    "sonicraft_plus:red_iron_block_robot",
+    "sonicraft_plus:riveted_iron_block",
+    "sonicraft_plus:red_iron_block_mesh_floor",
+    "sonicraft_plus:red_iron_block_frame",
+    "sonicraft_plus:red_iron_block_pillar",
+    "sonicraft_plus:red_iron_block_slab",
+    "sonicraft_plus:red_iron_block_stairs",
+    "sonicraft_plus:red_iron_block"
+  ]
+}

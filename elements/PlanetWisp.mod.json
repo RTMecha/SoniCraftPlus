@@ -1,0 +1,52 @@
+{
+  "_fv": 69,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:WispyWoods"
+      },
+      {
+        "value": "CUSTOM:DoctorsMine"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Wisperite"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:SpaceBridgeFrame"
+    },
+    "portalParticles": {
+      "value": "WHITE_ASH"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.beacon.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Flint and Prism",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SonicraftPlusItems"
+      }
+    ],
+    "texture": "flint_and_prism",
+    "portalTexture": "space_bridge",
+    "enablePortal": true
+  }
+}

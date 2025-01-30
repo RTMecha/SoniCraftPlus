@@ -1,0 +1,81 @@
+{
+  "mappings": {
+    "orange": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "wisp_orange"
+      },
+      "name": "orange"
+    },
+    "red": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "wisp_red"
+      },
+      "name": "red"
+    },
+    "default": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "wisp_white"
+      },
+      "name": "default"
+    },
+    "pink": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "wisp_pink"
+      },
+      "name": "pink"
+    },
+    "green": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "wisp_green"
+      },
+      "name": "green"
+    },
+    "blue": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "wisp_blue"
+      },
+      "name": "blue"
+    },
+    "yellow": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "wisp_yellow"
+      },
+      "name": "yellow"
+    },
+    "violet": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "wisp_violet"
+      },
+      "name": "violet"
+    },
+    "purple": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "wisp_purple"
+      },
+      "name": "purple"
+    },
+    "cyan": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "wisp_cyan"
+      },
+      "name": "cyan"
+    },
+    "empty": {
+      "map": {
+        "capsule": "wisp_capsule",
+        "wisp": "no_wisp"
+      },
+      "name": "empty"
+    }
+  }
+}

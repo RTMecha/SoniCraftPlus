@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sonicraft_plus:wispwood_planks"
+    }
+  },
+  "result": {
+    "item": "sonicraft_plus:wispwood_trapdoor",
+    "count": 1
+  }
+}

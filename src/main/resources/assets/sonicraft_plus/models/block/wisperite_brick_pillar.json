@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft_plus:block/wisperite_pillar_top",
+    "up": "sonicraft_plus:block/wisperite_pillar_top",
+    "north": "sonicraft_plus:block/wisperite_pillar",
+    "east": "sonicraft_plus:block/wisperite_pillar",
+    "south": "sonicraft_plus:block/wisperite_pillar",
+    "west": "sonicraft_plus:block/wisperite_pillar",
+    "particle": "sonicraft_plus:block/wisperite_pillar_top"
+  },
+  "render_type": "solid"
+}

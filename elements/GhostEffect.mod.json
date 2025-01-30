@@ -1,0 +1,28 @@
+{
+  "_fv": 69,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Jade Ghost",
+    "icon": "wisp_effect_jade.png",
+    "color": {
+      "value": -16724890,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onStarted": {
+      "name": "GhostEffectPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "GhostEffectOnPotionActiveTick"
+    },
+    "onExpired": {
+      "name": "GhostEffectPotionExpires"
+    }
+  }
+}

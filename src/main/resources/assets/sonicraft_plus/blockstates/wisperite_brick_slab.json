@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft_plus:block/wisperite_brick_slab"
+    },
+    "type=top": {
+      "model": "sonicraft_plus:block/wisperite_brick_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft_plus:block/wisperite_brick_slab_full"
+    }
+  }
+}
