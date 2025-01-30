@@ -13,6 +13,11 @@ This file is for organizing who is contributing and what they'll be contributing
 ### Dupli
 - Assets
 
+### Jubblyo
+- Upgrades with Curios
+- New Structures for Existing Zones
+- Animation
+
 ### Ideas guy
 - Implementing the 8-bit games
 
