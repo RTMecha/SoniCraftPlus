@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class RedIronBlockSlabBlock extends SlabBlock {
 	public RedIronBlockSlabBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_RED).sound(SoundType.METAL).strength(5f, 6f).requiresCorrectToolForDrops().dynamicShape());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_RED).sound(SoundType.METAL).strength(5f, 6f).requiresCorrectToolForDrops());
 	}
 
 	@Override

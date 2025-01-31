@@ -10,7 +10,7 @@ import net.mcreator.sonicraft_plus.client.model.Modelsonic_ball_hammer_drop;
 
 public class MightyHammerDropRenderer extends MobRenderer<MightyHammerDropEntity, Modelsonic_ball_hammer_drop<MightyHammerDropEntity>> {
 	public MightyHammerDropRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelsonic_ball_hammer_drop(context.bakeLayer(Modelsonic_ball_hammer_drop.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelsonic_ball_hammer_drop<MightyHammerDropEntity>(context.bakeLayer(Modelsonic_ball_hammer_drop.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

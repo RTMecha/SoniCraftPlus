@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class MiningTowerTrapdoorBlock extends TrapDoorBlock {
 	public MiningTowerTrapdoorBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_RED).sound(SoundType.LANTERN).strength(1.8f, 6f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape(), BlockSetType.IRON);
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_RED).sound(SoundType.LANTERN).strength(1.8f, 6f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false), BlockSetType.IRON);
 	}
 
 	@Override

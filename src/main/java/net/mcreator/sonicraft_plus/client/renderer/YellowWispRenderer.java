@@ -10,7 +10,7 @@ import net.mcreator.sonicraft_plus.client.model.Modelwisp;
 
 public class YellowWispRenderer extends MobRenderer<YellowWispEntity, Modelwisp<YellowWispEntity>> {
 	public YellowWispRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelwisp(context.bakeLayer(Modelwisp.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelwisp<YellowWispEntity>(context.bakeLayer(Modelwisp.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

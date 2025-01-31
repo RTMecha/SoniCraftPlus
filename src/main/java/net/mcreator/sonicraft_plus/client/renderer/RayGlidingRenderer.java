@@ -10,7 +10,7 @@ import net.mcreator.sonicraft_plus.client.model.Modelray_gliding;
 
 public class RayGlidingRenderer extends MobRenderer<RayGlidingEntity, Modelray_gliding<RayGlidingEntity>> {
 	public RayGlidingRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelray_gliding(context.bakeLayer(Modelray_gliding.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelray_gliding<RayGlidingEntity>(context.bakeLayer(Modelray_gliding.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

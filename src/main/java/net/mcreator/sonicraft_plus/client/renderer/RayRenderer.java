@@ -10,7 +10,7 @@ import net.mcreator.sonicraft_plus.client.model.Modelray;
 
 public class RayRenderer extends MobRenderer<RayEntity, Modelray<RayEntity>> {
 	public RayRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelray(context.bakeLayer(Modelray.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelray<RayEntity>(context.bakeLayer(Modelray.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

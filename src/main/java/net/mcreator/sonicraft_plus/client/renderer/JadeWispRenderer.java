@@ -10,7 +10,7 @@ import net.mcreator.sonicraft_plus.client.model.Modeljade_wisp;
 
 public class JadeWispRenderer extends MobRenderer<JadeWispEntity, Modeljade_wisp<JadeWispEntity>> {
 	public JadeWispRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modeljade_wisp(context.bakeLayer(Modeljade_wisp.LAYER_LOCATION)), 0.5f);
+		super(context, new Modeljade_wisp<JadeWispEntity>(context.bakeLayer(Modeljade_wisp.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

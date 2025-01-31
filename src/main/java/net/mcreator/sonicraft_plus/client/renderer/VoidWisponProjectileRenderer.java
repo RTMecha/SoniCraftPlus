@@ -10,7 +10,7 @@ import net.mcreator.sonicraft_plus.client.model.Modelsonic_ball;
 
 public class VoidWisponProjectileRenderer extends MobRenderer<VoidWisponProjectileEntity, Modelsonic_ball<VoidWisponProjectileEntity>> {
 	public VoidWisponProjectileRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelsonic_ball(context.bakeLayer(Modelsonic_ball.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelsonic_ball<VoidWisponProjectileEntity>(context.bakeLayer(Modelsonic_ball.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

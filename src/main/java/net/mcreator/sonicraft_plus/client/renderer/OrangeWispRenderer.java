@@ -10,7 +10,7 @@ import net.mcreator.sonicraft_plus.client.model.Modelwisp;
 
 public class OrangeWispRenderer extends MobRenderer<OrangeWispEntity, Modelwisp<OrangeWispEntity>> {
 	public OrangeWispRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelwisp(context.bakeLayer(Modelwisp.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelwisp<OrangeWispEntity>(context.bakeLayer(Modelwisp.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

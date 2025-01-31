@@ -10,7 +10,7 @@ import net.mcreator.sonicraft_plus.client.model.Modelmighty;
 
 public class MightyRenderer extends MobRenderer<MightyEntity, Modelmighty<MightyEntity>> {
 	public MightyRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelmighty(context.bakeLayer(Modelmighty.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelmighty<MightyEntity>(context.bakeLayer(Modelmighty.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

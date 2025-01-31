@@ -17,7 +17,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class MiningTowerRenderer extends MobRenderer<MiningTowerEntity, Modelmining_tower<MiningTowerEntity>> {
 	public MiningTowerRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelmining_tower(context.bakeLayer(Modelmining_tower.LAYER_LOCATION)), 15f);
+		super(context, new Modelmining_tower<MiningTowerEntity>(context.bakeLayer(Modelmining_tower.LAYER_LOCATION)), 15f);
 		this.addLayer(new RenderLayer<MiningTowerEntity, Modelmining_tower<MiningTowerEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("sonicraft_plus:textures/entities/mining_tower_glow.png");
 

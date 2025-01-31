@@ -131,6 +131,8 @@ public class SonicraftPlusModEntities {
 	public static final RegistryObject<EntityType<VioletWisponProjectileEntity>> VIOLET_WISPON_PROJECTILE = register("violet_wispon_projectile", EntityType.Builder.<VioletWisponProjectileEntity>of(VioletWisponProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(VioletWisponProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
+	// Start of user code block custom entities
+	// End of user code block custom entities
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
 	}

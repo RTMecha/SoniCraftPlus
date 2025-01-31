@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class RedIronBlockMeshFloorBlock extends SlabBlock {
 	public RedIronBlockMeshFloorBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_RED).sound(SoundType.LANTERN).strength(2.6f, 6f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_RED).sound(SoundType.LANTERN).strength(2.6f, 6f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

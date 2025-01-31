@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "livingentity",
   "definition": {
     "mobName": "Mighty",
@@ -7,6 +7,7 @@
     "mobModelName": "Modelmighty",
     "mobModelTexture": "mighty.png",
     "modelLayers": [],
+    "animations": [],
     "modelWidth": 0.5,
     "modelHeight": 0.9,
     "modelShadowSize": 0.5,
@@ -63,7 +64,6 @@
       "fixedValue": true
     },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,

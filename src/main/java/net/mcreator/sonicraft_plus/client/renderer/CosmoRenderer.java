@@ -10,7 +10,7 @@ import net.mcreator.sonicraft_plus.client.model.Modelcosmo;
 
 public class CosmoRenderer extends MobRenderer<CosmoEntity, Modelcosmo<CosmoEntity>> {
 	public CosmoRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelcosmo(context.bakeLayer(Modelcosmo.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelcosmo<CosmoEntity>(context.bakeLayer(Modelcosmo.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

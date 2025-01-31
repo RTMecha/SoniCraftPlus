@@ -102,7 +102,5 @@ public class SonicraftPlusModTabs {
 				tabData.accept(SonicraftPlusModItems.YELLOW_WISPON.get());
 				tabData.accept(SonicraftPlusModItems.GREEN_WISPON.get());
 				tabData.accept(SonicraftPlusModItems.VIOLET_WISPON.get());
-			})
-
-					.build());
+			}).build());
 }

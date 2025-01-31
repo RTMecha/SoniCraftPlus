@@ -17,7 +17,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class WisponCubeTrapRenderer extends MobRenderer<WisponCubeTrapEntity, Modelwispon_cube_trap<WisponCubeTrapEntity>> {
 	public WisponCubeTrapRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelwispon_cube_trap(context.bakeLayer(Modelwispon_cube_trap.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelwispon_cube_trap<WisponCubeTrapEntity>(context.bakeLayer(Modelwispon_cube_trap.LAYER_LOCATION)), 0.5f);
 		this.addLayer(new RenderLayer<WisponCubeTrapEntity, Modelwispon_cube_trap<WisponCubeTrapEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("sonicraft_plus:textures/entities/wispon_cube_trap.png");
 

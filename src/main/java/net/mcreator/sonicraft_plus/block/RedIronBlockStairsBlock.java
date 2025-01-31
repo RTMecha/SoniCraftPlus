@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class RedIronBlockStairsBlock extends StairBlock {
 	public RedIronBlockStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_RED).sound(SoundType.METAL).strength(5f, 6f).requiresCorrectToolForDrops().dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_RED).sound(SoundType.METAL).strength(5f, 6f).requiresCorrectToolForDrops());
 	}
 
 	@Override

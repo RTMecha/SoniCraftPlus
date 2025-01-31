@@ -44,7 +44,7 @@ public class PinkWispCapsuleBlock extends Block implements SimpleWaterloggedBloc
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("\uFFFD9WIP"));
+		list.add(Component.translatable("block.sonicraft_plus.pink_wisp_capsule.description_0"));
 	}
 
 	@Override

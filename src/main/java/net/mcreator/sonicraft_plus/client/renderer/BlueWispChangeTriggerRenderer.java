@@ -10,7 +10,7 @@ import net.mcreator.sonicraft_plus.client.model.Modelsonic_ball;
 
 public class BlueWispChangeTriggerRenderer extends MobRenderer<BlueWispChangeTriggerEntity, Modelsonic_ball<BlueWispChangeTriggerEntity>> {
 	public BlueWispChangeTriggerRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelsonic_ball(context.bakeLayer(Modelsonic_ball.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelsonic_ball<BlueWispChangeTriggerEntity>(context.bakeLayer(Modelsonic_ball.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

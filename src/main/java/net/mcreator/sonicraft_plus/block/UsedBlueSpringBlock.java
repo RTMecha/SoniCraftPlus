@@ -51,8 +51,8 @@ public class UsedBlueSpringBlock extends Block implements SimpleWaterloggedBlock
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("(From Knuckles' Chaotix)"));
-		list.add(Component.literal("\uFFFD9Bounce Power: \uFFFDcHigh"));
+		list.add(Component.translatable("block.sonicraft_plus.used_blue_spring.description_0"));
+		list.add(Component.translatable("block.sonicraft_plus.used_blue_spring.description_1"));
 	}
 
 	@Override
