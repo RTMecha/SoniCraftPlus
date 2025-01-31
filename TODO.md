@@ -20,5 +20,3 @@ This file is for organizing who is contributing and what they'll be contributing
 
 ### Ideas guy
 - Implementing the 8-bit games
-
-test
