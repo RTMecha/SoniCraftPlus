@@ -3,6 +3,7 @@ This file is for organizing who is contributing and what they'll be contributing
 ### MLGSuperSonicGamer
 - Animation
 - Modeling
+- Structures
 
 ### Real
 - Entities
