@@ -24,4 +24,4 @@ This file is for organizing who is contributing and what they'll be contributing
 - Implementing the 8-bit games
 
 ### SuperGamerGooby
--  Helping MLGSuperSonicGamer with structures and finilizing them
+-  Helping MLGSuperSonicGamer with structures and finalizing them
