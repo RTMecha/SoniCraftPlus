@@ -4,6 +4,7 @@
 This mod was made using [MCreator](https://mcreator.net/) with the following plugins:
 
 - [GeckoLib](https://mcreator.net/plugin/91484/nerdys-geckolib-plugin-forge-1182-1192)
+- [Mod Compiler](https://mcreator.net/plugin/109130/lyivxs-mod-compiler-now-20242)
 
 Credits:
 - EnderPreston for the original mod and starting the community addon project.
