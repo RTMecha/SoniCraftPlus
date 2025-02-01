@@ -17,6 +17,7 @@ import net.mcreator.sonicraft_plus.potion.RocketEffectMobEffect;
 import net.mcreator.sonicraft_plus.potion.LaserEffectMobEffect;
 import net.mcreator.sonicraft_plus.potion.HoverEffectMobEffect;
 import net.mcreator.sonicraft_plus.potion.GhostEffectMobEffect;
+import net.mcreator.sonicraft_plus.potion.FuseMobEffect;
 import net.mcreator.sonicraft_plus.potion.DrillEffectMobEffect;
 import net.mcreator.sonicraft_plus.potion.CubeEffectMobEffect;
 import net.mcreator.sonicraft_plus.potion.BurstEffectMobEffect;
@@ -36,4 +37,5 @@ public class SonicraftPlusModMobEffects {
 	public static final RegistryObject<MobEffect> HOVER_EFFECT = REGISTRY.register("hover_effect", () -> new HoverEffectMobEffect());
 	public static final RegistryObject<MobEffect> WISPON_CUBE_EFFECT = REGISTRY.register("wispon_cube_effect", () -> new WisponCubeEffectMobEffect());
 	public static final RegistryObject<MobEffect> GHOST_EFFECT = REGISTRY.register("ghost_effect", () -> new GhostEffectMobEffect());
+	public static final RegistryObject<MobEffect> FUSE = REGISTRY.register("fuse", () -> new FuseMobEffect());
 }

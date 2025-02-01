@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 69,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Cyan Laser",
@@ -15,7 +15,6 @@
     "isCuredByMilk": true,
     "isProtectedByTotem": true,
     "isCuredbyHoney": false,
-    "modifiers": [],
     "onStarted": {
       "name": "LaserEffectPotionStartedapplied"
     },

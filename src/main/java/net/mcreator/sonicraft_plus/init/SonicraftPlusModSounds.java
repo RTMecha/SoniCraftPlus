@@ -46,4 +46,5 @@ public class SonicraftPlusModSounds {
 	public static final RegistryObject<SoundEvent> WISPON_VOID_ATTACK = REGISTRY.register("wispon.void.attack", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("sonicraft_plus", "wispon.void.attack")));
 	public static final RegistryObject<SoundEvent> WISPON_CUBE_ATTACK = REGISTRY.register("wispon.cube.attack", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("sonicraft_plus", "wispon.cube.attack")));
 	public static final RegistryObject<SoundEvent> JADE_ACTIVE = REGISTRY.register("jade.active", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("sonicraft_plus", "jade.active")));
+	public static final RegistryObject<SoundEvent> BADNIK_DEATH = REGISTRY.register("badnik_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("sonicraft_plus", "badnik_death")));
 }

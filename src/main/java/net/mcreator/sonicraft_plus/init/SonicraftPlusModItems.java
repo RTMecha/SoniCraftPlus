@@ -118,6 +118,16 @@ public class SonicraftPlusModItems {
 	public static final RegistryObject<Item> YELLOW_WISPON = REGISTRY.register("yellow_wispon", () -> new YellowWisponItem());
 	public static final RegistryObject<Item> GREEN_WISPON = REGISTRY.register("green_wispon", () -> new GreenWisponItem());
 	public static final RegistryObject<Item> VIOLET_WISPON = REGISTRY.register("violet_wispon", () -> new VioletWisponItem());
+	public static final RegistryObject<Item> BRIDGEZONE_GRASS = block(SonicraftPlusModBlocks.BRIDGEZONE_GRASS);
+	public static final RegistryObject<Item> BRIDGEZONEGRASSBLOCK = block(SonicraftPlusModBlocks.BRIDGEZONEGRASSBLOCK);
+	public static final RegistryObject<Item> BRIDGEZONEGRASS_STAIRS = block(SonicraftPlusModBlocks.BRIDGEZONEGRASS_STAIRS);
+	public static final RegistryObject<Item> BRIDGEZONEGRASSSLAB = block(SonicraftPlusModBlocks.BRIDGEZONEGRASSSLAB);
+	public static final RegistryObject<Item> BRIDGEZONEDIRT = block(SonicraftPlusModBlocks.BRIDGEZONEDIRT);
+	public static final RegistryObject<Item> BRIDGEZONEDIRTSTAIRS = block(SonicraftPlusModBlocks.BRIDGEZONEDIRTSTAIRS);
+	public static final RegistryObject<Item> BRIDGEZONEDIRTSLAB = block(SonicraftPlusModBlocks.BRIDGEZONEDIRTSLAB);
+	public static final RegistryObject<Item> NEWTRON_SPAWN_EGG = REGISTRY.register("newtron_spawn_egg", () -> new ForgeSpawnEggItem(SonicraftPlusModEntities.NEWTRON, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> NEWTRONBLUE_SPAWN_EGG = REGISTRY.register("newtronblue_spawn_egg", () -> new ForgeSpawnEggItem(SonicraftPlusModEntities.NEWTRONBLUE, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> BOMB_SPAWN_EGG = REGISTRY.register("bomb_spawn_egg", () -> new ForgeSpawnEggItem(SonicraftPlusModEntities.BOMB, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

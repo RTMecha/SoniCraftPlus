@@ -258,5 +258,14 @@
         "stream": false
       }
     ]
+  },
+  "badnik_death": {
+    "subtitle": "subtitles.badnik_death",
+    "sounds": [
+      {
+        "name": "sonicraft_plus:badnik-death-101soundboards",
+        "stream": false
+      }
+    ]
   }
 }

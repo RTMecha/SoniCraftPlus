@@ -4914,6 +4914,302 @@
         ]
       },
       "path": "~/Wispons"
+    },
+    {
+      "name": "BridgezoneGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bridgezone_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezone_grass.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezoneGrassBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezone_grass.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezone_grass.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezone_grass.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+    },
+    {
+      "name": "Bridgezonegrassblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bridgezonegrassblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonegrassblock.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassblock.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonegrassblock.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonegrassblockBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonegrassblock.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+    },
+    {
+      "name": "BridgezonegrassStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bridgezonegrass_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonegrass_stairs.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonegrassStairsBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonegrass_stairs.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonegrass_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrass_stairs_inner.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrass_stairs_outer.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrass_stairs.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+    },
+    {
+      "name": "Bridgezonegrassslab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bridgezonegrassslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonegrassslab.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonegrassslab.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonegrassslabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassslab_top.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassslab_full.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonegrassslab.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+    },
+    {
+      "name": "Bridgezonedirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bridgezonedirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonedirt.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonedirt.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonedirtBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirt.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonedirt.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+    },
+    {
+      "name": "Bridgezonedirtstairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bridgezonedirtstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonedirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtstairs_outer.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonedirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtstairs.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonedirtstairsBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonedirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtstairs_inner.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+    },
+    {
+      "name": "Bridgezonedirtslab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bridgezonedirtslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonedirtslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtslab_inner.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonedirtslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtslab_outer.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonedirtslab.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonedirtslabBlock.java"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+    },
+    {
+      "name": "Badnik_dies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "badnik_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/Badnik_diesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ideas guy additions/Badniks"
+    },
+    {
+      "name": "Newtron",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newtron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/NewtronRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/newtron_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/NewtronEntity.java",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/newtron_biome_modifier.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/model/NewtronModel.java"
+        ]
+      },
+      "path": "~/ideas guy additions/Badniks/green hill"
+    },
+    {
+      "name": "Newtronblue",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newtronblue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/entity/NewtronblueEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/model/NewtronblueModel.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/newtronblue_spawn_egg.json",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/newtronblue_biome_modifier.json",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/NewtronblueRenderer.java"
+        ]
+      },
+      "path": "~/ideas guy additions/Badniks/green hill"
+    },
+    {
+      "name": "BombOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/BombOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ideas guy additions/Badniks/scrap brain/Bomb"
+    },
+    {
+      "name": "Fuse",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/potion/FuseMobEffect.java"
+        ]
+      },
+      "path": "~/ideas guy additions/Badniks/scrap brain/Bomb"
+    },
+    {
+      "name": "Bomb",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/bomb_biome_modifier.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/bomb_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/BombEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/BombRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/model/BombModel.java"
+        ]
+      },
+      "path": "~/ideas guy additions/Badniks/scrap brain/Bomb"
+    },
+    {
+      "name": "FuseEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuse_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/procedures/FuseEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ideas guy additions/Badniks/scrap brain/Bomb"
     }
   ],
   "variable_elements": [
@@ -5253,6 +5549,14 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "badnik_death",
+      "files": [
+        "badnik-death-101soundboards"
+      ],
+      "category": "neutral",
+      "subtitle": "animal freed"
     }
   ],
   "tag_elements": {
@@ -5277,6 +5581,7 @@
       "~CUSTOM:WispwoodLeaves"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Bridgezonegrassslab",
       "~CUSTOM:WisperiteBrickSlab",
       "~CUSTOM:RedIronBlockMeshFloor",
       "~CUSTOM:RedIronBlockSlab",
@@ -5298,6 +5603,9 @@
       "CUSTOM:WispwoodLog"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Bridgezonedirtslab",
+      "~CUSTOM:Bridgezonedirtstairs",
+      "~CUSTOM:BridgezonegrassStairs",
       "~CUSTOM:WisperiteBrickStairs",
       "~CUSTOM:RedIronBlockStairs",
       "~CUSTOM:WispwoodStairs"
@@ -5393,15 +5701,103 @@
   "language_map": {
     "en_us": {
       "item.sonicraft_plus.white_wispon": "Wispon",
-      "entity.sonicraft_plus.yellow_wisp": "Yellow Wisp",
-      "item.sonicraft_plus.cosmo_spawn_egg": "Cosmo Spawn Egg",
-      "block.sonicraft_plus.space_bridge_frame": "Space Bridge Frame",
       "entity.sonicraft_plus.sally_acorn": "Sally Acorn",
       "subtitles.wisp.obtain": "",
       "entity.sonicraft_plus.mighty": "Mighty",
       "item.sonicraft_plus.red_wispon": "Burst Wispon",
-      "item.sonicraft_plus.red_iron_ingot": "Red Iron",
       "block.sonicraft_plus.orange_wisp_capsule": "Orange Wisp Capsule",
+      "block.sonicraft_plus.wispwood_planks": "Wispwood Planks",
+      "block.sonicraft_plus.cosmo_flower_pot": "Flower Pot with Seedrian Seed",
+      "subtitles.cube.activetick": "",
+      "block.sonicraft_plus.laser_prism": "Laser Prism",
+      "item.sonicraft_plus.pink_wisp_spawn_egg": "Pink Wisp Spawn Egg",
+      "item_group.sonicraft_plus.sonicraft_plus_items": "SoniCraft Plus",
+      "block.sonicraft_plus.blue_wisp_block": "Blue Wisp Block",
+      "block.sonicraft_plus.servo_motor_part": "Mining Tower Servo Motor Part",
+      "subtitles.cube.ticking": "",
+      "block.sonicraft_plus.wisperite_brick_pillar": "Wisperite Brick Pillar",
+      "entity.sonicraft_plus.orange_wisp": "Orange Wisp",
+      "item.sonicraft_plus.yellow_wispon": "Drill Wispon",
+      "subtitles.blaster.shot": "",
+      "subtitles.mob.wisphurt": "",
+      "subtitles.wispon.hover.attack": "",
+      "entity.sonicraft_plus.newtronblue": "Blue Newtron",
+      "block.sonicraft_plus.wispwood_trapdoor": "Wispwood Trapdoor",
+      "block.sonicraft_plus.purple_wisp_capsule.description_0": "�9WIP",
+      "effect.sonicraft_plus.rocket_effect": "Orange Rocket",
+      "item.sonicraft_fc.seedrian_seed": "Seedrian Seed",
+      "block.sonicraft_plus.dark_iron_block": "Dark Block of Iron",
+      "effect.rocket_recovery": "Orange Rocket",
+      "subtitles.wispon.cube.attack": "",
+      "block.sonicraft_plus.white_wisp_capsule": "White Wisp Capsule",
+      "effect.sonicraft_plus.drill_effect": "Yellow Drill",
+      "entity.sonicraft_plus.blue_wisp_change_trigger": "entity.sonicraft_plus.blue_wisp_change_trigger",
+      "block.sonicraft_plus.red_iron_block": "Block of Red Iron",
+      "item.sonicraft_plus.violet_wispon": "Void Wispon",
+      "block.sonicraft_plus.wispwood_wood": "Wispwood Wood",
+      "effect.void_effect": "Violet Void",
+      "itemGroup.tabsonicraft_plus_items": "SoniCraft Plus",
+      "effect.sonicraft_plus.ghost_effect": "Jade Ghost",
+      "subtitles.wispon.burst.attack": "",
+      "block.sonicraft_plus.bridgezonedirt": "Bridge zone dirt",
+      "effect.ghost_effect": "Jade Ghost",
+      "subtitles.cube.fall": "",
+      "entity.sonicraft_plus.blue_wisp": "Blue Wisp",
+      "block.sonicraft_plus.bridgezonegrassslab": "Bridge zone grass slab",
+      "entity.sonicraft_plus.purple_wisp": "Purple Wisp",
+      "effect.drill_effect": "Yellow Drill",
+      "block.sonicraft_plus.pink_wisp_capsule.description_0": "�9WIP",
+      "block.sonicraft_plus.green_wisp_capsule": "Green Wisp Capsule",
+      "item.sonicraft_plus.mighty_spawn_egg": "Mighty Spawn Egg",
+      "block.sonicraft_plus.wisperite": "Wisperite",
+      "block.sonicraft_plus.red_iron_block_pillar": "Block of Red Iron Pillar",
+      "subtitles.burst.active": "",
+      "subtitles.wispon.drill.attack": "",
+      "entity.sonicraft_plus.wispon_cube_trap": "Blue Cube",
+      "block.sonicraft_plus.cyan_wisp_capsule": "Cyan Wisp Capsule",
+      "item.sonicraft_plus.green_wisp_spawn_egg": "Green Wisp Spawn Egg",
+      "subtitles.laser.active": "",
+      "subtitles.drill.wispon.attack": "",
+      "block.sonicraft_plus.fragile_chaostone": "Fragile Chaostone",
+      "block.sonicraft_plus.wisperite_brick_slab": "Wisperite Brick Slab",
+      "item.sonicraft_fc.cosmo_spawn_egg": "Cosmo Spawn Egg",
+      "entity.sonicraft_plus.red_wisp": "Red Wisp",
+      "item.sonicraft_plus.bomb_spawn_egg": "Bomb Spawn Egg",
+      "subtitles.drill.active": "",
+      "item.sonicraft_plus.sally_acorn_spawn_egg": "Sally Acorn Spawn Egg",
+      "entity.sonicraft_plus.mighty_ball": "Mighty",
+      "effect.sonicraft_plus.wispon_cube_effect": "Blue Cube",
+      "effect.sonicraft_plus.rocket_recovery": "Orange Rocket",
+      "block.sonicraft_plus.bridgezone_grass": "Bridge zone Grass",
+      "entity.sonicraft_plus.bomb": "Bomb",
+      "item.sonicraft_plus.jade_wisp_spawn_egg": "Jade Wisp Spawn Egg",
+      "block.sonicraft_plus.wisperite_bricks": "Wisperite Bricks",
+      "block.sonicraft_plus.riveted_iron_block": "Riveted Block of Iron",
+      "block.sonicraft_plus.red_wisp_capsule": "Red Wisp Capsule",
+      "entity.sonicraft_plus.white_wisp": "White Wisp",
+      "block.sonicraft_plus.mining_tower_interior_motorized_cable": "Mining Tower Motorized Interior Cable",
+      "block.sonicraft_plus.wisperite_brick_wall": "Wisperite Brick Wall",
+      "block.sonicraft_plus.glowing_red_iron_block": "Glowing Block of Red Iron",
+      "block.sonicraft_plus.blue_spring.description_0": "(From Knuckles\u0027 Chaotix)",
+      "block.sonicraft_fc.cosmo_flower_pot": "Flower Pot with Seedrian Seed",
+      "block.sonicraft_plus.blue_spring.description_1": "§9Bounce Power: §cHigh",
+      "entity.sonicraft_plus.newtron": "Newtron",
+      "effect.burst_effect": "Red Burst",
+      "block.sonicraft_plus.charred_red_iron_block": "Charred Block of Red Iron",
+      "entity.sonicraft_plus.pink_wisp": "Pink Wisp",
+      "entity.sonicraft_plus.cosmo": "Cosmo",
+      "block.sonicraft_plus.wispwood_fence_gate": "Wispwood Fence Gate",
+      "item.sonicraft_plus.blue_wispon": "Cube Wispon",
+      "item.sonicraft_plus.green_wispon": "Hover Wispon",
+      "subtitles.boost.active": "",
+      "block.sonicraft_plus.yellow_wisp_capsule": "Yellow Wisp Capsule",
+      "subtitles.void.active": "",
+      "item.sonicraft_plus.sonicraft_plus_symbol": "SoniCraft Plus Symbol",
+      "entity.sonicraft_plus.green_wisp": "Green Wisp",
+      "entity.sonicraft_plus.yellow_wisp": "Yellow Wisp",
+      "item.sonicraft_plus.cosmo_spawn_egg": "Cosmo Spawn Egg",
+      "block.sonicraft_plus.space_bridge_frame": "Space Bridge Frame",
+      "item.sonicraft_plus.red_iron_ingot": "Red Iron",
       "subtitles.rocket.active": "",
       "effect.rocket_effect": "Orange Rocket",
       "entity.sonicraft_plus.void_wispon_projectile": "Violet Void",
@@ -5411,74 +5807,39 @@
       "block.sonicraft_plus.red_iron_block_stairs": "Block of Red Iron Stairs",
       "entity.sonicraft_plus.cyan_wisp": "Cyan Wisp",
       "block.sonicraft_plus.wisperite_grass_block": "Wisperite Grass Block",
-      "block.sonicraft_plus.wispwood_planks": "Wispwood Planks",
       "item.sonicraft_plus.orange_wisp_spawn_egg": "Orange Wisp Spawn Egg",
-      "block.sonicraft_plus.cosmo_flower_pot": "Flower Pot with Seedrian Seed",
-      "subtitles.cube.activetick": "",
       "effect.sonicraft_plus.boost_effect": "White Boost",
-      "block.sonicraft_plus.laser_prism": "Laser Prism",
       "item.sonicraft_plus.ray_spawn_egg": "Ray Spawn Egg",
-      "item.sonicraft_plus.pink_wisp_spawn_egg": "Pink Wisp Spawn Egg",
       "effect.laser_effect": "Cyan Laser",
       "block.sonicraft_plus.red_iron_block_frame": "Red Iron Frame",
-      "item_group.sonicraft_plus.sonicraft_plus_items": "SoniCraft Plus",
       "effect.boost_effect": "White Boost",
       "block.sonicraft_plus.faulty_glowing_red_iron_block": "Faulty Glowing Block of Red Iron",
-      "block.sonicraft_plus.blue_wisp_block": "Blue Wisp Block",
       "effect.wispon_cube_effect": "Blue Cube",
-      "block.sonicraft_plus.servo_motor_part": "Mining Tower Servo Motor Part",
-      "subtitles.cube.ticking": "",
-      "block.sonicraft_plus.wisperite_brick_pillar": "Wisperite Brick Pillar",
-      "entity.sonicraft_plus.orange_wisp": "Orange Wisp",
-      "item.sonicraft_plus.yellow_wispon": "Drill Wispon",
       "subtitles.spikes.active": "",
-      "subtitles.blaster.shot": "",
-      "subtitles.mob.wisphurt": "",
       "biome.sonicraft_plus.doctors_mine": "Doctor\u0027s Mine",
       "item.sonicraft_plus.white_wisp_spawn_egg": "White Wisp Spawn Egg",
       "effect.sonicraft_plus.laser_effect": "Cyan Laser",
-      "subtitles.wispon.hover.attack": "",
       "item.sonicraft_plus.violet_wisp_spawn_egg": "Violet Wisp Spawn Egg",
       "subtitles.laser.shot": "",
-      "block.sonicraft_plus.wispwood_trapdoor": "Wispwood Trapdoor",
+      "item.sonicraft_plus.newtron_spawn_egg": "Newtron Spawn Egg",
       "subtitles.mob.wispdie": "",
       "item.sonicraft_plus.red_iron_nugget": "Red Iron Nugget",
-      "block.sonicraft_plus.purple_wisp_capsule.description_0": "�9WIP",
-      "effect.sonicraft_plus.rocket_effect": "Orange Rocket",
-      "item.sonicraft_fc.seedrian_seed": "Seedrian Seed",
-      "effect.rocket_recovery": "Orange Rocket",
-      "block.sonicraft_plus.dark_iron_block": "Dark Block of Iron",
       "subtitles.wispon.void.attack": "",
-      "subtitles.wispon.cube.attack": "",
-      "block.sonicraft_plus.white_wisp_capsule": "White Wisp Capsule",
       "effect.sonicraft_plus.cube_effect": "Blue Cube",
-      "effect.sonicraft_plus.drill_effect": "Yellow Drill",
-      "entity.sonicraft_plus.blue_wisp_change_trigger": "entity.sonicraft_plus.blue_wisp_change_trigger",
       "effect.sonicraft_plus.void_effect": "Violet Void",
-      "block.sonicraft_plus.red_iron_block": "Block of Red Iron",
       "subtitles.ring.collect": "",
       "subtitles.mob.tanktreads": "",
-      "item.sonicraft_plus.violet_wispon": "Void Wispon",
-      "block.sonicraft_plus.wispwood_wood": "Wispwood Wood",
       "effect.cube_effect": "Blue Cube",
-      "effect.void_effect": "Violet Void",
-      "itemGroup.tabsonicraft_plus_items": "SoniCraft Plus",
-      "effect.sonicraft_plus.ghost_effect": "Jade Ghost",
       "entity.sonicraft_plus.mining_tower": "Eggman Industries Mining Tower",
       "block.sonicraft_plus.red_iron_block_robot": "Robotic Block of Red Iron",
       "effect.sonicraft_plus.hover_effect": "Green Hover",
-      "subtitles.wispon.burst.attack": "",
       "subtitles.mob.jump": "",
-      "effect.ghost_effect": "Jade Ghost",
-      "subtitles.cube.fall": "",
+      "block.sonicraft_plus.bridgezonedirtstairs": "Bridge zone dirt stairs",
       "entity.sonicraft_plus.violet_wisp": "Violet Wisp",
-      "entity.sonicraft_plus.blue_wisp": "Blue Wisp",
-      "entity.sonicraft_plus.purple_wisp": "Purple Wisp",
       "item.sonicraft_plus.cyan_wisp_spawn_egg": "Cyan Wisp Spawn Egg",
       "block.sonicraft_plus.used_blue_spring": "Blue Spring",
       "item.sonicraft_plus.planet_wisp": "Flint and Prism",
       "block.sonicraft_plus.red_iron_block_caution": "Caution Tape Block of Red Iron",
-      "effect.drill_effect": "Yellow Drill",
       "subtitles.spring.use": "",
       "block.sonicraft_plus.wispwood_door": "Wispwood Door",
       "item.sonicraft_plus.blue_wisp_spawn_egg": "Blue Wisp Spawn Egg",
@@ -5487,92 +5848,54 @@
       "block.sonicraft_plus.pink_wisp_capsule": "Pink Wisp Capsule",
       "block.sonicraft_plus.wispwood_stairs": "Wispwood Stairs",
       "block.sonicraft_plus.wisperite_brick_stairs": "Wisperite Brick Stairs",
-      "block.sonicraft_plus.pink_wisp_capsule.description_0": "�9WIP",
-      "block.sonicraft_plus.green_wisp_capsule": "Green Wisp Capsule",
       "block.sonicraft_plus.red_iron_block_slab": "Block of Red Iron Slab",
       "subtitles.cube.land": "",
       "entity.sonicraft_fc.cosmo": "Cosmo",
-      "item.sonicraft_plus.mighty_spawn_egg": "Mighty Spawn Egg",
-      "block.sonicraft_plus.wisperite": "Wisperite",
-      "block.sonicraft_plus.red_iron_block_pillar": "Block of Red Iron Pillar",
-      "subtitles.wispon.drill.attack": "",
-      "subtitles.burst.active": "",
+      "subtitles.badnik_death": "animal freed",
       "block.sonicraft_plus.wispwood_slab": "Wispwood Slab",
+      "block.sonicraft_plus.bridgezonedirtslab": "Bridge zone dirt slab",
       "subtitles.hover.active": "",
       "item.sonicraft_plus.yellow_wisp_spawn_egg": "Yellow Wisp Spawn Egg",
-      "entity.sonicraft_plus.wispon_cube_trap": "Blue Cube",
       "entity.sonicraft_plus.ray": "Ray",
-      "item.sonicraft_plus.green_wisp_spawn_egg": "Green Wisp Spawn Egg",
-      "block.sonicraft_plus.cyan_wisp_capsule": "Cyan Wisp Capsule",
       "block.sonicraft_plus.blue_wisp_capsule": "Blue Wisp Capsule",
       "block.sonicraft_plus.wispon_workbench": "Wispon Workbench",
-      "subtitles.laser.active": "",
       "block.sonicraft_plus.blue_wisp_ring": "Blue Wisp Ring",
       "item.sonicraft_plus.purple_wisp_spawn_egg": "Purple Wisp Spawn Egg",
-      "subtitles.drill.wispon.attack": "",
       "biome.sonicraft_plus.mothers_canyon": "Mother\u0027s Canyon",
-      "block.sonicraft_plus.fragile_chaostone": "Fragile Chaostone",
-      "block.sonicraft_plus.wisperite_brick_slab": "Wisperite Brick Slab",
+      "item.sonicraft_plus.newtronblue_spawn_egg": "Blue Newtron Spawn Egg",
       "block.sonicraft_plus.fragile_wisperite": "Fragile Wisperite",
-      "item.sonicraft_fc.cosmo_spawn_egg": "Cosmo Spawn Egg",
       "item.sonicraft_plus.mining_tower_spawn_egg": "Eggman Industries Mining Tower Spawn Egg",
       "block.sonicraft_plus.wispwood_log": "Wispwood Log",
-      "entity.sonicraft_plus.red_wisp": "Red Wisp",
       "block.sonicraft_plus.mining_tower_trapdoor": "Mining Tower Trapdoor",
-      "subtitles.drill.active": "",
       "block.sonicraft_plus.wispwood_leaves": "Wispwood Leaves",
-      "item.sonicraft_plus.sally_acorn_spawn_egg": "Sally Acorn Spawn Egg",
-      "entity.sonicraft_plus.mighty_ball": "Mighty",
       "effect.hover_effect": "Green Hover",
-      "effect.sonicraft_plus.wispon_cube_effect": "Blue Cube",
       "block.sonicraft_plus.wispwood_fence": "Wispwood Fence",
       "effect.sonicraft_plus.burst_effect": "Red Burst",
-      "effect.sonicraft_plus.rocket_recovery": "Orange Rocket",
-      "item.sonicraft_plus.jade_wisp_spawn_egg": "Jade Wisp Spawn Egg",
       "entity.sonicraft_plus.jade_wisp": "Jade Wisp",
       "item.sonicraft_plus.red_wisp_spawn_egg": "Red Wisp Spawn Egg",
-      "block.sonicraft_plus.wisperite_bricks": "Wisperite Bricks",
       "subtitles.mob.wispidle": "",
-      "block.sonicraft_plus.riveted_iron_block": "Riveted Block of Iron",
       "subtitles.cube.ring.collect": "",
       "item.sonicraft_plus.seedrian_seed": "Seedrian Seed",
-      "block.sonicraft_plus.red_wisp_capsule": "Red Wisp Capsule",
-      "entity.sonicraft_plus.white_wisp": "White Wisp",
       "block.sonicraft_plus.mining_tower_interior_cable": "Mining Tower Interior Cable",
       "item.sonicraft_plus.wispon_bullet": "item.sonicraft_plus.wispon_bullet",
       "subtitles.wispon.drill.charge": "",
       "entity.sonicraft_plus.ray_gliding": "Ray",
-      "block.sonicraft_plus.mining_tower_interior_motorized_cable": "Mining Tower Motorized Interior Cable",
-      "block.sonicraft_plus.wisperite_brick_wall": "Wisperite Brick Wall",
       "key.sonicraft_plus.wisp_power_activate": "Activate Color Power",
       "block.sonicraft_plus.iron_industrial_fence": "Industrial Iron Fence",
-      "block.sonicraft_plus.glowing_red_iron_block": "Glowing Block of Red Iron",
-      "block.sonicraft_plus.blue_spring.description_0": "(From Knuckles\u0027 Chaotix)",
-      "block.sonicraft_fc.cosmo_flower_pot": "Flower Pot with Seedrian Seed",
-      "block.sonicraft_plus.blue_spring.description_1": "§9Bounce Power: §cHigh",
-      "effect.burst_effect": "Red Burst",
-      "block.sonicraft_plus.charred_red_iron_block": "Charred Block of Red Iron",
-      "entity.sonicraft_plus.pink_wisp": "Pink Wisp",
-      "entity.sonicraft_plus.cosmo": "Cosmo",
       "block.sonicraft_plus.chiseled_wisperite_bricks": "Chiseled Wisperite Bricks",
+      "block.sonicraft_plus.bridgezonegrass_stairs": "Bridge zone grass stairs",
       "biome.sonicraft_plus.wispy_woods": "Wispy Woods",
-      "block.sonicraft_plus.wispwood_fence_gate": "Wispwood Fence Gate",
-      "item.sonicraft_plus.blue_wispon": "Cube Wispon",
+      "block.sonicraft_plus.bridgezonegrassblock": "Bridge zone grass block",
       "subtitles.jade.active": "",
+      "effect.sonicraft_plus.fuse": "Fuse",
       "block.sonicraft_plus.violet_wisp_capsule": "Violet Wisp Capsule",
       "block.sonicraft_plus.purple_wisp_capsule": "Purple Wisp Capsule",
       "block.sonicraft_plus.jade_wisp_capsule": "Jade Wisp Capsule",
       "entity.sonicraft_plus.mighty_hammer_drop": "Mighty",
-      "item.sonicraft_plus.green_wispon": "Hover Wispon",
-      "subtitles.boost.active": "",
       "subtitles.frenzy.active": "",
-      "block.sonicraft_plus.yellow_wisp_capsule": "Yellow Wisp Capsule",
-      "subtitles.void.active": "",
       "subtitles.cube.active": "",
-      "item.sonicraft_plus.sonicraft_plus_symbol": "SoniCraft Plus Symbol",
       "subtitles.mighty.hammerdrop": "",
-      "block.sonicraft_plus.red_iron_block_mesh_floor": "Red Iron Mesh Floor",
-      "entity.sonicraft_plus.green_wisp": "Green Wisp"
+      "block.sonicraft_plus.red_iron_block_mesh_floor": "Red Iron Mesh Floor"
     }
   },
   "foldersRoot": {
@@ -5597,6 +5920,42 @@
       {
         "name": "Characters",
         "children": []
+      },
+      {
+        "name": "ideas guy additions",
+        "children": [
+          {
+            "name": "8-bit",
+            "children": [
+              {
+                "name": "Bridge Zone",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Badniks",
+            "children": [
+              {
+                "name": "green hill",
+                "children": []
+              },
+              {
+                "name": "Marble",
+                "children": []
+              },
+              {
+                "name": "scrap brain",
+                "children": [
+                  {
+                    "name": "Bomb",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },

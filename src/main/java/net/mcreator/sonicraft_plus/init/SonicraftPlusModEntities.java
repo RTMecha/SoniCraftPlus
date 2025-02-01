@@ -32,6 +32,8 @@ import net.mcreator.sonicraft_plus.entity.RayEntity;
 import net.mcreator.sonicraft_plus.entity.PurpleWispEntity;
 import net.mcreator.sonicraft_plus.entity.PinkWispEntity;
 import net.mcreator.sonicraft_plus.entity.OrangeWispEntity;
+import net.mcreator.sonicraft_plus.entity.NewtronblueEntity;
+import net.mcreator.sonicraft_plus.entity.NewtronEntity;
 import net.mcreator.sonicraft_plus.entity.MiningTowerEntity;
 import net.mcreator.sonicraft_plus.entity.MightyHammerDropEntity;
 import net.mcreator.sonicraft_plus.entity.MightyEntity;
@@ -41,6 +43,7 @@ import net.mcreator.sonicraft_plus.entity.GreenWisponProjectileEntity;
 import net.mcreator.sonicraft_plus.entity.GreenWispEntity;
 import net.mcreator.sonicraft_plus.entity.CyanWispEntity;
 import net.mcreator.sonicraft_plus.entity.CosmoEntity;
+import net.mcreator.sonicraft_plus.entity.BombEntity;
 import net.mcreator.sonicraft_plus.entity.BlueWispEntity;
 import net.mcreator.sonicraft_plus.entity.BlueWispChangeTriggerEntity;
 import net.mcreator.sonicraft_plus.SonicraftPlusMod;
@@ -130,6 +133,18 @@ public class SonicraftPlusModEntities {
 			.setCustomClientFactory(GreenWisponProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<VioletWisponProjectileEntity>> VIOLET_WISPON_PROJECTILE = register("violet_wispon_projectile", EntityType.Builder.<VioletWisponProjectileEntity>of(VioletWisponProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(VioletWisponProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<NewtronEntity>> NEWTRON = register("newtron",
+			EntityType.Builder.<NewtronEntity>of(NewtronEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NewtronEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<NewtronblueEntity>> NEWTRONBLUE = register("newtronblue",
+			EntityType.Builder.<NewtronblueEntity>of(NewtronblueEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NewtronblueEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BombEntity>> BOMB = register("bomb",
+			EntityType.Builder.<BombEntity>of(BombEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BombEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -162,6 +177,9 @@ public class SonicraftPlusModEntities {
 			VoidWisponProjectileEntity.init();
 			WisponCubeTrapEntity.init();
 			JadeWispEntity.init();
+			NewtronEntity.init();
+			NewtronblueEntity.init();
+			BombEntity.init();
 		});
 	}
 
@@ -189,5 +207,8 @@ public class SonicraftPlusModEntities {
 		event.put(VOID_WISPON_PROJECTILE.get(), VoidWisponProjectileEntity.createAttributes().build());
 		event.put(WISPON_CUBE_TRAP.get(), WisponCubeTrapEntity.createAttributes().build());
 		event.put(JADE_WISP.get(), JadeWispEntity.createAttributes().build());
+		event.put(NEWTRON.get(), NewtronEntity.createAttributes().build());
+		event.put(NEWTRONBLUE.get(), NewtronblueEntity.createAttributes().build());
+		event.put(BOMB.get(), BombEntity.createAttributes().build());
 	}
 }
