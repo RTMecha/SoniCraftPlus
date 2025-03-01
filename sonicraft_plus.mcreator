@@ -4923,14 +4923,14 @@
       "registry_name": "bridgezone_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezone_grass.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/BridgezoneGrassBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezone_grass.json",
           "src/main/resources/assets/sonicraft_plus/models/item/bridgezone_grass.json",
           "src/main/resources/assets/sonicraft_plus/models/block/bridgezone_grass.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezone_grass.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezone_grass.json"
         ]
       },
-      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+      "path": "~/ideas guy additions/8-bit/sonic 1/Bridge Zone"
     },
     {
       "name": "Bridgezonegrassblock",
@@ -4940,14 +4940,14 @@
       "registry_name": "bridgezonegrassblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonegrassblock.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassblock.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonegrassblock.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonegrassblockBlock.java",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonegrassblock.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassblock.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonegrassblock.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonegrassblock.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonegrassblock.json"
         ]
       },
-      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+      "path": "~/ideas guy additions/8-bit/sonic 1/Bridge Zone"
     },
     {
       "name": "BridgezonegrassStairs",
@@ -4957,16 +4957,16 @@
       "registry_name": "bridgezonegrass_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrass_stairs_inner.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonegrass_stairs.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonegrassStairsBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrass_stairs_outer.json",
           "src/main/resources/assets/sonicraft_plus/models/item/bridgezonegrass_stairs.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonegrass_stairs.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrass_stairs_inner.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrass_stairs_outer.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrass_stairs.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrass_stairs.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonegrassStairsBlock.java"
         ]
       },
-      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+      "path": "~/ideas guy additions/8-bit/sonic 1/Bridge Zone"
     },
     {
       "name": "Bridgezonegrassslab",
@@ -4976,16 +4976,16 @@
       "registry_name": "bridgezonegrassslab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonegrassslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassslab_full.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonegrassslabBlock.java",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonegrassslab.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonegrassslab.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonegrassslabBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassslab_top.json",
           "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassslab.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassslab_full.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonegrassslab.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonegrassslab_top.json"
         ]
       },
-      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+      "path": "~/ideas guy additions/8-bit/sonic 1/Bridge Zone"
     },
     {
       "name": "Bridgezonedirt",
@@ -4995,14 +4995,14 @@
       "registry_name": "bridgezonedirt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonedirt.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonedirt.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonedirtBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonedirt.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonedirt.json",
           "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirt.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonedirt.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonedirt.json"
         ]
       },
-      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+      "path": "~/ideas guy additions/8-bit/sonic 1/Bridge Zone"
     },
     {
       "name": "Bridgezonedirtstairs",
@@ -5012,16 +5012,16 @@
       "registry_name": "bridgezonedirtstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonedirtstairs.json",
           "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtstairs_outer.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonedirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtstairs_inner.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonedirtstairs.json",
           "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtstairs.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonedirtstairsBlock.java",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonedirtstairs.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtstairs_inner.json"
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonedirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonedirtstairs.json"
         ]
       },
-      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+      "path": "~/ideas guy additions/8-bit/sonic 1/Bridge Zone"
     },
     {
       "name": "Bridgezonedirtslab",
@@ -5031,185 +5031,177 @@
       "registry_name": "bridgezonedirtslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonedirtslab.json",
           "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtslab.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtslab_inner.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/bridgezonedirtslab.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtslab_outer.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/bridgezonedirtslab.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonedirtslabBlock.java"
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtslab_inner.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BridgezonedirtslabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/bridgezonedirtslab_outer.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/bridgezonedirtslab.json"
         ]
       },
-      "path": "~/ideas guy additions/8-bit/Bridge Zone"
+      "path": "~/ideas guy additions/8-bit/sonic 1/Bridge Zone"
     },
     {
-      "name": "Badnik_dies",
-      "type": "procedure",
+      "name": "Junglezonegrass",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "badnik_dies",
+      "registry_name": "junglezonegrass",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/procedures/Badnik_diesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/assets/sonicraft_plus/blockstates/junglezonegrass.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/junglezonegrass.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/JunglezonegrassBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/junglezonegrass.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonegrass.json"
         ]
       },
-      "path": "~/ideas guy additions/Badniks"
+      "path": "~/ideas guy additions/8-bit/sonic 1/jungle zone"
     },
     {
-      "name": "Newtron",
-      "type": "animatedentity",
+      "name": "Junglezonegrasstop",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "newtron",
+      "registry_name": "junglezonegrasstop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/NewtronRenderer.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/newtron_spawn_egg.json",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/NewtronEntity.java",
-          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/newtron_biome_modifier.json",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/model/NewtronModel.java"
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonegrasstop.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/junglezonegrasstop.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/JunglezonegrasstopBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/junglezonegrasstop.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/junglezonegrasstop.json"
         ]
       },
-      "path": "~/ideas guy additions/Badniks/green hill"
+      "path": "~/ideas guy additions/8-bit/sonic 1/jungle zone"
     },
     {
-      "name": "Newtronblue",
-      "type": "animatedentity",
+      "name": "Junglezonegrassstairs",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "newtronblue",
+      "registry_name": "junglezonegrassstairs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/entity/NewtronblueEntity.java",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/model/NewtronblueModel.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/newtronblue_spawn_egg.json",
-          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/newtronblue_biome_modifier.json",
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/NewtronblueRenderer.java"
+          "src/main/resources/assets/sonicraft_plus/blockstates/junglezonegrassstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonegrassstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonegrassstairs_inner.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/junglezonegrassstairs.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/junglezonegrassstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonegrassstairs_outer.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/JunglezonegrassstairsBlock.java"
         ]
       },
-      "path": "~/ideas guy additions/Badniks/green hill"
+      "path": "~/ideas guy additions/8-bit/sonic 1/jungle zone"
     },
     {
-      "name": "BombOnEntityTickUpdate",
-      "type": "procedure",
+      "name": "Junglezonegrassslab",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bomb_on_entity_tick_update",
+      "registry_name": "junglezonegrassslab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/procedures/BombOnEntityTickUpdateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/java/net/mcreator/sonicraft_plus/block/JunglezonegrassslabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/junglezonegrassslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonegrassslab_top.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonegrassslab_full.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/junglezonegrassslab.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/junglezonegrassslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonegrassslab.json"
         ]
       },
-      "path": "~/ideas guy additions/Badniks/scrap brain/Bomb"
+      "path": "~/ideas guy additions/8-bit/sonic 1/jungle zone"
     },
     {
-      "name": "Fuse",
-      "type": "potioneffect",
+      "name": "Junglezonedirt",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fuse",
+      "registry_name": "junglezonedirt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/potion/FuseMobEffect.java"
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonedirt.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/junglezonedirt.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/junglezonedirt.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/JunglezonedirtBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/junglezonedirt.json"
         ]
       },
-      "path": "~/ideas guy additions/Badniks/scrap brain/Bomb"
+      "path": "~/ideas guy additions/8-bit/sonic 1/jungle zone"
     },
     {
-      "name": "Bomb",
-      "type": "animatedentity",
+      "name": "Junglezonedirtstairs",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bomb",
+      "registry_name": "junglezonedirtstairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/bomb_biome_modifier.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/bomb_spawn_egg.json",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/BombEntity.java",
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/BombRenderer.java",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/model/BombModel.java"
+          "src/main/resources/assets/sonicraft_plus/models/item/junglezonedirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/junglezonedirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonedirtstairs_outer.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/junglezonedirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonedirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonedirtstairs_inner.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/JunglezonedirtstairsBlock.java"
         ]
       },
-      "path": "~/ideas guy additions/Badniks/scrap brain/Bomb"
+      "path": "~/ideas guy additions/8-bit/sonic 1/jungle zone"
     },
     {
-      "name": "FuseEffectExpires",
-      "type": "procedure",
+      "name": "Junglezonedirtslab",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fuse_effect_expires",
+      "registry_name": "junglezonedirtslab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/procedures/FuseEffectExpiresProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/assets/sonicraft_plus/blockstates/junglezonedirtslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonedirtslab_full.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonedirtslab.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/junglezonedirtslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonedirtslab_top.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/JunglezonedirtslabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/junglezonedirtslab.json"
         ]
       },
-      "path": "~/ideas guy additions/Badniks/scrap brain/Bomb"
+      "path": "~/ideas guy additions/8-bit/sonic 1/jungle zone"
+    },
+    {
+      "name": "Junglezonelog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junglezonelog",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/junglezonelog.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/junglezonelog.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/junglezonelog.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/JunglezonelogBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonelog.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/sonic 1/jungle zone"
+    },
+    {
+      "name": "Junglezonespikedlog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junglezonespikedlog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/JunglezonespikedlogBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/junglezonespikedlog.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/junglezonespikedlog.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/junglezonespikedlog.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/junglezonespikedlog.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/sonic 1/jungle zone"
     }
   ],
   "variable_elements": [
@@ -5581,6 +5573,8 @@
       "~CUSTOM:WispwoodLeaves"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Junglezonedirtslab",
+      "~CUSTOM:Junglezonegrassslab",
       "~CUSTOM:Bridgezonegrassslab",
       "~CUSTOM:WisperiteBrickSlab",
       "~CUSTOM:RedIronBlockMeshFloor",
@@ -5603,6 +5597,8 @@
       "CUSTOM:WispwoodLog"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Junglezonedirtstairs",
+      "~CUSTOM:Junglezonegrassstairs",
       "~CUSTOM:Bridgezonedirtslab",
       "~CUSTOM:Bridgezonedirtstairs",
       "~CUSTOM:BridgezonegrassStairs",
@@ -5721,7 +5717,6 @@
       "subtitles.blaster.shot": "",
       "subtitles.mob.wisphurt": "",
       "subtitles.wispon.hover.attack": "",
-      "entity.sonicraft_plus.newtronblue": "Blue Newtron",
       "block.sonicraft_plus.wispwood_trapdoor": "Wispwood Trapdoor",
       "block.sonicraft_plus.purple_wisp_capsule.description_0": "�9WIP",
       "effect.sonicraft_plus.rocket_effect": "Orange Rocket",
@@ -5733,6 +5728,7 @@
       "effect.sonicraft_plus.drill_effect": "Yellow Drill",
       "entity.sonicraft_plus.blue_wisp_change_trigger": "entity.sonicraft_plus.blue_wisp_change_trigger",
       "block.sonicraft_plus.red_iron_block": "Block of Red Iron",
+      "block.sonicraft_plus.junglezonedirtstairs": "Jungle zone dirt stairs",
       "item.sonicraft_plus.violet_wispon": "Void Wispon",
       "block.sonicraft_plus.wispwood_wood": "Wispwood Wood",
       "effect.void_effect": "Violet Void",
@@ -5751,43 +5747,45 @@
       "item.sonicraft_plus.mighty_spawn_egg": "Mighty Spawn Egg",
       "block.sonicraft_plus.wisperite": "Wisperite",
       "block.sonicraft_plus.red_iron_block_pillar": "Block of Red Iron Pillar",
-      "subtitles.burst.active": "",
       "subtitles.wispon.drill.attack": "",
+      "subtitles.burst.active": "",
       "entity.sonicraft_plus.wispon_cube_trap": "Blue Cube",
-      "block.sonicraft_plus.cyan_wisp_capsule": "Cyan Wisp Capsule",
       "item.sonicraft_plus.green_wisp_spawn_egg": "Green Wisp Spawn Egg",
+      "block.sonicraft_plus.cyan_wisp_capsule": "Cyan Wisp Capsule",
       "subtitles.laser.active": "",
       "subtitles.drill.wispon.attack": "",
       "block.sonicraft_plus.fragile_chaostone": "Fragile Chaostone",
       "block.sonicraft_plus.wisperite_brick_slab": "Wisperite Brick Slab",
       "item.sonicraft_fc.cosmo_spawn_egg": "Cosmo Spawn Egg",
       "entity.sonicraft_plus.red_wisp": "Red Wisp",
-      "item.sonicraft_plus.bomb_spawn_egg": "Bomb Spawn Egg",
+      "block.sonicraft_plus.junglezonegrassslab": "Jungle zone grass slab",
       "subtitles.drill.active": "",
+      "block.sonicraft_plus.junglezonedirtslab": "Jungle zone dirt slab",
       "item.sonicraft_plus.sally_acorn_spawn_egg": "Sally Acorn Spawn Egg",
+      "block.sonicraft_plus.junglezonegrassstairs": "Jungle zone grass stairs",
       "entity.sonicraft_plus.mighty_ball": "Mighty",
       "effect.sonicraft_plus.wispon_cube_effect": "Blue Cube",
       "effect.sonicraft_plus.rocket_recovery": "Orange Rocket",
       "block.sonicraft_plus.bridgezone_grass": "Bridge zone Grass",
-      "entity.sonicraft_plus.bomb": "Bomb",
       "item.sonicraft_plus.jade_wisp_spawn_egg": "Jade Wisp Spawn Egg",
       "block.sonicraft_plus.wisperite_bricks": "Wisperite Bricks",
       "block.sonicraft_plus.riveted_iron_block": "Riveted Block of Iron",
       "block.sonicraft_plus.red_wisp_capsule": "Red Wisp Capsule",
       "entity.sonicraft_plus.white_wisp": "White Wisp",
+      "block.sonicraft_plus.junglezonedirt": "Jungle zone dirt",
       "block.sonicraft_plus.mining_tower_interior_motorized_cable": "Mining Tower Motorized Interior Cable",
       "block.sonicraft_plus.wisperite_brick_wall": "Wisperite Brick Wall",
       "block.sonicraft_plus.glowing_red_iron_block": "Glowing Block of Red Iron",
       "block.sonicraft_plus.blue_spring.description_0": "(From Knuckles\u0027 Chaotix)",
       "block.sonicraft_fc.cosmo_flower_pot": "Flower Pot with Seedrian Seed",
       "block.sonicraft_plus.blue_spring.description_1": "§9Bounce Power: §cHigh",
-      "entity.sonicraft_plus.newtron": "Newtron",
       "effect.burst_effect": "Red Burst",
       "block.sonicraft_plus.charred_red_iron_block": "Charred Block of Red Iron",
       "entity.sonicraft_plus.pink_wisp": "Pink Wisp",
       "entity.sonicraft_plus.cosmo": "Cosmo",
       "block.sonicraft_plus.wispwood_fence_gate": "Wispwood Fence Gate",
       "item.sonicraft_plus.blue_wispon": "Cube Wispon",
+      "block.sonicraft_plus.junglezonegrasstop": "Jungle zone grass top",
       "item.sonicraft_plus.green_wispon": "Hover Wispon",
       "subtitles.boost.active": "",
       "block.sonicraft_plus.yellow_wisp_capsule": "Yellow Wisp Capsule",
@@ -5807,6 +5805,8 @@
       "block.sonicraft_plus.red_iron_block_stairs": "Block of Red Iron Stairs",
       "entity.sonicraft_plus.cyan_wisp": "Cyan Wisp",
       "block.sonicraft_plus.wisperite_grass_block": "Wisperite Grass Block",
+      "block.sonicraft_plus.junglezonespikedlog": "Jungle zone log",
+      "block.sonicraft_plus.junglezonelog": "Jungle zone log",
       "item.sonicraft_plus.orange_wisp_spawn_egg": "Orange Wisp Spawn Egg",
       "effect.sonicraft_plus.boost_effect": "White Boost",
       "item.sonicraft_plus.ray_spawn_egg": "Ray Spawn Egg",
@@ -5821,7 +5821,6 @@
       "effect.sonicraft_plus.laser_effect": "Cyan Laser",
       "item.sonicraft_plus.violet_wisp_spawn_egg": "Violet Wisp Spawn Egg",
       "subtitles.laser.shot": "",
-      "item.sonicraft_plus.newtron_spawn_egg": "Newtron Spawn Egg",
       "subtitles.mob.wispdie": "",
       "item.sonicraft_plus.red_iron_nugget": "Red Iron Nugget",
       "subtitles.wispon.void.attack": "",
@@ -5862,11 +5861,11 @@
       "block.sonicraft_plus.blue_wisp_ring": "Blue Wisp Ring",
       "item.sonicraft_plus.purple_wisp_spawn_egg": "Purple Wisp Spawn Egg",
       "biome.sonicraft_plus.mothers_canyon": "Mother\u0027s Canyon",
-      "item.sonicraft_plus.newtronblue_spawn_egg": "Blue Newtron Spawn Egg",
       "block.sonicraft_plus.fragile_wisperite": "Fragile Wisperite",
       "item.sonicraft_plus.mining_tower_spawn_egg": "Eggman Industries Mining Tower Spawn Egg",
       "block.sonicraft_plus.wispwood_log": "Wispwood Log",
       "block.sonicraft_plus.mining_tower_trapdoor": "Mining Tower Trapdoor",
+      "block.sonicraft_plus.junglezonegrass": "Jungle zone grass",
       "block.sonicraft_plus.wispwood_leaves": "Wispwood Leaves",
       "effect.hover_effect": "Green Hover",
       "block.sonicraft_plus.wispwood_fence": "Wispwood Fence",
@@ -5887,7 +5886,6 @@
       "biome.sonicraft_plus.wispy_woods": "Wispy Woods",
       "block.sonicraft_plus.bridgezonegrassblock": "Bridge zone grass block",
       "subtitles.jade.active": "",
-      "effect.sonicraft_plus.fuse": "Fuse",
       "block.sonicraft_plus.violet_wisp_capsule": "Violet Wisp Capsule",
       "block.sonicraft_plus.purple_wisp_capsule": "Purple Wisp Capsule",
       "block.sonicraft_plus.jade_wisp_capsule": "Jade Wisp Capsule",
@@ -5928,30 +5926,163 @@
             "name": "8-bit",
             "children": [
               {
-                "name": "Bridge Zone",
-                "children": []
+                "name": "sonic 1",
+                "children": [
+                  {
+                    "name": "Bridge Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "sky base structure",
+                    "children": []
+                  },
+                  {
+                    "name": "jungle zone",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "sonic 2",
+                "children": [
+                  {
+                    "name": "underground zone",
+                    "children": []
+                  },
+                  {
+                    "name": "sky high zone",
+                    "children": []
+                  },
+                  {
+                    "name": "aqua lake zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Gimmick Mountain Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Scrambled Egg Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Crystal Egg Zone",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "sonic chaos",
+                "children": [
+                  {
+                    "name": "Turquoise Hill Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Gigalopolis Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Sleeping Egg Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Mecha Green Hill Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Aqua Planet Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Electric Egg Zone",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "sonic triple trouble",
+                "children": [
+                  {
+                    "name": "Great Turquoise Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Sunset Park Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Meta Junglira Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Robotnik Winter Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Tidal Plant Zone",
+                    "children": []
+                  },
+                  {
+                    "name": " Atomic Destroyer Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Purple Palace Zone 1special stage1",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "Badniks",
+            "name": "32 bit",
             "children": [
               {
-                "name": "green hill",
-                "children": []
-              },
-              {
-                "name": "Marble",
-                "children": []
-              },
-              {
-                "name": "scrap brain",
+                "name": "3d blast",
                 "children": [
                   {
-                    "name": "Bomb",
+                    "name": "Green Grove Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Rusty Ruin Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Spring Stadium Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Diamond Dust Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Volcano Valley Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Gene Gadget Zone",
+                    "children": []
+                  },
+                  {
+                    "name": "Panic Puppet Zone",
                     "children": []
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "name": "16 bit additions",
+            "children": [
+              {
+                "name": "wing fortress",
+                "children": []
+              },
+              {
+                "name": "flying battery",
+                "children": []
               }
             ]
           }

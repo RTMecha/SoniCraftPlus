@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft_plus:custom/jungle_spiked_log",
+  "textures": {
+    "all": "sonicraft_plus:block/spiked_log_texture",
+    "particle": "sonicraft_plus:block/spiked_log_texture",
+    "0": "sonicraft_plus:block/spiked_log_texture"
+  },
+  "render_type": "cutout_mipped"
+}

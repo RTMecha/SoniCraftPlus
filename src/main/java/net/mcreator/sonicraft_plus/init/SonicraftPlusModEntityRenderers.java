@@ -26,8 +26,6 @@ import net.mcreator.sonicraft_plus.client.renderer.RayGlidingRenderer;
 import net.mcreator.sonicraft_plus.client.renderer.PurpleWispRenderer;
 import net.mcreator.sonicraft_plus.client.renderer.PinkWispRenderer;
 import net.mcreator.sonicraft_plus.client.renderer.OrangeWispRenderer;
-import net.mcreator.sonicraft_plus.client.renderer.NewtronblueRenderer;
-import net.mcreator.sonicraft_plus.client.renderer.NewtronRenderer;
 import net.mcreator.sonicraft_plus.client.renderer.MiningTowerRenderer;
 import net.mcreator.sonicraft_plus.client.renderer.MightyRenderer;
 import net.mcreator.sonicraft_plus.client.renderer.MightyHammerDropRenderer;
@@ -37,7 +35,6 @@ import net.mcreator.sonicraft_plus.client.renderer.GreenWisponProjectileRenderer
 import net.mcreator.sonicraft_plus.client.renderer.GreenWispRenderer;
 import net.mcreator.sonicraft_plus.client.renderer.CyanWispRenderer;
 import net.mcreator.sonicraft_plus.client.renderer.CosmoRenderer;
-import net.mcreator.sonicraft_plus.client.renderer.BombRenderer;
 import net.mcreator.sonicraft_plus.client.renderer.BlueWispRenderer;
 import net.mcreator.sonicraft_plus.client.renderer.BlueWispChangeTriggerRenderer;
 
@@ -72,8 +69,5 @@ public class SonicraftPlusModEntityRenderers {
 		event.registerEntityRenderer(SonicraftPlusModEntities.YELLOW_WISPON_PROJECTILE.get(), YellowWisponProjectileRenderer::new);
 		event.registerEntityRenderer(SonicraftPlusModEntities.GREEN_WISPON_PROJECTILE.get(), GreenWisponProjectileRenderer::new);
 		event.registerEntityRenderer(SonicraftPlusModEntities.VIOLET_WISPON_PROJECTILE.get(), VioletWisponProjectileRenderer::new);
-		event.registerEntityRenderer(SonicraftPlusModEntities.NEWTRON.get(), NewtronRenderer::new);
-		event.registerEntityRenderer(SonicraftPlusModEntities.NEWTRONBLUE.get(), NewtronblueRenderer::new);
-		event.registerEntityRenderer(SonicraftPlusModEntities.BOMB.get(), BombRenderer::new);
 	}
 }

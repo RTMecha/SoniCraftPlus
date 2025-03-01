@@ -125,9 +125,15 @@ public class SonicraftPlusModItems {
 	public static final RegistryObject<Item> BRIDGEZONEDIRT = block(SonicraftPlusModBlocks.BRIDGEZONEDIRT);
 	public static final RegistryObject<Item> BRIDGEZONEDIRTSTAIRS = block(SonicraftPlusModBlocks.BRIDGEZONEDIRTSTAIRS);
 	public static final RegistryObject<Item> BRIDGEZONEDIRTSLAB = block(SonicraftPlusModBlocks.BRIDGEZONEDIRTSLAB);
-	public static final RegistryObject<Item> NEWTRON_SPAWN_EGG = REGISTRY.register("newtron_spawn_egg", () -> new ForgeSpawnEggItem(SonicraftPlusModEntities.NEWTRON, -1, -1, new Item.Properties()));
-	public static final RegistryObject<Item> NEWTRONBLUE_SPAWN_EGG = REGISTRY.register("newtronblue_spawn_egg", () -> new ForgeSpawnEggItem(SonicraftPlusModEntities.NEWTRONBLUE, -1, -1, new Item.Properties()));
-	public static final RegistryObject<Item> BOMB_SPAWN_EGG = REGISTRY.register("bomb_spawn_egg", () -> new ForgeSpawnEggItem(SonicraftPlusModEntities.BOMB, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> JUNGLEZONEGRASS = block(SonicraftPlusModBlocks.JUNGLEZONEGRASS);
+	public static final RegistryObject<Item> JUNGLEZONEGRASSTOP = block(SonicraftPlusModBlocks.JUNGLEZONEGRASSTOP);
+	public static final RegistryObject<Item> JUNGLEZONEGRASSSTAIRS = block(SonicraftPlusModBlocks.JUNGLEZONEGRASSSTAIRS);
+	public static final RegistryObject<Item> JUNGLEZONEGRASSSLAB = block(SonicraftPlusModBlocks.JUNGLEZONEGRASSSLAB);
+	public static final RegistryObject<Item> JUNGLEZONEDIRT = block(SonicraftPlusModBlocks.JUNGLEZONEDIRT);
+	public static final RegistryObject<Item> JUNGLEZONEDIRTSTAIRS = block(SonicraftPlusModBlocks.JUNGLEZONEDIRTSTAIRS);
+	public static final RegistryObject<Item> JUNGLEZONEDIRTSLAB = block(SonicraftPlusModBlocks.JUNGLEZONEDIRTSLAB);
+	public static final RegistryObject<Item> JUNGLEZONELOG = block(SonicraftPlusModBlocks.JUNGLEZONELOG);
+	public static final RegistryObject<Item> JUNGLEZONESPIKEDLOG = block(SonicraftPlusModBlocks.JUNGLEZONESPIKEDLOG);
 
 	// Start of user code block custom items
 	// End of user code block custom items

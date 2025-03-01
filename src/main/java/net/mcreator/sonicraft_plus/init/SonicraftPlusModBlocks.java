@@ -53,6 +53,15 @@ import net.mcreator.sonicraft_plus.block.MiningTowerTrapdoorBlock;
 import net.mcreator.sonicraft_plus.block.MiningTowerInteriorMotorizedCableBlock;
 import net.mcreator.sonicraft_plus.block.MiningTowerInteriorCableBlock;
 import net.mcreator.sonicraft_plus.block.LaserPrismBlock;
+import net.mcreator.sonicraft_plus.block.JunglezonespikedlogBlock;
+import net.mcreator.sonicraft_plus.block.JunglezonelogBlock;
+import net.mcreator.sonicraft_plus.block.JunglezonegrasstopBlock;
+import net.mcreator.sonicraft_plus.block.JunglezonegrassstairsBlock;
+import net.mcreator.sonicraft_plus.block.JunglezonegrassslabBlock;
+import net.mcreator.sonicraft_plus.block.JunglezonegrassBlock;
+import net.mcreator.sonicraft_plus.block.JunglezonedirtstairsBlock;
+import net.mcreator.sonicraft_plus.block.JunglezonedirtslabBlock;
+import net.mcreator.sonicraft_plus.block.JunglezonedirtBlock;
 import net.mcreator.sonicraft_plus.block.JadeWispCapsuleBlock;
 import net.mcreator.sonicraft_plus.block.IronIndustrialFenceBlock;
 import net.mcreator.sonicraft_plus.block.GreenWispCapsuleBlock;
@@ -146,6 +155,15 @@ public class SonicraftPlusModBlocks {
 	public static final RegistryObject<Block> BRIDGEZONEDIRT = REGISTRY.register("bridgezonedirt", () -> new BridgezonedirtBlock());
 	public static final RegistryObject<Block> BRIDGEZONEDIRTSTAIRS = REGISTRY.register("bridgezonedirtstairs", () -> new BridgezonedirtstairsBlock());
 	public static final RegistryObject<Block> BRIDGEZONEDIRTSLAB = REGISTRY.register("bridgezonedirtslab", () -> new BridgezonedirtslabBlock());
+	public static final RegistryObject<Block> JUNGLEZONEGRASS = REGISTRY.register("junglezonegrass", () -> new JunglezonegrassBlock());
+	public static final RegistryObject<Block> JUNGLEZONEGRASSTOP = REGISTRY.register("junglezonegrasstop", () -> new JunglezonegrasstopBlock());
+	public static final RegistryObject<Block> JUNGLEZONEGRASSSTAIRS = REGISTRY.register("junglezonegrassstairs", () -> new JunglezonegrassstairsBlock());
+	public static final RegistryObject<Block> JUNGLEZONEGRASSSLAB = REGISTRY.register("junglezonegrassslab", () -> new JunglezonegrassslabBlock());
+	public static final RegistryObject<Block> JUNGLEZONEDIRT = REGISTRY.register("junglezonedirt", () -> new JunglezonedirtBlock());
+	public static final RegistryObject<Block> JUNGLEZONEDIRTSTAIRS = REGISTRY.register("junglezonedirtstairs", () -> new JunglezonedirtstairsBlock());
+	public static final RegistryObject<Block> JUNGLEZONEDIRTSLAB = REGISTRY.register("junglezonedirtslab", () -> new JunglezonedirtslabBlock());
+	public static final RegistryObject<Block> JUNGLEZONELOG = REGISTRY.register("junglezonelog", () -> new JunglezonelogBlock());
+	public static final RegistryObject<Block> JUNGLEZONESPIKEDLOG = REGISTRY.register("junglezonespikedlog", () -> new JunglezonespikedlogBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

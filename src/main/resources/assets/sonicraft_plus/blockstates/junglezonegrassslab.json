@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft_plus:block/junglezonegrassslab"
+    },
+    "type=top": {
+      "model": "sonicraft_plus:block/junglezonegrassslab_top"
+    },
+    "type=double": {
+      "model": "sonicraft_plus:block/junglezonegrassslab_full"
+    }
+  }
+}
