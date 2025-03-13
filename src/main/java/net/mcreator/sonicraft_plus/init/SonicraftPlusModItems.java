@@ -134,6 +134,18 @@ public class SonicraftPlusModItems {
 	public static final RegistryObject<Item> JUNGLEZONEDIRTSLAB = block(SonicraftPlusModBlocks.JUNGLEZONEDIRTSLAB);
 	public static final RegistryObject<Item> JUNGLEZONELOG = block(SonicraftPlusModBlocks.JUNGLEZONELOG);
 	public static final RegistryObject<Item> JUNGLEZONESPIKEDLOG = block(SonicraftPlusModBlocks.JUNGLEZONESPIKEDLOG);
+	public static final RegistryObject<Item> GREENGROVEDIRT = block(SonicraftPlusModBlocks.GREENGROVEDIRT);
+	public static final RegistryObject<Item> GREENGROUNDDIRTSTAIRS = block(SonicraftPlusModBlocks.GREENGROUNDDIRTSTAIRS);
+	public static final RegistryObject<Item> GREENGROVEDIRTSLAB = block(SonicraftPlusModBlocks.GREENGROVEDIRTSLAB);
+	public static final RegistryObject<Item> GREENGROVEGRASS = block(SonicraftPlusModBlocks.GREENGROVEGRASS);
+	public static final RegistryObject<Item> GREENGROVEGRASSSLAB = block(SonicraftPlusModBlocks.GREENGROVEGRASSSLAB);
+	public static final RegistryObject<Item> GREENGROVEGRASSSTAIRS = block(SonicraftPlusModBlocks.GREENGROVEGRASSSTAIRS);
+	public static final RegistryObject<Item> GREENGROVEGRASSTOP = block(SonicraftPlusModBlocks.GREENGROVEGRASSTOP);
+	public static final RegistryObject<Item> SKYBASEHULLMIDDLE = block(SonicraftPlusModBlocks.SKYBASEHULLMIDDLE);
+	public static final RegistryObject<Item> SKYBASEHULLMIDDLESCREW = block(SonicraftPlusModBlocks.SKYBASEHULLMIDDLESCREW);
+	public static final RegistryObject<Item> SKYBASEHULLMIDDLE = block(SonicraftPlusModBlocks.SKYBASEHULLMIDDLE);
+	public static final RegistryObject<Item> SKYBASEHULLMIDDLEBOLTS = block(SonicraftPlusModBlocks.SKYBASEHULLMIDDLEBOLTS);
+	public static final RegistryObject<Item> SKYBASEHULLBOTTEMBOLTS = block(SonicraftPlusModBlocks.SKYBASEHULLBOTTEMBOLTS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

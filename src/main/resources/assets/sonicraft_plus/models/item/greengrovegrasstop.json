@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "sonicraft_plus:block/grenn_grove_grass_top"
+  }
+}

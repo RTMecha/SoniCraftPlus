@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "sonicraft_plus:block/green_grove_dirt",
+    "bottom": "sonicraft_plus:block/green_grove_dirt",
+    "top": "sonicraft_plus:block/green_grove_grass_top",
+    "side": "sonicraft_plus:block/green_grove_grass_side"
+  },
+  "render_type": "cutout_mipped"
+}

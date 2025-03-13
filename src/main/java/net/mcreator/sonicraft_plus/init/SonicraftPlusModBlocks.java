@@ -34,6 +34,11 @@ import net.mcreator.sonicraft_plus.block.WhiteWispCapsuleBlock;
 import net.mcreator.sonicraft_plus.block.VioletWispCapsuleBlock;
 import net.mcreator.sonicraft_plus.block.UsedBlueSpringBlock;
 import net.mcreator.sonicraft_plus.block.SpaceBridgeFrameBlock;
+import net.mcreator.sonicraft_plus.block.SkybasehullmuddlescreewBlock;
+import net.mcreator.sonicraft_plus.block.SkybasehullmiddleboltsBlock;
+import net.mcreator.sonicraft_plus.block.SkybasehullmiddleBlock;
+import net.mcreator.sonicraft_plus.block.SkybasehullbottemboltsBlock;
+import net.mcreator.sonicraft_plus.block.SkybasehullbottemBlock;
 import net.mcreator.sonicraft_plus.block.ServoMotorPartBlock;
 import net.mcreator.sonicraft_plus.block.RivetedIronBlockBlock;
 import net.mcreator.sonicraft_plus.block.RedWispCapsuleBlock;
@@ -64,6 +69,13 @@ import net.mcreator.sonicraft_plus.block.JunglezonedirtslabBlock;
 import net.mcreator.sonicraft_plus.block.JunglezonedirtBlock;
 import net.mcreator.sonicraft_plus.block.JadeWispCapsuleBlock;
 import net.mcreator.sonicraft_plus.block.IronIndustrialFenceBlock;
+import net.mcreator.sonicraft_plus.block.GreengrovegroundBlock;
+import net.mcreator.sonicraft_plus.block.GreengrovegrasstopBlock;
+import net.mcreator.sonicraft_plus.block.GreengrovegrassstairsBlock;
+import net.mcreator.sonicraft_plus.block.GreengrovegrassslabBlock;
+import net.mcreator.sonicraft_plus.block.GreengrovegrassBlock;
+import net.mcreator.sonicraft_plus.block.GreengrovedirtslabBlock;
+import net.mcreator.sonicraft_plus.block.GreengrounddirtstairsBlock;
 import net.mcreator.sonicraft_plus.block.GreenWispCapsuleBlock;
 import net.mcreator.sonicraft_plus.block.GlowingRedIronBlockBlock;
 import net.mcreator.sonicraft_plus.block.FragileWisperiteBlock;
@@ -164,6 +176,18 @@ public class SonicraftPlusModBlocks {
 	public static final RegistryObject<Block> JUNGLEZONEDIRTSLAB = REGISTRY.register("junglezonedirtslab", () -> new JunglezonedirtslabBlock());
 	public static final RegistryObject<Block> JUNGLEZONELOG = REGISTRY.register("junglezonelog", () -> new JunglezonelogBlock());
 	public static final RegistryObject<Block> JUNGLEZONESPIKEDLOG = REGISTRY.register("junglezonespikedlog", () -> new JunglezonespikedlogBlock());
+	public static final RegistryObject<Block> GREENGROVEDIRT = REGISTRY.register("greengrovedirt", () -> new GreengrovegroundBlock());
+	public static final RegistryObject<Block> GREENGROUNDDIRTSTAIRS = REGISTRY.register("greengrounddirtstairs", () -> new GreengrounddirtstairsBlock());
+	public static final RegistryObject<Block> GREENGROVEDIRTSLAB = REGISTRY.register("greengrovedirtslab", () -> new GreengrovedirtslabBlock());
+	public static final RegistryObject<Block> GREENGROVEGRASS = REGISTRY.register("greengrovegrass", () -> new GreengrovegrassBlock());
+	public static final RegistryObject<Block> GREENGROVEGRASSSLAB = REGISTRY.register("greengrovegrassslab", () -> new GreengrovegrassslabBlock());
+	public static final RegistryObject<Block> GREENGROVEGRASSSTAIRS = REGISTRY.register("greengrovegrassstairs", () -> new GreengrovegrassstairsBlock());
+	public static final RegistryObject<Block> GREENGROVEGRASSTOP = REGISTRY.register("greengrovegrasstop", () -> new GreengrovegrasstopBlock());
+	public static final RegistryObject<Block> SKYBASEHULLMIDDLE = REGISTRY.register("skybasehullmiddle", () -> new SkybasehullbottemBlock());
+	public static final RegistryObject<Block> SKYBASEHULLMIDDLESCREW = REGISTRY.register("skybasehullmiddlescrew", () -> new SkybasehullmuddlescreewBlock());
+	public static final RegistryObject<Block> SKYBASEHULLMIDDLE = REGISTRY.register("skybasehullmiddle", () -> new SkybasehullmiddleBlock());
+	public static final RegistryObject<Block> SKYBASEHULLMIDDLEBOLTS = REGISTRY.register("skybasehullmiddlebolts", () -> new SkybasehullmiddleboltsBlock());
+	public static final RegistryObject<Block> SKYBASEHULLBOTTEMBOLTS = REGISTRY.register("skybasehullbottembolts", () -> new SkybasehullbottemboltsBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

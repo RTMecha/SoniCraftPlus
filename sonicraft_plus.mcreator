@@ -8,10 +8,10 @@
       "registry_name": "cosmo_flower_pot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/block/cosmo_flower_pot.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/cosmo_flower_pot.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/CosmoFlowerPotBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/cosmo_flower_pot.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/cosmo_flower_pot.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/cosmo_flower_pot.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/cosmo_flower_pot.json"
         ]
       },
       "path": "~/Characters"
@@ -24,8 +24,8 @@
       "registry_name": "seedrian_seed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/seedrian_seed.json",
-          "src/main/java/net/mcreator/sonicraft_plus/item/SeedrianSeedItem.java"
+          "src/main/java/net/mcreator/sonicraft_plus/item/SeedrianSeedItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/seedrian_seed.json"
         ]
       },
       "path": "~/Characters"
@@ -51,9 +51,9 @@
       "registry_name": "cosmo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/CosmoRenderer.java",
           "src/main/resources/assets/sonicraft_plus/models/item/cosmo_spawn_egg.json",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/CosmoEntity.java"
+          "src/main/java/net/mcreator/sonicraft_plus/entity/CosmoEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/CosmoRenderer.java"
         ]
       },
       "path": "~/Characters"
@@ -190,11 +190,11 @@
       "registry_name": "blue_spring",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/BlueSpringBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/block/blue_spring.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/blue_spring.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/blue_spring.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/blue_spring.json"
+          "src/main/java/net/mcreator/sonicraft_plus/block/BlueSpringBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/blue_spring.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/blue_spring.json"
         ]
       },
       "path": "~/Springs"
@@ -208,9 +208,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sonicraft_plus/models/block/used_blue_spring.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/used_blue_spring.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/used_blue_spring.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/UsedBlueSpringBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/used_blue_spring.json",
           "src/main/resources/assets/sonicraft_plus/models/item/used_blue_spring.json"
         ]
       },
@@ -515,8 +515,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sonicraft_plus/models/item/sally_acorn_spawn_egg.json",
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/SallyAcornRenderer.java",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/SallyAcornEntity.java"
+          "src/main/java/net/mcreator/sonicraft_plus/entity/SallyAcornEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/SallyAcornRenderer.java"
         ]
       },
       "path": "~/Characters"
@@ -543,11 +543,11 @@
       "registry_name": "red_iron_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block.json",
           "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockBlock.java"
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -586,8 +586,8 @@
       "registry_name": "red_iron_nugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/item/RedIronNuggetItem.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_nugget.json"
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_nugget.json",
+          "src/main/java/net/mcreator/sonicraft_plus/item/RedIronNuggetItem.java"
         ]
       },
       "path": "~/Planet Wisp"
@@ -1152,11 +1152,11 @@
       "registry_name": "white_wisp_capsule",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/white_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/white_wisp_capsule.json",
           "src/main/resources/assets/sonicraft_plus/models/block/white_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/white_wisp_capsule.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/WhiteWispCapsuleBlock.java",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/white_wisp_capsule.json"
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/white_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/white_wisp_capsule.json"
         ]
       },
       "path": "~/Wisps"
@@ -1169,10 +1169,10 @@
       "registry_name": "cyan_wisp_capsule",
       "metadata": {
         "files": [
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/cyan_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/cyan_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/cyan_wisp_capsule.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/CyanWispCapsuleBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/cyan_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/cyan_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/cyan_wisp_capsule.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/cyan_wisp_capsule.json"
         ]
       },
@@ -1186,11 +1186,11 @@
       "registry_name": "yellow_wisp_capsule",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/YellowWispCapsuleBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/yellow_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/yellow_wisp_capsule.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/yellow_wisp_capsule.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/yellow_wisp_capsule.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/yellow_wisp_capsule.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/yellow_wisp_capsule.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/YellowWispCapsuleBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/yellow_wisp_capsule.json"
         ]
       },
       "path": "~/Wisps"
@@ -1203,11 +1203,11 @@
       "registry_name": "orange_wisp_capsule",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/orange_wisp_capsule.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/orange_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/orange_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/orange_wisp_capsule.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/OrangeWispCapsuleBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/block/orange_wisp_capsule.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/orange_wisp_capsule.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/orange_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/orange_wisp_capsule.json"
         ]
       },
       "path": "~/Wisps"
@@ -1220,9 +1220,9 @@
       "registry_name": "red_wisp_capsule",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedWispCapsuleBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/block/red_wisp_capsule.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/red_wisp_capsule.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/RedWispCapsuleBlock.java",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_wisp_capsule.json",
           "src/main/resources/assets/sonicraft_plus/models/item/red_wisp_capsule.json"
         ]
@@ -1237,9 +1237,9 @@
       "registry_name": "violet_wisp_capsule",
       "metadata": {
         "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/violet_wisp_capsule.json",
           "src/main/resources/assets/sonicraft_plus/models/block/violet_wisp_capsule.json",
           "src/main/resources/assets/sonicraft_plus/models/item/violet_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/violet_wisp_capsule.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/violet_wisp_capsule.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/VioletWispCapsuleBlock.java"
         ]
@@ -1449,8 +1449,8 @@
       "registry_name": "white_wisp_aura",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/particles/white_wisp_aura.json",
-          "src/main/java/net/mcreator/sonicraft_plus/client/particle/WhiteWispAuraParticle.java"
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/WhiteWispAuraParticle.java",
+          "src/main/resources/assets/sonicraft_plus/particles/white_wisp_aura.json"
         ]
       },
       "path": "~/Wisps"
@@ -1491,8 +1491,8 @@
       "registry_name": "orange_wisp_aura",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/client/particle/OrangeWispAuraParticle.java",
-          "src/main/resources/assets/sonicraft_plus/particles/orange_wisp_aura.json"
+          "src/main/resources/assets/sonicraft_plus/particles/orange_wisp_aura.json",
+          "src/main/java/net/mcreator/sonicraft_plus/client/particle/OrangeWispAuraParticle.java"
         ]
       },
       "path": "~/Wisps"
@@ -1566,11 +1566,11 @@
       "registry_name": "laser_prism",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/LaserPrismBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/laser_prism.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/laser_prism.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/laser_prism.json",
           "src/main/resources/assets/sonicraft_plus/models/block/laser_prism.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/laser_prism.json"
+          "src/main/java/net/mcreator/sonicraft_plus/block/LaserPrismBlock.java"
         ]
       },
       "path": "~/Wisps"
@@ -1615,11 +1615,11 @@
       "registry_name": "wisperite",
       "metadata": {
         "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/wisperite.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wisperite.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite.json"
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -1632,10 +1632,10 @@
       "registry_name": "wisperite_grass_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_grass_block.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_grass_block.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_grass_block.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_grass_block.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_grass_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_grass_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_grass_block.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteGrassBlockBlock.java"
         ]
       },
@@ -1649,11 +1649,11 @@
       "registry_name": "space_bridge_frame",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/blockstates/space_bridge_frame.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/SpaceBridgeFrameBlock.java",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/space_bridge_frame.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/space_bridge_frame.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/space_bridge_frame.json"
+          "src/main/resources/assets/sonicraft_plus/models/item/space_bridge_frame.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/SpaceBridgeFrameBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/space_bridge_frame.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/space_bridge_frame.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -1706,17 +1706,17 @@
       "metadata": {
         "ep": true,
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/world/teleporter/PlanetWispTeleporter.java",
-          "src/main/resources/assets/sonicraft_plus/models/block/planet_wisp_portal_ns.json",
-          "src/main/java/net/mcreator/sonicraft_plus/world/dimension/PlanetWispDimension.java",
-          "src/main/resources/data/sonicraft_plus/dimension_type/planet_wisp.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/planet_wisp_portal_ew.json",
           "src/main/resources/assets/sonicraft_plus/models/item/planet_wisp.json",
           "src/main/java/net/mcreator/sonicraft_plus/item/PlanetWispItem.java",
           "src/main/java/net/mcreator/sonicraft_plus/world/teleporter/PlanetWispPortalShape.java",
-          "src/main/resources/data/sonicraft_plus/dimension/planet_wisp.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/PlanetWispPortalBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/planet_wisp_portal_ns.json",
+          "src/main/java/net/mcreator/sonicraft_plus/world/teleporter/PlanetWispTeleporter.java",
           "src/main/resources/assets/sonicraft_plus/blockstates/planet_wisp_portal.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/planet_wisp_portal_ew.json"
+          "src/main/resources/data/sonicraft_plus/dimension/planet_wisp.json",
+          "src/main/resources/data/sonicraft_plus/dimension_type/planet_wisp.json",
+          "src/main/java/net/mcreator/sonicraft_plus/world/dimension/PlanetWispDimension.java"
         ]
       },
       "path": "~/Planet Wisp"
@@ -1729,10 +1729,10 @@
       "registry_name": "white_wisp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/white_wisp_spawn_egg.json",
-          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/white_wisp_biome_modifier.json",
           "src/main/java/net/mcreator/sonicraft_plus/client/renderer/WhiteWispRenderer.java",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/WhiteWispEntity.java"
+          "src/main/java/net/mcreator/sonicraft_plus/entity/WhiteWispEntity.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/white_wisp_spawn_egg.json",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/white_wisp_biome_modifier.json"
         ]
       },
       "path": "~/Wisps"
@@ -1745,11 +1745,11 @@
       "registry_name": "wispwood_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_wood.json",
           "src/main/resources/assets/sonicraft_plus/models/item/wispwood_wood.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_wood.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_wood.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodWoodBlock.java"
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodWoodBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_wood.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -1762,9 +1762,9 @@
       "registry_name": "wispwood_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_log.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_log.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodLogBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_log.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_log.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wispwood_log.json"
         ]
@@ -1780,10 +1780,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodPlanksBlock.java",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_planks.json",
           "src/main/resources/assets/sonicraft_plus/models/item/wispwood_planks.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_planks.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_planks.json"
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_planks.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_planks.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_planks.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -1796,10 +1796,10 @@
       "registry_name": "wispwood_leaves",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodLeavesBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_leaves.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wispwood_leaves.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_leaves.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_leaves.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodLeavesBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/item/wispwood_leaves.json"
         ]
       },
@@ -1814,12 +1814,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sonicraft_plus/models/item/wispwood_stairs.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_stairs.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wispwood_stairs.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wispwood_stairs_outer.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodStairsBlock.java",
           "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_stairs.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_stairs_inner.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodStairsBlock.java"
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_stairs_inner.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -1832,13 +1832,13 @@
       "registry_name": "wispwood_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodSlabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_slab.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wispwood_slab_top.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wispwood_slab_full.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_slab.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_slab.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_slab.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_slab.json"
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodSlabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_slab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_slab.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -1851,13 +1851,13 @@
       "registry_name": "wispwood_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_post.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_fence.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodFenceBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_inventory.json",
           "src/main/resources/assets/sonicraft_plus/models/item/wispwood_fence.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_fence.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_fence.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_inventory.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_fence.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_post.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodFenceBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -1870,14 +1870,14 @@
       "registry_name": "wispwood_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_fence_gate.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate_wall_open.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodFenceGateBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate_open.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_fence_gate.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate_wall.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_fence_gate.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate_open.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate_wall_open.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_fence_gate.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_fence_gate.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_fence_gate_wall.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -1994,18 +1994,18 @@
       "registry_name": "wispwood_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_left.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_door.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_top_left.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_door.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_door.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_top_right.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_door.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_left_open.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_right.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodDoorBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_top_right_open.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_door.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_right_open.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_top_left_open.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_right_open.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_door.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_right.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_top_left.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_bottom_left.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_door_top_right_open.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2031,13 +2031,13 @@
       "registry_name": "wispwood_trapdoor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodTrapdoorBlock.java",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispwood_trapdoor.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispwoodTrapdoorBlock.java",
           "src/main/resources/assets/sonicraft_plus/blockstates/wispwood_trapdoor.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_trapdoor.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_trapdoor_top.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_trapdoor_open.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wispwood_trapdoor.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_trapdoor_open.json"
+          "src/main/resources/assets/sonicraft_plus/models/item/wispwood_trapdoor.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wispwood_trapdoor_top.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2063,13 +2063,13 @@
       "registry_name": "red_iron_block_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_stairs_outer.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_stairs.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_stairs.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_stairs.json",
           "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_stairs_inner.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockStairsBlock.java",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_stairs.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_stairs.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_stairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_stairs_outer.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockStairsBlock.java"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2083,12 +2083,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_slab.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_slab.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_slab.json",
           "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_slab.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockSlabBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_slab.json",
           "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_slab_top.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_slab_full.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_slab.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_slab_full.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2102,10 +2102,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_pillar.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_pillar.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockPillarBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_pillar.json",
           "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_pillar.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_pillar.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_pillar.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2118,9 +2118,9 @@
       "registry_name": "red_iron_block_frame",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_frame.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_frame.json",
           "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_frame.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_frame.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_frame.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockFrameBlock.java"
         ]
@@ -2135,13 +2135,13 @@
       "registry_name": "red_iron_block_mesh_floor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_mesh_floor.json",
           "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_mesh_floor.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockMeshFloorBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_mesh_floor_full.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_mesh_floor_top.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_mesh_floor.json",
           "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_mesh_floor.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_mesh_floor.json"
+          "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockMeshFloorBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_mesh_floor.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_mesh_floor_top.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2154,11 +2154,11 @@
       "registry_name": "riveted_iron_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/riveted_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/riveted_iron_block.json",
           "src/main/resources/assets/sonicraft_plus/models/item/riveted_iron_block.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/riveted_iron_block.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/RivetedIronBlockBlock.java",
-          "src/main/resources/assets/sonicraft_plus/blockstates/riveted_iron_block.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/riveted_iron_block.json"
+          "src/main/java/net/mcreator/sonicraft_plus/block/RivetedIronBlockBlock.java"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2171,11 +2171,11 @@
       "registry_name": "red_iron_block_robot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_robot.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_robot.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_robot.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_robot.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockRobotBlock.java",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_robot.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_robot.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_robot.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_robot.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2189,10 +2189,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/red_iron_block_caution.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_caution.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_caution.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_caution.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/RedIronBlockCautionBlock.java",
-          "src/main/resources/assets/sonicraft_plus/blockstates/red_iron_block_caution.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/red_iron_block_caution.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/red_iron_block_caution.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2205,11 +2205,11 @@
       "registry_name": "glowing_red_iron_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/glowing_red_iron_block.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/glowing_red_iron_block.json",
           "src/main/resources/assets/sonicraft_plus/models/block/glowing_red_iron_block.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/glowing_red_iron_block.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/GlowingRedIronBlockBlock.java"
+          "src/main/java/net/mcreator/sonicraft_plus/block/GlowingRedIronBlockBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/glowing_red_iron_block.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/glowing_red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/glowing_red_iron_block.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2222,11 +2222,11 @@
       "registry_name": "wisp_capsule",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/WispCapsuleBlock.java",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisp_capsule.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/wisp_capsule.json"
+          "src/main/java/net/mcreator/sonicraft_plus/block/WispCapsuleBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisp_capsule.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2239,10 +2239,10 @@
       "registry_name": "cyan_wisp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/entity/CyanWispEntity.java",
           "src/main/java/net/mcreator/sonicraft_plus/client/renderer/CyanWispRenderer.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/cyan_wisp_spawn_egg.json",
-          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/cyan_wisp_biome_modifier.json"
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/cyan_wisp_biome_modifier.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/CyanWispEntity.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/cyan_wisp_spawn_egg.json"
         ]
       },
       "path": "~/Wisps"
@@ -2256,9 +2256,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/sonicraft_plus/forge/biome_modifier/yellow_wisp_biome_modifier.json",
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/YellowWispRenderer.java",
           "src/main/java/net/mcreator/sonicraft_plus/entity/YellowWispEntity.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/yellow_wisp_spawn_egg.json"
+          "src/main/resources/assets/sonicraft_plus/models/item/yellow_wisp_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/YellowWispRenderer.java"
         ]
       },
       "path": "~/Wisps"
@@ -2271,10 +2271,10 @@
       "registry_name": "orange_wisp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/entity/OrangeWispEntity.java",
-          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/orange_wisp_biome_modifier.json",
           "src/main/java/net/mcreator/sonicraft_plus/client/renderer/OrangeWispRenderer.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/orange_wisp_spawn_egg.json"
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/orange_wisp_biome_modifier.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/orange_wisp_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/OrangeWispEntity.java"
         ]
       },
       "path": "~/Wisps"
@@ -2287,10 +2287,10 @@
       "registry_name": "red_wisp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/RedWispRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/RedWispEntity.java",
           "src/main/resources/assets/sonicraft_plus/models/item/red_wisp_spawn_egg.json",
           "src/main/resources/data/sonicraft_plus/forge/biome_modifier/red_wisp_biome_modifier.json",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/RedWispEntity.java"
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/RedWispRenderer.java"
         ]
       },
       "path": "~/Wisps"
@@ -2303,8 +2303,8 @@
       "registry_name": "violet_wisp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/VioletWispRenderer.java",
           "src/main/java/net/mcreator/sonicraft_plus/entity/VioletWispEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/VioletWispRenderer.java",
           "src/main/resources/assets/sonicraft_plus/models/item/violet_wisp_spawn_egg.json"
         ]
       },
@@ -2359,8 +2359,8 @@
         "files": [
           "src/main/java/net/mcreator/sonicraft_plus/block/DarkIronBlockBlock.java",
           "src/main/resources/assets/sonicraft_plus/blockstates/dark_iron_block.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/dark_iron_block.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/dark_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/dark_iron_block.json",
           "src/main/resources/assets/sonicraft_plus/models/item/dark_iron_block.json"
         ]
       },
@@ -2437,11 +2437,11 @@
       "registry_name": "mining_tower_interior_cable",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/blockstates/mining_tower_interior_cable.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_interior_cable.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/MiningTowerInteriorCableBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/mining_tower_interior_cable.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/mining_tower_interior_cable.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/mining_tower_interior_cable.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/mining_tower_interior_cable.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/MiningTowerInteriorCableBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_interior_cable.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2454,11 +2454,11 @@
       "registry_name": "mining_tower_interior_motorized_cable",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/mining_tower_interior_motorized_cable.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/mining_tower_interior_motorized_cable.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/mining_tower_interior_motorized_cable.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/MiningTowerInteriorMotorizedCableBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_interior_motorized_cable.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/mining_tower_interior_motorized_cable.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/mining_tower_interior_motorized_cable.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/mining_tower_interior_motorized_cable.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2473,8 +2473,8 @@
         "files": [
           "src/main/java/net/mcreator/sonicraft_plus/block/FaultyGlowingRedIronBlockBlock.java",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/faulty_glowing_red_iron_block.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/faulty_glowing_red_iron_block.json",
           "src/main/resources/assets/sonicraft_plus/models/block/faulty_glowing_red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/faulty_glowing_red_iron_block.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/faulty_glowing_red_iron_block.json"
         ]
       },
@@ -2488,10 +2488,10 @@
       "registry_name": "servo_motor_part",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/ServoMotorPartBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/servo_motor_part.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/servo_motor_part.json",
           "src/main/resources/assets/sonicraft_plus/models/item/servo_motor_part.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/servo_motor_part.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/ServoMotorPartBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/block/servo_motor_part.json"
         ]
       },
@@ -2505,13 +2505,13 @@
       "registry_name": "mining_tower_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/blockstates/mining_tower_trapdoor.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/MiningTowerTrapdoorBlock.java",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/mining_tower_trapdoor.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_trapdoor_open.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/mining_tower_trapdoor.json",
           "src/main/resources/assets/sonicraft_plus/models/item/mining_tower_trapdoor.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_trapdoor_top.json",
           "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_trapdoor.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_trapdoor_open.json"
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/mining_tower_trapdoor.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/mining_tower_trapdoor_top.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2524,11 +2524,11 @@
       "registry_name": "charred_red_iron_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/CharredRedIronBlockBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/item/charred_red_iron_block.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/charred_red_iron_block.json",
           "src/main/resources/assets/sonicraft_plus/models/block/charred_red_iron_block.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/charred_red_iron_block.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/charred_red_iron_block.json"
+          "src/main/java/net/mcreator/sonicraft_plus/block/CharredRedIronBlockBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/charred_red_iron_block.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2576,11 +2576,11 @@
       "registry_name": "fragile_chaostone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/FragileChaostoneBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/fragile_chaostone.json",
           "src/main/resources/assets/sonicraft_plus/models/block/fragile_chaostone.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/fragile_chaostone.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/fragile_chaostone.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/fragile_chaostone.json"
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/fragile_chaostone.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/FragileChaostoneBlock.java"
         ]
       }
     },
@@ -2604,11 +2604,11 @@
       "registry_name": "wisperite_bricks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBricksBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_bricks.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wisperite_bricks.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_bricks.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_bricks.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_bricks.json"
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_bricks.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBricksBlock.java"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2621,13 +2621,13 @@
       "registry_name": "wisperite_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_stairs.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_brick_stairs.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_stairs.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickStairsBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_stairs_outer.json",
           "src/main/resources/assets/sonicraft_plus/models/item/wisperite_brick_stairs.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_stairs_inner.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_stairs_outer.json"
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_stairs.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickStairsBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_brick_stairs.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2640,13 +2640,13 @@
       "registry_name": "wisperite_brick_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_slab.json",
           "src/main/resources/assets/sonicraft_plus/models/item/wisperite_brick_slab.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_slab_full.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_slab_top.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_brick_slab.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_slab.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickSlabBlock.java"
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_slab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_slab_top.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickSlabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_slab_full.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2659,14 +2659,14 @@
       "registry_name": "wisperite_brick_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_wall_side_tall.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickWallBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_wall_post.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_wall_inventory.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickWallBlock.java",
           "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_brick_wall.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_brick_wall.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_wall_post.json",
           "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_wall.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_wall.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/wisperite_brick_wall.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_wall_side_tall.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_wall.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2679,11 +2679,11 @@
       "registry_name": "wisperite_brick_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_pillar.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_brick_pillar.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_pillar.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/WisperiteBrickPillarBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wisperite_brick_pillar.json",
           "src/main/resources/assets/sonicraft_plus/models/item/wisperite_brick_pillar.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/wisperite_brick_pillar.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/wisperite_brick_pillar.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2697,10 +2697,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sonicraft_plus/models/block/chiseled_wisperite_bricks.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/chiseled_wisperite_bricks.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/ChiseledWisperiteBricksBlock.java",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/chiseled_wisperite_bricks.json",
           "src/main/resources/assets/sonicraft_plus/models/item/chiseled_wisperite_bricks.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/chiseled_wisperite_bricks.json"
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/chiseled_wisperite_bricks.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -2869,10 +2869,10 @@
       "registry_name": "fragile_wisperite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/fragile_wisperite.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/fragile_wisperite.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/fragile_wisperite.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/fragile_wisperite.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/fragile_wisperite.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/fragile_wisperite.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/fragile_wisperite.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/FragileWisperiteBlock.java"
         ]
       },
@@ -2900,8 +2900,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sonicraft_plus/entity/MightyEntity.java",
-          "src/main/resources/assets/sonicraft_plus/models/item/mighty_spawn_egg.json",
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/MightyRenderer.java"
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/MightyRenderer.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/mighty_spawn_egg.json"
         ]
       },
       "path": "~/Characters"
@@ -2937,8 +2937,8 @@
       "registry_name": "mighty_ball",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/MightyBallRenderer.java",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/MightyBallEntity.java"
+          "src/main/java/net/mcreator/sonicraft_plus/entity/MightyBallEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/MightyBallRenderer.java"
         ]
       },
       "path": "~/Characters"
@@ -2951,8 +2951,8 @@
       "registry_name": "mighty_hammer_drop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/entity/MightyHammerDropEntity.java",
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/MightyHammerDropRenderer.java"
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/MightyHammerDropRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/MightyHammerDropEntity.java"
         ]
       },
       "path": "~/Characters"
@@ -3022,9 +3022,9 @@
       "registry_name": "ray",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/entity/RayEntity.java",
           "src/main/resources/assets/sonicraft_plus/models/item/ray_spawn_egg.json",
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/RayRenderer.java"
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/RayRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/RayEntity.java"
         ]
       },
       "path": "~/Characters"
@@ -3121,15 +3121,15 @@
       "registry_name": "iron_industrial_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/iron_industrial_fence.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_side.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_noside_alt.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/iron_industrial_fence.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/iron_industrial_fence.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_post.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_side_alt.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_noside.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/IronIndustrialFenceBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_noside.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_post.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_noside_alt.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_side.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/iron_industrial_fence.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/iron_industrial_fence.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/iron_industrial_fence_side_alt.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/iron_industrial_fence.json"
         ]
       },
       "path": "~/Planet Wisp"
@@ -3155,11 +3155,11 @@
       "registry_name": "blue_wisp_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/blockstates/blue_wisp_block.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/blue_wisp_block.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BlueWispBlockBlock.java",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/blue_wisp_block.json",
           "src/main/resources/assets/sonicraft_plus/models/item/blue_wisp_block.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/BlueWispBlockBlock.java",
-          "src/main/resources/assets/sonicraft_plus/models/block/blue_wisp_block.json"
+          "src/main/resources/assets/sonicraft_plus/blockstates/blue_wisp_block.json"
         ]
       },
       "path": "~/Wisps"
@@ -3172,11 +3172,11 @@
       "registry_name": "blue_wisp_ring",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/block/BlueWispRingBlock.java",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/blue_wisp_ring.json",
           "src/main/resources/assets/sonicraft_plus/models/item/blue_wisp_ring.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/blue_wisp_ring.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/blue_wisp_ring.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/blue_wisp_ring.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BlueWispRingBlock.java"
         ]
       },
       "path": "~/Wisps"
@@ -3603,10 +3603,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sonicraft_plus/blockstates/blue_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/blue_wisp_capsule.json",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/blue_wisp_capsule.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/BlueWispCapsuleBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/block/blue_wisp_capsule.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/BlueWispCapsuleBlock.java"
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/blue_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/blue_wisp_capsule.json"
         ]
       },
       "path": "~/Wisps"
@@ -3619,11 +3619,11 @@
       "registry_name": "green_wisp_capsule",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/blockstates/green_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/green_wisp_capsule.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/GreenWispCapsuleBlock.java",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/green_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/green_wisp_capsule.json"
+          "src/main/resources/assets/sonicraft_plus/models/block/green_wisp_capsule.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/GreenWispCapsuleBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/green_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/green_wisp_capsule.json"
         ]
       },
       "path": "~/Wisps"
@@ -3637,10 +3637,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/pink_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/pink_wisp_capsule.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/PinkWispCapsuleBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/item/pink_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/pink_wisp_capsule.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/PinkWispCapsuleBlock.java"
+          "src/main/resources/assets/sonicraft_plus/blockstates/pink_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/pink_wisp_capsule.json"
         ]
       },
       "path": "~/Wisps"
@@ -3654,10 +3654,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sonicraft_plus/block/PurpleWispCapsuleBlock.java",
-          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/purple_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/purple_wisp_capsule.json",
           "src/main/resources/assets/sonicraft_plus/blockstates/purple_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/models/block/purple_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/purple_wisp_capsule.json"
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/purple_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/purple_wisp_capsule.json"
         ]
       },
       "path": "~/Wisps"
@@ -3741,8 +3741,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sonicraft_plus/models/item/blue_wisp_spawn_egg.json",
-          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/blue_wisp_biome_modifier.json",
           "src/main/java/net/mcreator/sonicraft_plus/entity/BlueWispEntity.java",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/blue_wisp_biome_modifier.json",
           "src/main/java/net/mcreator/sonicraft_plus/client/renderer/BlueWispRenderer.java"
         ]
       },
@@ -3756,10 +3756,10 @@
       "registry_name": "green_wisp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/GreenWispRenderer.java",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/green_wisp_biome_modifier.json",
           "src/main/java/net/mcreator/sonicraft_plus/entity/GreenWispEntity.java",
           "src/main/resources/assets/sonicraft_plus/models/item/green_wisp_spawn_egg.json",
-          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/green_wisp_biome_modifier.json"
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/GreenWispRenderer.java"
         ]
       },
       "path": "~/Wisps"
@@ -3772,8 +3772,8 @@
       "registry_name": "pink_wisp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/PinkWispRenderer.java",
           "src/main/resources/data/sonicraft_plus/forge/biome_modifier/pink_wisp_biome_modifier.json",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/PinkWispRenderer.java",
           "src/main/java/net/mcreator/sonicraft_plus/entity/PinkWispEntity.java",
           "src/main/resources/assets/sonicraft_plus/models/item/pink_wisp_spawn_egg.json"
         ]
@@ -3789,8 +3789,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sonicraft_plus/models/item/purple_wisp_spawn_egg.json",
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/PurpleWispRenderer.java",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/PurpleWispEntity.java"
+          "src/main/java/net/mcreator/sonicraft_plus/entity/PurpleWispEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/PurpleWispRenderer.java"
         ]
       },
       "path": "~/Wisps"
@@ -3803,11 +3803,11 @@
       "registry_name": "wispon_workbench",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/wispon_workbench.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/wispon_workbench.json",
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/wispon_workbench.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispon_workbench.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/WisponWorkbenchBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/block/wispon_workbench.json",
-          "src/main/java/net/mcreator/sonicraft_plus/block/WisponWorkbenchBlock.java"
+          "src/main/resources/assets/sonicraft_plus/blockstates/wispon_workbench.json"
         ]
       },
       "path": "~/Wispons"
@@ -3820,8 +3820,8 @@
       "registry_name": "wispon_bullet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/wispon_bullet.json",
-          "src/main/java/net/mcreator/sonicraft_plus/item/WisponBulletItem.java"
+          "src/main/java/net/mcreator/sonicraft_plus/item/WisponBulletItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/wispon_bullet.json"
         ]
       },
       "path": "~/Wispons"
@@ -4493,9 +4493,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/sonicraft_plus/loot_tables/blocks/jade_wisp_capsule.json",
-          "src/main/resources/assets/sonicraft_plus/blockstates/jade_wisp_capsule.json",
           "src/main/java/net/mcreator/sonicraft_plus/block/JadeWispCapsuleBlock.java",
           "src/main/resources/assets/sonicraft_plus/models/item/jade_wisp_capsule.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/jade_wisp_capsule.json",
           "src/main/resources/assets/sonicraft_plus/models/block/jade_wisp_capsule.json"
         ]
       },
@@ -4577,10 +4577,10 @@
       "registry_name": "jade_wisp",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/entity/JadeWispEntity.java",
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/JadeWispRenderer.java",
           "src/main/resources/data/sonicraft_plus/forge/biome_modifier/jade_wisp_biome_modifier.json",
-          "src/main/resources/assets/sonicraft_plus/models/item/jade_wisp_spawn_egg.json"
+          "src/main/resources/assets/sonicraft_plus/models/item/jade_wisp_spawn_egg.json",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/JadeWispEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/JadeWispRenderer.java"
         ]
       },
       "path": "~/Wisps"
@@ -4736,9 +4736,9 @@
       "registry_name": "wispwood_tree_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/sonicraft_plus/worldgen/configured_feature/wispwood_tree_feature.json",
+          "src/main/resources/data/sonicraft_plus/worldgen/placed_feature/wispwood_tree_feature.json",
           "src/main/resources/data/sonicraft_plus/forge/biome_modifier/wispwood_tree_feature_biome_modifier.json",
-          "src/main/resources/data/sonicraft_plus/worldgen/placed_feature/wispwood_tree_feature.json"
+          "src/main/resources/data/sonicraft_plus/worldgen/configured_feature/wispwood_tree_feature.json"
         ],
         "has_nbt_structure": true
       },
@@ -4753,8 +4753,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/sonicraft_plus/worldgen/placed_feature/mining_tower_corpse_feature.json",
-          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/mining_tower_corpse_feature_biome_modifier.json",
-          "src/main/resources/data/sonicraft_plus/worldgen/configured_feature/mining_tower_corpse_feature.json"
+          "src/main/resources/data/sonicraft_plus/worldgen/configured_feature/mining_tower_corpse_feature.json",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/mining_tower_corpse_feature_biome_modifier.json"
         ],
         "has_nbt_structure": true
       },
@@ -4768,9 +4768,9 @@
       "registry_name": "mining_tower_spawn_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/sonicraft_plus/worldgen/configured_feature/mining_tower_spawn_feature.json",
+          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/mining_tower_spawn_feature_biome_modifier.json",
           "src/main/resources/data/sonicraft_plus/worldgen/placed_feature/mining_tower_spawn_feature.json",
-          "src/main/resources/data/sonicraft_plus/forge/biome_modifier/mining_tower_spawn_feature_biome_modifier.json"
+          "src/main/resources/data/sonicraft_plus/worldgen/configured_feature/mining_tower_spawn_feature.json"
         ],
         "has_nbt_structure": true
       },
@@ -4811,8 +4811,8 @@
       "registry_name": "red_wispon_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/entity/RedWisponProjectileEntity.java",
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/RedWisponProjectileRenderer.java"
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/RedWisponProjectileRenderer.java",
+          "src/main/java/net/mcreator/sonicraft_plus/entity/RedWisponProjectileEntity.java"
         ]
       },
       "path": "~/Wispons"
@@ -4867,8 +4867,8 @@
       "registry_name": "green_wispon_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/GreenWisponProjectileRenderer.java",
-          "src/main/java/net/mcreator/sonicraft_plus/entity/GreenWisponProjectileEntity.java"
+          "src/main/java/net/mcreator/sonicraft_plus/entity/GreenWisponProjectileEntity.java",
+          "src/main/java/net/mcreator/sonicraft_plus/client/renderer/GreenWisponProjectileRenderer.java"
         ]
       },
       "path": "~/Wispons"
@@ -4881,8 +4881,8 @@
       "registry_name": "green_wispon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sonicraft_plus/models/item/green_wispon.json",
-          "src/main/java/net/mcreator/sonicraft_plus/item/GreenWisponItem.java"
+          "src/main/java/net/mcreator/sonicraft_plus/item/GreenWisponItem.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/green_wispon.json"
         ]
       },
       "path": "~/Wispons"
@@ -5202,6 +5202,218 @@
         ]
       },
       "path": "~/ideas guy additions/8-bit/sonic 1/jungle zone"
+    },
+    {
+      "name": "Greengroveground",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greengrovedirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/greengrovedirt.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/GreengrovegroundBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/greengrovedirt.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovedirt.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/greengrovedirt.json"
+        ]
+      },
+      "path": "~/ideas guy additions/32 bit/3d blast/Green Grove Zone"
+    },
+    {
+      "name": "Greengrounddirtstairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greengrounddirtstairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/GreengrounddirtstairsBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrounddirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/greengrounddirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/greengrounddirtstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrounddirtstairs_outer.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrounddirtstairs_inner.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/greengrounddirtstairs.json"
+        ]
+      },
+      "path": "~/ideas guy additions/32 bit/3d blast/Green Grove Zone"
+    },
+    {
+      "name": "Greengrovedirtslab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greengrovedirtslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/blockstates/greengrovedirtslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovedirtslab.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/greengrovedirtslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovedirtslab_full.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/GreengrovedirtslabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/item/greengrovedirtslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovedirtslab_top.json"
+        ]
+      },
+      "path": "~/ideas guy additions/32 bit/3d blast/Green Grove Zone"
+    },
+    {
+      "name": "Greengrovegrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greengrovegrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/greengrovegrass.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/greengrovegrass.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/greengrovegrass.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovegrass.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/GreengrovegrassBlock.java"
+        ]
+      },
+      "path": "~/ideas guy additions/32 bit/3d blast/Green Grove Zone"
+    },
+    {
+      "name": "Greengrovegrassslab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greengrovegrassslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovegrassslab_full.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/greengrovegrassslab.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/greengrovegrassslab.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovegrassslab.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/greengrovegrassslab.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/GreengrovegrassslabBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovegrassslab_top.json"
+        ]
+      },
+      "path": "~/ideas guy additions/32 bit/3d blast/Green Grove Zone"
+    },
+    {
+      "name": "Greengrovegrassstairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greengrovegrassstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/greengrovegrassstairs.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/GreengrovegrassstairsBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovegrassstairs_inner.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovegrassstairs_outer.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/greengrovegrassstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/greengrovegrassstairs.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovegrassstairs.json"
+        ]
+      },
+      "path": "~/ideas guy additions/32 bit/3d blast/Green Grove Zone"
+    },
+    {
+      "name": "Greengrovegrasstop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greengrovegrasstop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/GreengrovegrasstopBlock.java",
+          "src/main/resources/assets/sonicraft_plus/models/block/greengrovegrasstop.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/greengrovegrasstop.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/greengrovegrasstop.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/greengrovegrasstop.json"
+        ]
+      },
+      "path": "~/ideas guy additions/32 bit/3d blast/Green Grove Zone"
+    },
+    {
+      "name": "Skybasehullbottem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skybasehullmiddle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/skybasehullmiddle.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/skybasehullmiddle.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/SkybasehullbottemBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/skybasehullmiddle.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/skybasehullmiddle.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/sonic 1/sky base structure"
+    },
+    {
+      "name": "Skybasehullmuddlescreew",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skybasehullmiddlescrew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/SkybasehullmuddlescreewBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/skybasehullmiddlescrew.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/skybasehullmiddlescrew.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/skybasehullmiddlescrew.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/skybasehullmiddlescrew.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/sonic 1/sky base structure"
+    },
+    {
+      "name": "Skybasehullmiddle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skybasehullmiddle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/item/skybasehullmiddle.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/skybasehullmiddle.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/skybasehullmiddle.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/skybasehullmiddle.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/SkybasehullmiddleBlock.java"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/sonic 1/sky base structure"
+    },
+    {
+      "name": "Skybasehullmiddlebolts",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skybasehullmiddlebolts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sonicraft_plus/block/SkybasehullmiddleboltsBlock.java",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/skybasehullmiddlebolts.json",
+          "src/main/resources/assets/sonicraft_plus/blockstates/skybasehullmiddlebolts.json",
+          "src/main/resources/assets/sonicraft_plus/models/block/skybasehullmiddlebolts.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/skybasehullmiddlebolts.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/sonic 1/sky base structure"
+    },
+    {
+      "name": "Skybasehullbottembolts",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skybasehullbottembolts",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sonicraft_plus/models/block/skybasehullbottembolts.json",
+          "src/main/resources/assets/sonicraft_plus/models/item/skybasehullbottembolts.json",
+          "src/main/resources/data/sonicraft_plus/loot_tables/blocks/skybasehullbottembolts.json",
+          "src/main/java/net/mcreator/sonicraft_plus/block/SkybasehullbottemboltsBlock.java",
+          "src/main/resources/assets/sonicraft_plus/blockstates/skybasehullbottembolts.json"
+        ]
+      },
+      "path": "~/ideas guy additions/8-bit/sonic 1/sky base structure"
     }
   ],
   "variable_elements": [
@@ -5573,6 +5785,8 @@
       "~CUSTOM:WispwoodLeaves"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Greengrovegrassslab",
+      "~CUSTOM:Greengrovedirtslab",
       "~CUSTOM:Junglezonedirtslab",
       "~CUSTOM:Junglezonegrassslab",
       "~CUSTOM:Bridgezonegrassslab",
@@ -5597,6 +5811,8 @@
       "CUSTOM:WispwoodLog"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Greengrovegrassstairs",
+      "~CUSTOM:Greengrounddirtstairs",
       "~CUSTOM:Junglezonedirtstairs",
       "~CUSTOM:Junglezonegrassstairs",
       "~CUSTOM:Bridgezonedirtslab",
@@ -5697,11 +5913,13 @@
   "language_map": {
     "en_us": {
       "item.sonicraft_plus.white_wispon": "Wispon",
-      "entity.sonicraft_plus.sally_acorn": "Sally Acorn",
       "subtitles.wisp.obtain": "",
+      "entity.sonicraft_plus.sally_acorn": "Sally Acorn",
       "entity.sonicraft_plus.mighty": "Mighty",
       "item.sonicraft_plus.red_wispon": "Burst Wispon",
       "block.sonicraft_plus.orange_wisp_capsule": "Orange Wisp Capsule",
+      "block.sonicraft_plus.greengrovedirtslab": "Green grove dirt slab",
+      "block.sonicraft_plus.skybasehullbottembolts": "Sky base hull middle",
       "block.sonicraft_plus.wispwood_planks": "Wispwood Planks",
       "block.sonicraft_plus.cosmo_flower_pot": "Flower Pot with Seedrian Seed",
       "subtitles.cube.activetick": "",
@@ -5710,13 +5928,15 @@
       "item_group.sonicraft_plus.sonicraft_plus_items": "SoniCraft Plus",
       "block.sonicraft_plus.blue_wisp_block": "Blue Wisp Block",
       "block.sonicraft_plus.servo_motor_part": "Mining Tower Servo Motor Part",
-      "subtitles.cube.ticking": "",
       "block.sonicraft_plus.wisperite_brick_pillar": "Wisperite Brick Pillar",
+      "subtitles.cube.ticking": "",
       "entity.sonicraft_plus.orange_wisp": "Orange Wisp",
       "item.sonicraft_plus.yellow_wispon": "Drill Wispon",
       "subtitles.blaster.shot": "",
+      "block.sonicraft_plus.greengrovegrassstairs": "Green grove grass stairs",
       "subtitles.mob.wisphurt": "",
       "subtitles.wispon.hover.attack": "",
+      "block.sonicraft_plus.greengrovedirt": "Green grove dirt",
       "block.sonicraft_plus.wispwood_trapdoor": "Wispwood Trapdoor",
       "block.sonicraft_plus.purple_wisp_capsule.description_0": "�9WIP",
       "effect.sonicraft_plus.rocket_effect": "Orange Rocket",
@@ -5728,6 +5948,7 @@
       "effect.sonicraft_plus.drill_effect": "Yellow Drill",
       "entity.sonicraft_plus.blue_wisp_change_trigger": "entity.sonicraft_plus.blue_wisp_change_trigger",
       "block.sonicraft_plus.red_iron_block": "Block of Red Iron",
+      "block.sonicraft_plus.skybasehullmiddlescrew": "Sky base hull middle screw",
       "block.sonicraft_plus.junglezonedirtstairs": "Jungle zone dirt stairs",
       "item.sonicraft_plus.violet_wispon": "Void Wispon",
       "block.sonicraft_plus.wispwood_wood": "Wispwood Wood",
@@ -5747,11 +5968,11 @@
       "item.sonicraft_plus.mighty_spawn_egg": "Mighty Spawn Egg",
       "block.sonicraft_plus.wisperite": "Wisperite",
       "block.sonicraft_plus.red_iron_block_pillar": "Block of Red Iron Pillar",
-      "subtitles.wispon.drill.attack": "",
       "subtitles.burst.active": "",
+      "subtitles.wispon.drill.attack": "",
       "entity.sonicraft_plus.wispon_cube_trap": "Blue Cube",
-      "item.sonicraft_plus.green_wisp_spawn_egg": "Green Wisp Spawn Egg",
       "block.sonicraft_plus.cyan_wisp_capsule": "Cyan Wisp Capsule",
+      "item.sonicraft_plus.green_wisp_spawn_egg": "Green Wisp Spawn Egg",
       "subtitles.laser.active": "",
       "subtitles.drill.wispon.attack": "",
       "block.sonicraft_plus.fragile_chaostone": "Fragile Chaostone",
@@ -5775,6 +5996,7 @@
       "block.sonicraft_plus.junglezonedirt": "Jungle zone dirt",
       "block.sonicraft_plus.mining_tower_interior_motorized_cable": "Mining Tower Motorized Interior Cable",
       "block.sonicraft_plus.wisperite_brick_wall": "Wisperite Brick Wall",
+      "block.sonicraft_plus.greengrovegrass": "Green grove grass",
       "block.sonicraft_plus.glowing_red_iron_block": "Glowing Block of Red Iron",
       "block.sonicraft_plus.blue_spring.description_0": "(From Knuckles\u0027 Chaotix)",
       "block.sonicraft_fc.cosmo_flower_pot": "Flower Pot with Seedrian Seed",
@@ -5790,11 +6012,13 @@
       "subtitles.boost.active": "",
       "block.sonicraft_plus.yellow_wisp_capsule": "Yellow Wisp Capsule",
       "subtitles.void.active": "",
+      "block.sonicraft_plus.skybasehullmiddle": "Sky base hull middle",
       "item.sonicraft_plus.sonicraft_plus_symbol": "SoniCraft Plus Symbol",
       "entity.sonicraft_plus.green_wisp": "Green Wisp",
       "entity.sonicraft_plus.yellow_wisp": "Yellow Wisp",
       "item.sonicraft_plus.cosmo_spawn_egg": "Cosmo Spawn Egg",
       "block.sonicraft_plus.space_bridge_frame": "Space Bridge Frame",
+      "block.sonicraft_plus.greengrounddirtstairs": "Green grove dirt stairs",
       "item.sonicraft_plus.red_iron_ingot": "Red Iron",
       "subtitles.rocket.active": "",
       "effect.rocket_effect": "Orange Rocket",
@@ -5809,6 +6033,7 @@
       "block.sonicraft_plus.junglezonelog": "Jungle zone log",
       "item.sonicraft_plus.orange_wisp_spawn_egg": "Orange Wisp Spawn Egg",
       "effect.sonicraft_plus.boost_effect": "White Boost",
+      "block.sonicraft_plus.skybasehullmiddlebolts": "Sky base hull middle screw",
       "item.sonicraft_plus.ray_spawn_egg": "Ray Spawn Egg",
       "effect.laser_effect": "Cyan Laser",
       "block.sonicraft_plus.red_iron_block_frame": "Red Iron Frame",
@@ -5829,6 +6054,7 @@
       "subtitles.ring.collect": "",
       "subtitles.mob.tanktreads": "",
       "effect.cube_effect": "Blue Cube",
+      "block.sonicraft_plus.greengrovegrasstop": "Green grove grass top",
       "entity.sonicraft_plus.mining_tower": "Eggman Industries Mining Tower",
       "block.sonicraft_plus.red_iron_block_robot": "Robotic Block of Red Iron",
       "effect.sonicraft_plus.hover_effect": "Green Hover",
@@ -5866,6 +6092,7 @@
       "block.sonicraft_plus.wispwood_log": "Wispwood Log",
       "block.sonicraft_plus.mining_tower_trapdoor": "Mining Tower Trapdoor",
       "block.sonicraft_plus.junglezonegrass": "Jungle zone grass",
+      "block.sonicraft_plus.greengrovegrassslab": "Green grove grass slab",
       "block.sonicraft_plus.wispwood_leaves": "Wispwood Leaves",
       "effect.hover_effect": "Green Hover",
       "block.sonicraft_plus.wispwood_fence": "Wispwood Fence",
@@ -6070,19 +6297,6 @@
                     "children": []
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "name": "16 bit additions",
-            "children": [
-              {
-                "name": "wing fortress",
-                "children": []
-              },
-              {
-                "name": "flying battery",
-                "children": []
               }
             ]
           }

@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "sonicraft_plus:block/green_grove_dirt",
+    "bottom": "sonicraft_plus:block/green_grove_dirt",
+    "top": "sonicraft_plus:block/green_grove_dirt",
+    "side": "sonicraft_plus:block/green_grove_dirt"
+  },
+  "render_type": "solid"
+}

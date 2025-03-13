@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft_plus:block/greengrovedirtslab"
+    },
+    "type=top": {
+      "model": "sonicraft_plus:block/greengrovedirtslab_top"
+    },
+    "type=double": {
+      "model": "sonicraft_plus:block/greengrovedirtslab_full"
+    }
+  }
+}
