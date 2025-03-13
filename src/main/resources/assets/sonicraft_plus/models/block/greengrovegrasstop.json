@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "sonicraft_plus:block/grenn_grove_grass_top",
+    "particle": "sonicraft_plus:block/grenn_grove_grass_top"
+  },
+  "render_type": "cutout_mipped"
+}

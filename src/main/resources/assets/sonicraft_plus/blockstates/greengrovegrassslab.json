@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft_plus:block/greengrovegrassslab"
+    },
+    "type=top": {
+      "model": "sonicraft_plus:block/greengrovegrassslab_top"
+    },
+    "type=double": {
+      "model": "sonicraft_plus:block/greengrovegrassslab_full"
+    }
+  }
+}

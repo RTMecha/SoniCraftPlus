@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "sonicraft_plus:block/green_grove_dirt",
+    "top": "sonicraft_plus:block/green_grove_grass_top",
+    "side": "sonicraft_plus:block/green_grove_dirt",
+    "overlay": "sonicraft_plus:block/green_grove_grass_overlay",
+    "particle": "sonicraft_plus:block/green_grove_dirt"
+  },
+  "render_type": "cutout_mipped"
+}

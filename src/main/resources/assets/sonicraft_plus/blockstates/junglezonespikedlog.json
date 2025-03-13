@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft_plus:block/junglezonespikedlog"
+    },
+    "facing=east": {
+      "model": "sonicraft_plus:block/junglezonespikedlog",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft_plus:block/junglezonespikedlog",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft_plus:block/junglezonespikedlog",
+      "y": 270
+    }
+  }
+}

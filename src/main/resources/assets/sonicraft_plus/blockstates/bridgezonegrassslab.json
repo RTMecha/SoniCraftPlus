@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft_plus:block/bridgezonegrassslab"
+    },
+    "type=top": {
+      "model": "sonicraft_plus:block/bridgezonegrassslab_top"
+    },
+    "type=double": {
+      "model": "sonicraft_plus:block/bridgezonegrassslab_full"
+    }
+  }
+}

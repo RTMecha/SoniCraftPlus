@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
+    "sonicraft_plus:greengrovegrassstairs",
+    "sonicraft_plus:greengrounddirtstairs",
+    "sonicraft_plus:junglezonedirtstairs",
+    "sonicraft_plus:junglezonegrassstairs",
+    "sonicraft_plus:bridgezonedirtslab",
+    "sonicraft_plus:bridgezonedirtstairs",
+    "sonicraft_plus:bridgezonegrass_stairs",
     "sonicraft_plus:wisperite_brick_stairs",
     "sonicraft_plus:red_iron_block_stairs",
     "sonicraft_plus:wispwood_stairs"

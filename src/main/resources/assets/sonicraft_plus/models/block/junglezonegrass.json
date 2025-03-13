@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "sonicraft_plus:block/jungle_zone_dirt",
+    "top": "sonicraft_plus:block/jungle_zone_grass_top",
+    "side": "sonicraft_plus:block/jungle_zone_dirt",
+    "overlay": "sonicraft_plus:block/jungle_zone_grass_side_overlay",
+    "particle": "sonicraft_plus:block/jungle_zone_dirt"
+  },
+  "render_type": "cutout_mipped"
+}

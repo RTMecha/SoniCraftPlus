@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "sonicraft_plus:block/sky_base_hull_bottem",
+    "top": "sonicraft_plus:block/sky_base_hull_top",
+    "side": "sonicraft_plus:block/sly_base_hull_bottem_bolts",
+    "overlay": "sonicraft_plus:block/sky_base_hull_bottem",
+    "particle": "sonicraft_plus:block/sky_base_hull_bottem"
+  },
+  "render_type": "cutout_mipped"
+}

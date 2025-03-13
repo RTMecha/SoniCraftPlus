@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "sonicraft_plus:block/bridge_zone_dirt",
+    "bottom": "sonicraft_plus:block/bridge_zone_dirt",
+    "top": "sonicraft_plus:block/bridge_zone_dirt",
+    "side": "sonicraft_plus:block/bridge_zone_dirt"
+  },
+  "render_type": "cutout_mipped"
+}

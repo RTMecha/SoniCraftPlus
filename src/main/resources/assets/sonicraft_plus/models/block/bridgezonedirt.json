@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft_plus:block/bridge_zone_dirt",
+    "particle": "sonicraft_plus:block/bridge_zone_dirt"
+  },
+  "render_type": "cutout_mipped"
+}
