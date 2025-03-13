@@ -34,11 +34,15 @@ import net.mcreator.sonicraft_plus.block.WhiteWispCapsuleBlock;
 import net.mcreator.sonicraft_plus.block.VioletWispCapsuleBlock;
 import net.mcreator.sonicraft_plus.block.UsedBlueSpringBlock;
 import net.mcreator.sonicraft_plus.block.SpaceBridgeFrameBlock;
+import net.mcreator.sonicraft_plus.block.SkybasehulltopstairsBlock;
+import net.mcreator.sonicraft_plus.block.SkybasehulltopslabBlock;
+import net.mcreator.sonicraft_plus.block.SkybasehulltopBlock;
 import net.mcreator.sonicraft_plus.block.SkybasehullmuddlescreewBlock;
 import net.mcreator.sonicraft_plus.block.SkybasehullmiddleboltsBlock;
 import net.mcreator.sonicraft_plus.block.SkybasehullmiddleBlock;
 import net.mcreator.sonicraft_plus.block.SkybasehullbottemboltsBlock;
 import net.mcreator.sonicraft_plus.block.SkybasehullbottemBlock;
+import net.mcreator.sonicraft_plus.block.SkyasehulltopscrewBlock;
 import net.mcreator.sonicraft_plus.block.ServoMotorPartBlock;
 import net.mcreator.sonicraft_plus.block.RivetedIronBlockBlock;
 import net.mcreator.sonicraft_plus.block.RedWispCapsuleBlock;
@@ -188,6 +192,10 @@ public class SonicraftPlusModBlocks {
 	public static final RegistryObject<Block> SKYBASEHULLMIDDLE = REGISTRY.register("skybasehullmiddle", () -> new SkybasehullmiddleBlock());
 	public static final RegistryObject<Block> SKYBASEHULLMIDDLEBOLTS = REGISTRY.register("skybasehullmiddlebolts", () -> new SkybasehullmiddleboltsBlock());
 	public static final RegistryObject<Block> SKYBASEHULLBOTTEMBOLTS = REGISTRY.register("skybasehullbottembolts", () -> new SkybasehullbottemboltsBlock());
+	public static final RegistryObject<Block> SKYASEHULLTOPSCREW = REGISTRY.register("skyasehulltopscrew", () -> new SkyasehulltopscrewBlock());
+	public static final RegistryObject<Block> SKYBASEHULLTOP = REGISTRY.register("skybasehulltop", () -> new SkybasehulltopBlock());
+	public static final RegistryObject<Block> SKYBASEHULLTOPSTAIRS = REGISTRY.register("skybasehulltopstairs", () -> new SkybasehulltopstairsBlock());
+	public static final RegistryObject<Block> SKYBASEHULLTOPSLAB = REGISTRY.register("skybasehulltopslab", () -> new SkybasehulltopslabBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

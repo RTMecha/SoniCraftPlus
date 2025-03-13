@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "sonicraft_plus:block/sky_base_hull_top_bolts_bottem",
+    "bottom": "sonicraft_plus:block/sky_base_hull_top_bolts_bottem",
+    "top": "sonicraft_plus:block/sky_base_hull_top_bolts_bottem",
+    "side": "sonicraft_plus:block/sky_base_hull_top_screwless"
+  },
+  "render_type": "solid"
+}

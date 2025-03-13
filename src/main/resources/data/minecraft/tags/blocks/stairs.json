@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "sonicraft_plus:skybasehulltopslab",
+    "sonicraft_plus:skybasehulltopstairs",
     "sonicraft_plus:greengrovegrassstairs",
     "sonicraft_plus:greengrounddirtstairs",
     "sonicraft_plus:junglezonedirtstairs",

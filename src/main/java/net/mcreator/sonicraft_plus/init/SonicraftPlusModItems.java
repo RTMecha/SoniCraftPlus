@@ -146,6 +146,10 @@ public class SonicraftPlusModItems {
 	public static final RegistryObject<Item> SKYBASEHULLMIDDLE = block(SonicraftPlusModBlocks.SKYBASEHULLMIDDLE);
 	public static final RegistryObject<Item> SKYBASEHULLMIDDLEBOLTS = block(SonicraftPlusModBlocks.SKYBASEHULLMIDDLEBOLTS);
 	public static final RegistryObject<Item> SKYBASEHULLBOTTEMBOLTS = block(SonicraftPlusModBlocks.SKYBASEHULLBOTTEMBOLTS);
+	public static final RegistryObject<Item> SKYASEHULLTOPSCREW = block(SonicraftPlusModBlocks.SKYASEHULLTOPSCREW);
+	public static final RegistryObject<Item> SKYBASEHULLTOP = block(SonicraftPlusModBlocks.SKYBASEHULLTOP);
+	public static final RegistryObject<Item> SKYBASEHULLTOPSTAIRS = block(SonicraftPlusModBlocks.SKYBASEHULLTOPSTAIRS);
+	public static final RegistryObject<Item> SKYBASEHULLTOPSLAB = block(SonicraftPlusModBlocks.SKYBASEHULLTOPSLAB);
 
 	// Start of user code block custom items
 	// End of user code block custom items
