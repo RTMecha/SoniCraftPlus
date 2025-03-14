@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft_plus:block/sky_base_hull_top_bolts_bottem",
+    "up": "sonicraft_plus:block/sky_base_hull_top_bolts_bottem",
+    "north": "sonicraft_plus:block/sky_base_hull_top_screwless",
+    "east": "sonicraft_plus:block/sky_base_hull_top_screwless",
+    "south": "sonicraft_plus:block/sky_base_hull_top_screwless",
+    "west": "sonicraft_plus:block/sky_base_hull_top_screwless",
+    "particle": "sonicraft_plus:block/sky_base_hull_top_bolts_bottem"
+  },
+  "render_type": "solid"
+}
