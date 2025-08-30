@@ -20,8 +20,5 @@ This file is for organizing who is contributing and what they'll be contributing
 - New Structures for Existing Zones
 - Animation
 
-### Ideas guy
-- Implementing the 8-bit games
-
 ### SuperGamerGooby
 -  Helping MLGSuperSonicGamer with structures and finalizing them
