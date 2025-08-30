@@ -22,3 +22,6 @@ This file is for organizing who is contributing and what they'll be contributing
 
 ### SuperGamerGooby
 -  Helping MLGSuperSonicGamer with structures and finalizing them
+
+### Lmao
+-  Implementing IDW comics content
